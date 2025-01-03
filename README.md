@@ -1,2 +1,2 @@
-2025.Jan.1\\
-Raw code.\\Will be refined soon for public use. 
+2025.Jan.1\n
+Raw code.\n Will be refined soon for public use. 
