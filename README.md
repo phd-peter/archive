@@ -1,4 +1,4 @@
-# phd-peter
+# vibe-coding
 
 ## Jekyll + Minimal Mistakes 블로그 세팅 및 문제 해결 기록
 
@@ -81,7 +81,7 @@ bundle exec jekyll serve
      git push
      ```
   3. 잠시 후(수십 초~수 분 내) GitHub Pages가 자동으로 배포
-     - 블로그 주소: `https://내아이디.github.io/레포지토리명/`
+     - 블로그 주소: `https://phd-peter.github.io/vibe-coding/`
 
 ---
 
