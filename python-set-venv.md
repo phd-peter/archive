@@ -4,6 +4,16 @@
 그런데 상황에 따라서 파이썬 환경이 1개가 아니라 여러 개가 필요할 수 있는데,  
 각각의 파이썬 환경을 ‘가상환경’이러고 합니다. 
 
+### 누구보다 빠르게 설정
+- Mac
+
+```zsh
+python -m venv venv
+source venv/bin/activate
+python -m pip install --upgrade pip
+```
+
+
 파이썬 가상환경 없이 1개의 환경에 패키지를 설치하게 되면  
 패키지 충돌, 버전 충돌 등의 에러가 발생할 수 있습니다.  
 그래서 내 파이썬 코드을 최대한 에러없이 실행하고 싶으면  
@@ -11,6 +21,9 @@
 
 ### <가상환경 구조>
 ![image](https://github.com/user-attachments/assets/a68f40da-40c7-40ef-afda-d68ae3b91fbe)
+
+
+
 
 
 ## 1. 프로젝트 폴더로 들어갑니다.
