@@ -6,6 +6,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 # from pytesseract import image_to_string  # OCR 라이브러리 예시
+import os
 
 app = FastAPI(title="Image OCR Service")
 
@@ -67,3 +68,8 @@ async def root():
 async def health_check():
     """서버 상태 확인 엔드포인트"""
     return {"status": "healthy"}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
