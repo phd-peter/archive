@@ -57,3 +57,13 @@ def process_image(req: ImageRequest):
         results.append(OCRResult(label=label, text=matched))
 
     return ImageResponse(results=results)
+
+@app.get("/")
+async def root():
+    """Hello World 엔드포인트"""
+    return {"message": "Hello World"}
+
+@app.get("/health")
+async def health_check():
+    """서버 상태 확인 엔드포인트"""
+    return {"status": "healthy"}
