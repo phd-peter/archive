@@ -3,7 +3,6 @@
 $Org      = "phd-peter"           # <- GitHub 사용자명 또는 org
 $MonoRepo = "archive"            # <- 만들 모노레포 이름
 $Repos    = @(
-  "bible-gpt",
   "Youtube-script-use1",
   "n8n-google-calendar",
   "SMW2025",
