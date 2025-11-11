@@ -2,10 +2,8 @@
 $Org      = "phd-peter"
 $MonoRepo = "archive"
 $Repos    = @(
-  "python-study",
-  "ABAQUS-Tools",
-  "PINNs_RSmatch",
-  "Anthropic_courses"
+  "backend-GPTvision-1",
+  "vibe-coding"
 )
 
 function Get-DefaultBranch($remoteName) {
