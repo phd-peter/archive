@@ -1,0 +1,442 @@
+# AI의 미래는 특화에 있다: 범용 모델만으로는 충분하지 않은 이유
+- 발표자 : Ram (오픈렛저)
+
+Hey everyone, I'm Ram.
+
+I'm one of the core contributors at OpenLedger.
+
+I hope you guys can see your screen.
+
+So today, I'm going to talk about the importance of AI.
+
+How AI will expand to become much more specialized than the generalized AI that we are seeing today?
+
+OpenLedger is an AI blockchain that enables users to monetize data, models and agents.
+
+And that's how it goes right when an AI is being built.
+
+An app or an age is being built.
+
+It starts with data, and then it goes on to the model being trained with that data, and then the agent comes out of it.
+
+As humans, how we learn knowledge, AI learns through data, it learns through the knowledge that you provide to it.
+
+And we want to be.
+
+A platform where all of us can provide knowledge to AI and enable all of us to get rewarded for that.
+
+And our history comes from being part of this organization for almost like 10 years.
+
+We've been building in the AI space and blockchain space over the decade, and we've worked with larger organizations.
+
+This includes brands like Sony, Walmart, Viacom, Header Hash Card, which is very well known blockchain.
+
+We are providing blockchain solutions for them and also automating the process through machine learning.
+
+What they really understood as being part of this process is that every organization needs infrastructure to manage the data and build better AI syste
+
+But the end consumers, the users that we see that use AI, need that much better. They need it much more.
+
+So we decided to build this as a product, and we started working on it almost over the last two years.
+
+And that's how Open Letter has been built.
+
+And today, we are a protocol that is enabling more than 1,000,000 users to contribute data and have close to about 100,000 users.
+
+building OpenLedger to build AI models on us today.
+
+And let's talk about why we built OpenLedger.
+
+The problem that is there and we'll also talk about the solution and how we are building that. Today's AI, as you can see, is more generalized, right?
+
+We all have used DeepSeek.
+
+Llama, Claude, GPT.
+
+All of these apps have knowledge that is found on the internet, right?
+
+It's very general knowledge.
+
+That's how these apps have been built. All these AI is trained on Internet data, which is more generic, which has information about the world.
+
+But it's not specialized in a particular subject, right?
+
+This is good enough, right?
+
+Two years back when ChatGPT launched, this was good enough because we were just trying to learn about how tall the Eiffel Tower is.
+
+Where can I go for my holiday? For that? ChatGPT is good enough, right?
+
+But once you start to use AI in pretty much every part of your work, right?
+
+We want to use AI to travel.
+
+You want to use AI for healthcare?
+
+We want to use AI for our finance.
+
+The generalized models are not good enough, right?
+
+We need models which are very specialized, trained on the specific subject that you're looking to build them and use them for.
+
+That's not happening today.
+
+Most of these models are generalized and most of these models are built by organizations which are closed and centralized, right?
+
+They have their own need.
+
+Why are they building their AI syste
+
+They have their own profits to build based on what's in it for them to make right. And most of these AI today, as you see, are black boxes as well.
+
+If you ask a question to ChatGPT and you get an answer, you don't know why you get that answer.
+
+At least when we Google search we see a blog. We know who wrote that, where it came from, why this information is from.
+
+But when you ask that to RAG, it was just a brief answer that you get.
+
+You don't know why you're getting this.
+
+And now it will be fine once we start using this.
+
+Pretty much for every aspect of our life. That's going to become a problem if it's going to be used by a doctor.
+
+Give you advice on why you're having a particular symptom, you need to make sure that.
+
+You know how the AI works?
+
+At least a doctor.
+
+The organization that is using that should know which data is causing this particular answer for that AI to tell that you have this symptom.
+
+So that's very important. Making sure AI is not a black box is important.
+
+And today, AI is, unfortunately, a closed system.
+
+We don't know how these work, but that's about to change, right?
+
+And we want to solve that.
+
+We want to build a platform to change this.
+
+How do we solve that?
+
+There are like three ways to do it.
+
+Let's talk about more than that.
+
+The first thing is to build an end-to-end framework to have people build better.
+
+AI. Small specialized AI, right?
+
+Today's model, as we spoke about, is too generic.
+
+But how to change that? The way to change that is to collect data, to make sure that specialized information, knowledge, which is among people, is brought to these models.
+
+And we provide a framework where we can collect these data sets.
+
+You can convert those data sets into intelligence by training AI models with this knowledge.
+
+And then have those models accessed by agents.
+
+We provide an end-to-end platform where these models are used by agents, and as the agents make revenue, the reward is passed back to them.
+
+Data Contributors.
+
+So you see three different platforwhich we will talk about. Data contribution, where we collect knowledge, we let anyone who's building an AI system use a platform to collect knowledge.
+
+And then use that knowledge to build an AI model. Once a model is built on open data, you...
+
+Can have that be consumed by end users like how we use ChatGPT or have apps agents use them using AI and then earn revenue with that and then share that back to the knowledge providers.
+
+We also use Proof of Attribution.
+
+You can't just simply request people to come forward and contribute data. You need to prove to them that their data is owned by them, and they're going to get rewarded and paid for their data.
+
+And then your data was useful.
+
+So what we do for that, we attribute back to them.
+
+We make sure that you can see it on the blockchain.
+
+Which is in the immutable record.
+
+Where if you contribute data, you can see the ownership of that.
+
+You could also see the impact your data is making on that AI.
+
+You can see how much you're getting rewarded.
+
+All of that is available in our platform.
+
+You can use that to basically figure out how much your data is useful and what you're getting paid for as well.
+
+That's how we solve that using Proof of Attribution.
+
+And all of this happens through our AI blockchain, right?
+
+The platform that you see today, the attribution - all of that happens using our AI blockchain that we built.
+
+dedicated, which is a blockchain layer that enables data contributors to see their data onchain.
+
+Enables model developers to use that data.
+
+Record that on chain as well and have all of the rewards that is passed on as revenue to this model.
+
+We pass back [rewards] to the data contributors as well.
+
+You can see that onchain, and these are three major components of OpenLedger.
+
+We'll talk more about how.
+
+Our architecture is built, and we'll also show you the products as we go through as well.
+
+So we spoke about what we are trying to solve, right?
+
+We spoke about the problem in the AI space.
+
+We spoke, but how are we solving it?
+
+But there are other players who also work in a similar gambit.
+
+But they don't provide an end-to-end solution of the similar gambit that we do as well.
+
+There is HuggingFace, there is Kaggle, right?
+
+HuggingFace enables you to contribute data.
+
+It enables you to basically make this data into AI models.
+
+But there is no ownership to your data. Once you contribute, you don't own it.
+
+You don't get rewarded for the data that you contribute.
+
+You don't get ownership and verifiability of data as well,
+
+Kaito.
+
+Let's see.
+
+Monetize, but it's not completely monetizable, right?
+
+You can just maybe be a part of that, but you're not getting entirely rewarded.
+
+OpenLedger is one platform where you still own your data.
+
+You can have ownership to that. You can verify on chain that you own it.
+
+You can verify on chain that you're getting rewarded for the data that you provide.
+
+You could also have attribution back to you.
+
+You will get pointed out that you are the one who's providing this data and they're getting paid. So all of this is possible using OpenLedger's first platform to enable this to have better AI development.
+
+And we have more than about 20 plus projects building.
+
+On us right now, who's using our platform and enabling better AI to be built, and let's talk about the architecture.
+
+Bifurcated architecture into three different major frameworks.
+
+The first one is the blockchain layer, the second is the infrastructure layer, and the third is the application layer.
+
+Right. Everything that happens on the infrastructure, you collect data, build models and then get rewarded using a chat platform. All of that happens on the infrastructure which is related back to a blockchain layer, which is an immutable record, which shows how your data was used, which shows which.
+
+Model is using data, which also shows the reward that goes back to the data provider.
+
+All of this is recorded and then there are these applications which build on top of us.
+
+Think of them to be like agents and apps.
+
+Which uses these models.
+
+And as they start to use these models, you get to see them getting access to your platform, getting access to the models that you're building on us.
+
+And let's talk about the biggest breakthrough that we did, which is enabling our platform to be a platform where people get.
+
+Rewarded for the data which is Proof of Attribution.
+
+Proof of Attribution is what our protocol is based on.
+
+It was a Stanford research and what it rewards is basically when data contributors contribute data to OpenLedger.
+
+One of the ideas for OpenLedger.
+
+Was tracked on chain, and then once the data migrates to the model, that is again tracked on chain as well.
+
+And when the model throws an output, when the model gives an answer how you ask and you get an answer in that answer, we figure out which data.
+
+That is contributed by hundreds and thousands of people, caused that data's impact, caused that output to come. And then we show that on chain, we attribute back to the data provider, we move it on chain to the blockchain and.
+
+As data owners, you can view what is the impact that you're creating in AI models' output. You can view how much of that impact was, and you can also see how much of that you're getting paid as well.
+
+And there are three major components that enable this to happen.
+
+The first component that we spoke about is the data contribution layer.
+
+Think of this to be like an App Store. Very similarly, you've seen in other platforwhere if you're looking to build an AI system and you're working on a particular category, you can start a datanet.
+
+And ask people to collect data and contribute knowledge to that if someone wants.
+
+To build an AI focused on Korean culture, language and the dialects that have been spoken here, they could start a datanet and have the community start and contribute datasets for that. That particular dataset is then going ahead.
+
+and trained using our no-code platform.
+
+Called Model Factory.
+
+Think of this as an interface where you pull up the data that you collected.
+
+You choose which AI model that you want to use, and then you start training these AI models with these data sets and build your own AI system.
+
+Which is customized, which is personal, and which is specialized for your own use case.
+
+And once these models are developed and...
+
+Deployed, you can have them access in our platform, which is called Open Models.
+
+This is like a catalog of various AI models that are being built on top of OpenLedger.
+
+As an app developer or.
+
+As an end user, you can access these various catalogs of AI models that are there.
+
+You can query them like you query and ask questions to ChatGPT, or you can use them using APIs. You can basically use our AI and interact with them and have them integrated as part of your agents and apps as well. Once you integrate them, you can basically view it.
+
+Using a chat platform, any end user can go ahead and access these chats.
+
+Pay for it how they would currently be paying for various AI syste
+
+They can go ahead and pay for that, and the revenue that you make out of this chat, from this AI model, you can go ahead and share it back to the data contributors which.
+
+contributed for this.
+
+The reason why we make sure the data contributors are rewarded as part of the process is that most of the larger language models that we see today as we discuss about is trained on Internet data. Data that you can get free, it's scraped out of.
+
+The Internet, right?
+
+But we enable better and specialized models to go with existing models will be customized using OpenLedger. In that case, you're actually collecting data from experts, you're collecting data from industries, organizations. They want to make sure they get rewarded for it, right?
+
+And OpenLedger is a framework that basically rewards these data contributors. Once you build these models, once you start monetizing them, you can basically share your revenue back to the data contributors using us.
+
+And there are people who are building on us right now.
+
+There are larger tea
+
+There is a Google DeepMind team which is building on top of OpenLedger, which is a model focused towards verticalized Internet data.
+
+There is a DeepMind project which is building a model for weather data.
+
+There is a bunch of doctors who are building a model for healthcare trained on sleep data of various races and people across the globe.
+
+So at least we have various organizations which are building AI models on top of us.
+
+These are players who are building these models currently and once we go mainnet, we have anyone access the platform and start to build AI models.
+
+We also work with enterprises, which includes with the governments as well.
+
+We work with the Dubai Tax Authority.
+
+We are building a model for their taxes.
+
+So basically, the citizens can go ahead and access this model and ask questions.
+
+We are working with Trust Wallet which is very well known.
+
+Web3 wallet.
+
+It's been the most highly used wallet and we're building an AI model for them.
+
+We are working with one of the largest e-commerce companies out there, and we're building an AI model for them.
+
+So all of these models that we're building for enterprises are much more explainable than the current AI models that you see out there, right?
+
+The biggest problem with enterprises is that today they use open source models like Llama, or they use Closed Models and all that.
+
+But they don't have any kind of traceability of how these models work, right?
+
+And that's a big problem for enterprises.
+
+They want to make sure that if they're using an AI, from the output they get from the AI, they want to make sure where this data is coming from.
+
+Why it was used in that model, and how it interpreted and gave an answer if there is a problem.
+
+DI.
+
+That happens after using the AI.
+
+They want to go back and see which data cost that, and that is explaining models, and not many people do that.
+
+You're one of the first firacross the globe which explain AI models for enterprises and make them completely auditable.
+
+And that is one of the reasons we.
+
+Have larger organizations working with us, and that's another aspect of OpenLedger. Apart from enabling data contributors to be rewarded, we also make these models much more open and explainable.
+
+So anyone who is using AI can make sure the AI is responsible and they know why it is behaving in such a way.
+
+And we have a lot of ecosystewhich are building on us.
+
+Apart from building AI models, we want to make sure that it is useful.
+
+You have agents and apps who can actually use them.
+
+So there are frameworks that are building like an app layer on top of us.
+
+where these models that are being built on us can be accessed through these frameworks.
+
+Anyone who's building an agent can just plug in their SDK or use apps to enable AI.
+
+They can just integrate our SDK and you'll be getting access to the plethora of agents and models that are being built on top of us.
+
+We also have a team which is building a stablecoin on top of us.
+
+It's called AI USD.
+
+This stablecoin will be much smaller for payments, including what's going to be like micro payments.
+
+Current stablecoins are for, like larger use cases, this particular stablecoin will be enabling data contributors to get rewarded for the micropayments.
+
+They're going to be paid for, which I think of them to be like cents, right?
+
+And we also want to have a DEX platform built on top of us.
+
+It's a platform that will enable you to tokenize and launch a token for every model that is being built on top of OpenLedger.
+
+Think of it to monetize your models better, you can have users across the globe part of your models by buying your token and that's a platform that's being built on top of us. And we are currently in our testnet, we have close to about a million US.
+
+Contributing and participating and contributing data sets to us.
+
+These are node runners who are validating our data and contributing, and we have close to about 1,000,000 users across the globe.
+
+And about 100,000 of them.
+
+From the Asian community, and we're very glad for that.
+
+One of the reasons we're here is to attract AI.
+
+Meet developers and data contributors who are contributing data for us.
+
+And we have close to about 100,000 users who are using our platform on a day to day basis, experimenting and building AI models on top of us.
+
+And we are going mainnet soon, which will happen in about a couple of weeks. Then we'll have this platform open and have anyone access the platform as well.
+
+We've been backed by organizations across the globe, institutions including POLYCHAIN CAPITAL, Borderless and prominent angels.
+
+We've been building over the last two years and I'm glad to have this opportunity.
+
+and stage to share what we're building.
+
+AI is going to be much bigger than we think. It's going to be part of our everyday life.
+
+Now is the time to learn about it.
+
+See how we can contribute to AI and get rewarded for that.
+
+And thanks a lot for this opportunity.
+
+I hope I was able to educate about what's happening with space.
+
+And if you have any questions, let me know.
+
+I'll be around and happy to answer them.
+
+Thank you.

@@ -1,0 +1,540 @@
+# 멀티모달 RAG와 인지형 AI로 여는 차세대 AI
+- 발표자 : 조 위 (인텔 AI 에반젤리스트)
+
+Good afternoon, everyone.
+
+My name is Zhuo.
+
+I'm a Software AI Evangelist at Intel, so today I'm very glad to be here to have this opportunity to share with you the AI work, the AI toolkit we developed at Intel, and how this toolkit could help you.
+
+Really deploy the AI models on your local machine.
+
+On your own PC, on your own laptop, without any fancy machine hardware needed, you can just run.
+
+On your local PC, laptop, anywhere you want.
+
+And also, I would like to share with you how to explore the future of cognitive AI to build a more intelligent virtual AI assistant in the future.
+
+So first I would like to
+
+discuss with you about Cognitive AI.
+
+So what is Cognitive AI?
+
+I've searched over the internet for the definition of Cognitive AI, but actually, I didn't get a very accurate definition for Cognitive AI.
+
+So for us, Cognitive AI is like when we are like babies. When we are learning something from scratch, we are using everything we can to learn a new word.
+
+A new thing, for example.
+
+When we were very young, we tried to learn a word, for example, apples. We would use every name we can take to learn this word. Like, we will try to grab apple on our hands, right?
+
+We will use some pictures.
+
+Read it from some books or even saw it from some movies. So.
+
+For us, cognitive AI is to give the AI abilities to learn.
+
+From those different sources of data that the AI could get, for example, now for Cognitive AI, the AI is learning not only from the dataset of only text, or not only from the dataset that contains only images.
+
+but now it could learn from every data source.
+
+It could get.
+
+The data could be first the text data, it could refer to the video, it could even refer to all the different sources.
+
+So now the AI to achieve cognitive AI, it could learn from multimodal data resources. And after that, it can learn to have a better understanding of a new concept, of a new area,
+
+and also could do better reasoning. This gives cognitive AI the ability.
+
+To have better decision making and also could help us to complete very complicated tasks.
+
+Well, here are some examples we would see cognitive AI in the real world, for example, in e-commerce, online shopping.
+
+Sometimes when you see someone is wearing a pair of very nice shoes on the street, probably you would like to buy the same shoes and you can take.
+
+A picture of their shoes. And then back home, you want to buy the same one.
+
+And then, with cognitive AI virtual system, it can search both with image and with the text from your inquiries.
+
+And then they combine the product, image and text together and store it in the local database and search with this online inventory local database, local knowledge base.
+
+And so it gives you a very much more accurate search results and even helps you to do further ordering and further purchasing over your text queries.
+
+And another scenario is about Visual Question Answering.
+
+For example, sometimes from time to time, we probably could have some broken device.
+
+and you want to fix it by yourself.
+
+So in this case you can take a picture of your broken device and you upload your picture and also your queries about.
+
+For example, I like to fix the broken device and it has this kind of situation, as illustrated in this image.
+
+How can I do to fix this?
+
+Then embedding this uploaded broken device photo and also your text description together, and search the results. Within this local knowledge base contains both image and both text description.
+
+This cognitive AI virtual system can give you the answer of how to fix it, with both image and text results.
+
+to help you to fix these things.
+
+And also we can see another scenario is in medical imaging.
+
+So when there's a new imaging for example, new scans of your body and send it to the doctors.
+
+The Virtual AI system could map the new radiology scans to examples from the past.
+
+diagnostic reports into the same space to collect more historical data information.
+
+And provide to the doctor to improve the efficiency and also the accuracy, giving the doctors more reference for making a more accurate diagnosis for the new image scanning results.
+
+And finally, I think there's also this kind of situation when we watch over a very long video.
+
+We are only concerned, or we are only interested in the small part of the contents within this long video.
+
+So we want to ask a certain question regarding a small part of this long video.
+
+And so you did. At this time, if without any virtual assistant to help us, we need to pull back the video and try to find out the results by ourselves.
+
+Over multiple times of trying to figure out where are the results, where in the long video is the.
+
+Answers to our questions.
+
+So with multimodal video segment search, it means that.
+
+The virtual AI system could help us to identify.
+
+At which part of the video are the answers to your questions?
+
+So it can provide exact image and exact text?
+
+Extracted from the long videos and provide you the results.
+
+So this will be also very helpful when we are trying to learn something from a long video, right?
+
+So these are all the use cases for what we can see that the Cognitive AI based virtual assistant could help us.
+
+And next, I would like to share with you a demo which we built for a healthcare AI assistant.
+
+This is a rather simple one.
+
+And we did this considering that we all have the experience of seeing doctors and normally, before we actually see the doctors and let the doctors give us a diagnosis to help us examine what's wrong with our body, we will wait.
+
+For some time in the waiting room.
+
+And normally, this will take some time, and this will increase your anxiety if you are waiting for such a long time.
+
+And actually, when you enter into the doctor's room, you will be asked some routine questions.
+
+So in this case, we built this healthcare AI system that's thorough.
+
+This RAG-based user interface, the healthcare AI system will replace the doctors to ask those routine questions about sympto
+
+For today, it will try to perform several rounds of conversations of written questions to connect the patient's symptofor today, and will give very quick summaries over the patient's sympto
+
+So before you enter into the room to see the.
+
+And then send it to the doctor.
+
+Doctor, finally, your summary of today's symptowill be sent to the doctors.
+
+very quickly for the doctor to know.
+
+What are the symptofor your exam today?
+
+So this will help to improve the efficiency, the efficiency of us seeing doctors.
+
+That is why we build this healthcare AI assistant.
+
+So actually, how do we build everything?
+
+And I'm going to tell you, this AI system I just showed you now, I just showed. You can also run it very well on your own PC, on your own laptop.
+
+You don't need very fancy discrete GPUs to run all these things.
+
+I just showed you you can run everything over the pipeline on your local PC, on your own laptop, so.
+
+What's the tool to help us achieve that?
+
+I would like to introduce our toolkit from Intel.
+
+It's called OpenVINO, so open means open source.
+
+So this is the toolkit that is absolutely open source to everyone.
+
+And also VINO means Vision Inference and Neural Network Optimization.
+
+So we know when it was first launched to the market.
+
+7 or 8 years ago, it was targeted at optimizing the computer vision based neural network models.
+
+But now, as you can see from the above, now OpenVINO has been able to support.
+
+Almost all deep learning frameworks train the deep learning models.
+
+So nowadays we see a lot of fancy models trained in Pytorch. Of course, Open, you know, supports Pytorch very well.
+
+And besides PyTorch, we also support TensorFlow, TensorFlow Lite, ONNX, all those different kinds of formats, models, OpenVINO all supports that.
+
+and more importantly Opendo provide a set of optimization tools that could help to optimize the performance of those models.
+
+Running on multiple hardware platfor
+
+So we need to make it very easy to deploy your AI models over multiple hardware platfor including CPU.
+
+And when we talk about CPU we are referring to Intel CPUs like Core, Core Ultra, Xeon. But not limited to Intel CPU, it also works.
+
+Very well.
+
+On architecture CPU.
+
+Besides, OpenVINO also helps to deploy models very conveniently on GPU, and that refers to Intel GPU including the Iris Xe integrated GPU and also our Arc discrete GPU.
+
+And other math and FPGAs.
+
+One thing I would like to mention today is that OpenVINO can help to deploy AI models on NPU, and NPU is a specific hardware device that could run inferencing in our so-called AI PC processors.
+
+Discrete GPUs besides CPU and GPU.
+
+NPU stands for Neural Processing Unit.
+
+So this one is uniquely included in our AI PC processors.
+
+And so OpenVINO all helps.
+
+These models can be deployed over multiple hardware platforand you can also run it on different operating systelike Windows, Linux and macOS.
+
+Well, next I would like to mention a little bit about the optimization tool.
+
+I just mentioned, optimization is very important for OpenVINO to optimize the models so you can see in the middle. This is a set of tools provided in our optimization tool that is called Neural Network Compression Framework (NNCF).
+
+So NNCF is a set of tools that
+
+includes quantization, pruning and different technologies that can help to reduce the model size and do different kinds of optimization to optimize the AI models.
+
+and then help to achieve better performance.
+
+So I also have some examples here.
+
+You can see here is the result of AI inferencing for pose estimation and here is the original model.
+
+On the right is the optimized model so you can see the file size before and after.
+
+You can compare the file size after quantization.
+
+After optimization, the model size could be reduced by 75%.
+
+From 16 to 4 megabytes.
+
+And if you compare the performance, the inference time before and after quantization, after quantization, the inference time is reduced by half.
+
+And the throughput could be increased by twice,
+
+So that is why we provide those optimization technologies to our users, because after optimization the model could be.
+
+Significantly reduced.
+
+And the performance is.
+
+Improved very significantly as well.
+
+And also in this another example, we will use weight compression in NNCF to optimize large language models.
+
+And here you can see the model size before optimization is about 25 gigabytes.
+
+So it's a very large model size and after...
+
+Quantization, the model could be reduced to about 3.5 gigabytes.
+
+So the model size could be reduced like 90, nearly 90%.
+
+So that's a very significant reduction in the model size.
+
+At the same time, we're running this optimized model for inferencing.
+
+It will help you to reduce your memory usage also very significantly.
+
+And that's why we need optimization to be used during AI inferencing, and that is why we can now run all those different AI cases on your local machine, on your PC, on your laptop.
+
+This is what.
+
+We call the client use cases.
+
+And when we say client use cases, we're actually referring to them in two categories.
+
+The first category is so-called conventional AI which we refer to like.
+
+More commercially like object detection, face detection, pulse estimation - these are all referring to conventional AI.
+
+Of course, that could be running very well on local machines.
+
+And today, I know most of you probably are more focused on, more interested in generative AI.
+
+So for generative AI, when we talk about text to image generation, when we talk about chatbots, that could be also running very well.
+
+On your local machine with the help of OpenVINO.
+
+And next I would like to show you how that happened.
+
+With OpenVINO.
+
+For example, this is another demo we're showing using OpenVINO.
+
+You can run on your local PC.
+
+This is running on my AirPC, a Vision language model that you can upload a picture and you can ask questions about this picture.
+
+And so you can see, when I upload the picture, I'm asking, what's wrong with me in this picture?
+
+It could run very well.
+
+And all these are running on our AI PC.
+
+So what is AI PC actually?
+
+AI PC refers to Intel Core Ultra processors.
+
+Within it, we have CPU, of course, that is responsible for fast response, and we also have GPU that is integrated GPU, which can provide very high computation capability.
+
+and give you high throughput. And also at the same time we have NPU.
+
+MPO is very low power cost, so it consume the various low power, but gives you very good AI inferencing here.
+
+As a result, we are recommending that for generative AI models, it's really integrated GPU, at the same time for conventional AI models.
+
+you could you could always offload it.
+
+To NPU or CPU, according to your specific use case.
+
+And here I want to give you some performance running the same model on...
+
+Background blurring of these models on different devices of our AI PC.
+
+You can see CPU gives us around 28 FPS frames per second at the throughput, and GPU can increase the throughput like 10 times faster than CPU.
+
+So that is the powerful computation capability of the integrated GPU.
+
+For our NPU you can see it could also achieve twice the throughput of CPU.
+
+But the power it consumed is very, very low.
+
+So if you are running like background blurring for a long time, we strongly recommend you to offload it to our NPU.
+
+And it could save your laptop battery life very, very well.
+
+So Speaking of all of this as the the basic that could help to build our cognitive AI system.
+
+And for a very important part of building such a cognitive air system, I would say the first part is to build a multi model red pipeline.
+
+Which means that for the data we can ingest or process different data sources from text to video to medical images or to.
+
+Slides. All these different formats of data could first be processed or ingested into a multimodal embedding model.
+
+And after this multimodal embedding model, all the sources, like the images or the texts, are converted into vectors and stored in this vector database.
+
+It is like setting up a local knowledge base for further use.
+
+Information Search.
+
+Data search and then whenever there's a user query comes in, we can search.
+
+Relevant or corresponding data in the vector database, according to the user query, that is called the retrieved data after search.
+
+After search, we got the retrieved data, then the retrieved data and the corresponding user query will be sent into a Vision Language model, and the Vision Language model will help to process all the information it received.
+
+And finally.
+
+Give us a response.
+
+Give us the final output to the user's query.
+
+And how we implemented with Open Dino? Actually, if our source is a video, we will extract the audio first from the video. And use a whisper model, which is the automatic speech recognition model, to transcribe the audio from the video into text.
+
+And then we can use a clip model to do the text embedding.
+
+To map it into vectors and also we can extract images from the input video very easily.
+
+And then also do an image embedding to turn them into vectors and then store them into this local knowledge base called Vector Store.
+
+And how that works.
+
+It works like this: if we have a long video to teach you something mathematically, we can use this as the knowledge base and upload it.
+
+It's ingested to build the vector store, to build the local knowledge database.
+
+And then we can ask questions about this long video and ask this assistant to help us to search in which part of the long video.
+
+It describes the Gaussian function, for example, in this long video.
+
+And it can give us the results like the frames taken from this long video and also the corresponding text.
+
+That is corresponding to the transcription of this long video.
+
+And so if we have like a personal Twitter like this over the long video, we can always get quick answers from the part we are really interested in.
+
+And with the image result and the text result, we can learn things more efficiently with the results provided by this video-based search multimodal RAG.
+
+And based on that, we actually build an Agentic AI workflow with MCP to let the results of the video search do more.
+
+Things for us.
+
+And here is a quick overview of MCP. MCP is a Model Context Protocol.
+
+So in MCP normally you have MCP host which actually we use a large language model to work as MCP clients.
+
+And that MCP clients will try to analyze user's query, user's intent and then decide which tools within the MCP servers it could call to help complete a complex task.
+
+For example, MCP servers are a set of tools registered as MCP servers.
+
+and those tools.
+
+Some of them are very or totally locally based, so that is using local files.
+
+To finish some kind of task. And for some tools, they are totally web services, like if you want to search something using Google Search, right?
+
+So that is calling Web API to finish this task and some are using database search internally to finish some tasks.
+
+All these MCP servers are registered tools that could be called by the MCP clients.
+
+So now with this concept we are finally building this Cognitive AI virtual system with this multi-agent workflow.
+
+In this multi-agent workflow, you can see we have two levels of agents. The first level, which is called the routing agent.
+
+It is using a large language model to analyze the intent of users' queries and decide which kind of agents it will call.
+
+to finish a user's query.
+
+For example, if the user wants to search something from the video, it will call the video understanding Agent, and the video agent is a registered MCP server.
+
+Including the whole multimodal RAG pipeline.
+
+I just showed you that you can search for the exact part of a long video.
+
+Image and text, you want to find the answers, so that is the video understanding agent. At the same time, we also build another shopping assistant agent in this shopping assistant agent.
+
+It can use the web to incorporate some local knowledge base, like the inventory of a store or online shopping platform.
+
+And then when you want to buy something, it can search this online inventory.
+
+and also to help you to add the things you want to buy.
+
+To the shopping cart and then make the purchase further.
+
+So that is another shopping system agent we built, and the routing agent can decide in which case those agents will be called,
+
+according to the questions from the user.
+
+raised.
+
+So this is an example that the user is trying to ask some questions about how to decorate his kitchen.
+
+So we are using the routing agent to call the shopping assistant agent.
+
+So this is pure text based and you can see the users are asking recommendations about the paints.
+
+how much paint he would need to buy and what kind of tools he needs to buy if he wants to.
+
+Decorate his kitchen.
+
+And then the agent is doing some thinking, doing some reasoning in the middle, and finally doing some recommendation to the user.
+
+What kind of paint, and what kind, and how much would it need to cost?
+
+And finally we can add.
+
+We can ask the agent to help add the products to the shopping cart for the user.
+
+So everything will be completed by only a user's query, user's question. So all the thinking, all the reasoning, all the recommendation, all the add to shopping cart will be complete.
+
+By this AI agent.
+
+So this is one example of the Agentic AI workflow.
+
+Another one is based on this video search.
+
+For example, I'm watching this movie.
+
+I'm very interested in the dessert included in this video.
+
+I will ask what dessert is included in this video.
+
+and then the LLM will help to search and tell me that the dessert included in this video is a trifle.
+
+Then I will say, I want to make a trifle.
+
+How to make that?
+
+Can you give me the recipe?
+
+The Vision language model will search.
+
+Through its learning phase, it can give me this recipe and after knowing this recipe I would say OK, I want to do it myself.
+
+I won't cook one but how can I get those ingredients first? It will also tell me that I need to search some online shopping platforand so these are the conversations between me and the video-based vision language model searching.
+
+And after that I will ask.
+
+I will call the MCP server of a Google search so that the Google search will come back with 10.
+
+Like custard products from online?
+
+That can help me to choose one from, for example, I will choose one brand from the search results and ask it to add to the shopping cart for me.
+
+And so based on the video search based on this conversations between me and the vision language model, now it can also.
+
+Help me to do the final purchasing with a multimodal RAG information.
+
+And another interesting one I would like to share with you is these computer agents?
+
+It can help to do some further computer operations based on your queries, like when you have some queries. And then the large language model could help you to plan this step by step.
+
+And then it can return the plan.
+
+inject on your local AI PC and then use yours.
+
+User input.
+
+Some screenshots over the Vision language model.
+
+It can do some further operations and here is how it works. For example, if I want to use the agent to help me find some open source models on Hugging Face platform, it will first open a Google search web browser and search on Hugging Face.
+
+Online model platform to download this model and it can also.
+
+Type the Hugging Face as the address and then open this website and then type the model name in the search.
+
+In the search box.
+
+As you see, BLIP is the model.
+
+I want the computer operation agent to help me to find, and after that it can open from the search results.
+
+So all these can step by step be planned with a large language model.
+
+And finally be implemented with our computer agent.
+
+And so from my introduction today, you can see. All these could be implemented in easy steps with our toolkit called OpenVINO and with OpenVINO. You can optimize all your models over the pipeline to achieve smaller model size,
+
+faster inference speed and also reduced memory.
+
+Footprint, and it is very easy to scale to many nodes with the service we provide.
+
+And if you are a developer, you want to try all those things. All the source codes are open-sourced on our GitHub repository.
+
+And so these list all the source codes and all the technical blocks where you can find all the corresponding information.
+
+And all our related information is here.
+
+Our official website, OpenVINO.AI.
+
+AI.
+
+It's very easy to memorize and if you want to reach out to me, you can always reach out to me on LinkedIn.
+
+Here is my LinkedIn QR code if you're interested.
+
+Feel free to contact me at LinkedIn, OK?
+
+That's all for my today's sharing.
+
+Thank you.

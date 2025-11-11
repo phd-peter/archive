@@ -1,0 +1,836 @@
+# Web3, 기업의 데이터와 협업 방식을 다시 쓰다
+
+We have a panel discussion featuring 5 amazing speakers under the theme of Web3: Redefining Enterprise Data and Collaboration.
+
+This session will be moderated by
+
+Workforce Advisor and Senior Partner at the Work3 Institute.
+
+who was a moderator also for the previous discussion session. Drean will introduce fellow panelists for us.
+
+Ladies and gentlemen, please welcome the speakers.
+
+Josh Drean.
+
+Give the speakers you've been waiting for a round of applause.
+
+All right, here we are. The last session of the day.
+
+We made it.
+
+We are excited for four panelists here today.
+
+We're excited that you are with us, Kai, snapping this picture.
+
+Let's get a little selfie right here while we go.
+
+It's great to be with you all.
+
+We are really excited about talking about Web3 and what it means for enterprise-level clients and companies.
+
+So real quick, I would just love to hear a little bit about who you are and why you're here.
+
+You're passionate about what you do.
+
+So we'll start with you, Dale.
+
+Hi.
+
+So here I go.
+
+I'm the general partner of TRIVE Digital.
+
+We are a Singapore based Web3 technology fund but we don't just invest in Web3 technology.
+
+We actually invest in digital frontier tech, which means Web3, AI, and usually B2B SaaS itself.
+
+So I would say that we, you know, invest in pre-seed/seed startups and I would say that what I'm passionate about is really supporting.
+
+Companies who are at the forefront of innovations.
+
+So one of the things that we're talking about today is AI enterprises, right?
+
+So I think one of the things that we're also passionate about is how can enterprises, you know, adopt Web3 and AI technologies itself?
+
+And that's what I like.
+
+Yeah, very cool.
+
+Yeah, so founder of, thank you.
+
+We essentially started off as a builders community, with founders from foundations.
+
+Top protocols, right?
+
+And I realized that, hey, there's so many resources.
+
+Why don't we do something right now?
+
+So now the main business here is being an incubator and venture studio.
+
+So we include works from A-Z, from research, fundraising, GTM, execution for sales, and we have foundations to scale by our marketing solution as well.
+
+Targeting in this region like Japan, Korea.
+
+Turkey, this region, and the rest of Southeast Asia.
+
+And yeah, happy to see, you know, more young founders like myself to, you know, start to build something, especially Web3.
+
+So hoping to help more of them to, you know, venture into what they see, how it goes in the future.
+
+Thank you, Kai.
+
+My name is Justin, and I'm the General Manager of Avalanche Blockchain's AI business.
+
+So My Name Is, Justin Abarabs and.
+
+Ava Labs. Ava Labs is the company behind Avalanche Blockchain, which is a EVM compatible blockchain, and I oversee business development and ecosystem growth for Asia.
+
+So that's gaining enterprise financial institutions and governments in many countries in Asia.
+
+So we have worked with larger companies like in Korea, we work with SK.
+
+In Japan, we work with Suntory, Konami, and also MapleStory.
+
+SMBC, which is the second largest commercial bank in Japan,
+
+Singapore, Alipay and Grab, they are actually settling all their cross-border international.
+
+payments with stablecoins already.
+
+So that was our work.
+
+So we're happy to be here and I think AI is actually...
+
+A place where we're seeing a lot of activities around enterprise adoption of Web3.
+
+So happy to talk.
+
+More details later.
+
+Thank you.
+
+OK, hello everyone.
+
+I'm Matt Wang from Zellic and Zellic Audit Partner, and Zellic is the largest web three security firm.
+
+And I began my career.
+
+at as a traditional ICT Telecommunication Enterprise director,
+
+and then following that I began to enter the Web3 industry, first as a core developer.
+
+And then for the dApps, the Layer 1 blockchain, and also I served for CX services and eventually I came to Web3 to secure and safeguard the Web3 industry as a security expert.
+
+It's my pleasure to join this panel to discuss the future of the web.
+
+Web3 and enterprise.
+
+Thank you, wonderful.
+
+Well, thank you very much panelists for sharing that.
+
+It sounds like we all share a common interest in enterprise level Web3 adoption.
+
+So my first question is around that.
+
+Web3. When you first think about it, it might feel like something that's nonsense.
+
+It's new.
+
+It's up and coming.
+
+We're going to wait for companies to test it out, to see if it works, and then we might decide to adopt it for our enterprise.
+
+Tell me why that's a bad idea to wait, and why should enterprises be thinking about Web3 today?
+
+Well, I think, think about...
+
+You know, adopting Web3 is just like thinking about adopting any innovative solutions itself, right?
+
+It doesn't mean that, you know, Web3 is the only thing.
+
+It just means that you're at the forefront of innovation, and you're constantly ahead of your competitors itself, right?
+
+But I understand why people might think that Web3 is not ready.
+
+I wouldn't say it's not ready.
+
+I would say that it's only ready, in my opinion, for some.
+
+Of the industries right now, I think.
+
+Today, we have heard a lot of, a lot of discussions about the intersection between Web3 and AI, and it's a great topic because we know that.
+
+AI is advancing really fast, right?
+
+And one of the biggest problewith AI is data.
+
+And one of the things that Web3 can actually solve that issue is when it comes to training AI models.
+
+A lot of large corporations, you know, are quite sensitive when it comes to sharing the data itself.
+
+But, you know, with the likes of... you're able to kind of encrypt the data and share that over, so you don't really have to show that data and preserve privacy.
+
+and confidentiality.
+
+So I would say that there are areas of industry, so that's one, right?
+
+And you also have, for example, talking about, say, IP creation, monetizing IP in Web3.
+
+That is also an area where I would say Web3 is ripe to start, and I think lastly is more towards...
+
+I think it was already mentioned by Justin as well.
+
+For example, payments.
+
+In a fintech space.
+
+In a finance space, because right now banks are just charging, you know, traditional finance just costs a bomb.
+
+And for businesses that do cross-border payments, that's essentially every single business on earth that, you know, have a global.
+
+Clientele, right?
+
+Or any major online tech business itself?
+
+So I would say that it might not be ready for every single industry out there, but there are some that are right.
+
+I like that.
+
+Yeah.
+
+So, so there are certain industries that are ripe and ready for the technologies.
+
+And Justin, you were talking a little bit about this.
+
+I'd love to hear your thoughts around adoption on an enterprise level.
+
+So I dropped a lot of names here just to get attention.
+
+But one thing they have in common is they're not afraid to prove concepts.
+
+So just testing stuff, getting your hands on something with proof of concept, you actually get to experience and learn a lot more and understand and actually end up with a really good understanding of things.
+
+And then?
+
+When you actually, you know,
+
+Integrate blockchain into your business.
+
+It's a serious problem because all these companies, you know, these are big conglomerates.
+
+They care about regulators.
+
+They need to stay compliant with the law.
+
+So just going back to Alipay and Grab already settling all their international payments with Singaporean dollar stable coins. This is actually not even proof of concept.
+
+This is actually commercial use case approved by Central Bank of Singapore, which is MAS.
+
+And we may actually get on the table with Alipay, Grab, Avalanche.
+
+MAS, you run into these questions, OK?
+
+So if you use blockchain for your business, this is really good because...
+
+This is efficient, innovative, but the problem with blockchain is you don't know who's looking into your transactions.
+
+So these governments will ask questions like this.
+
+Sounds good, but we don't want our financial transactions to be validated by random people.
+
+It could be sanctioned countries.
+
+And you could be clicking on our first link and then you know.
+
+Lose money. That's also a big concern because unlike Ethereum, Solana, Avalanche, everything is peronless because anyone can upload your app and it could be harmful.
+
+So we actually get into these questions a lot, and I will answer this as we're a tech company, right?
+
+So we came up with an architecture that lets you leverage Alipay and Grab.
+
+While some of the participants validate their transactions and allow only these people to make transactions, allow these groups of people only to deploy apps.
+
+So we actually came up with technology solutions, and I think that's what started.
+
+And everyone else here is doing as well.
+
+Yeah, yeah, Matt, I would love to hear your thoughts on that.
+
+Yeah, the industry has been evolving very rapidly during...
+
+In the past years, we can see that data privacy is the key concern as enterprises enter this industry.
+
+So how is it?
+
+There could be some, for example, from the Ethereum.
+
+That's the research or the roadmap to the privacy, the level one with the zk.
+
+SNARK. Yes, it's a technology side as to make the private data.
+
+Efficiently.
+
+You can write on the blockchain but not leak private data to the public.
+
+Yeah, yeah.
+
+So this is you're highlighting a concern that a lot of enterprise level companies are having, which is, if we are going to open up our data and share it, how do we know that it's not being used in ways that it shouldn't?
+
+shouldn't, or I guess make the case?
+
+For transparency, why should an enterprise-level company have to open up?
+
+And share more of their data, especially putting it out on the blockchain. Kai, I can come to you for that.
+
+Yeah, I just want to touch a little bit more.
+
+Also, the problethat both panelists mentioned on privacy, interoperability and...
+
+The regulation itself, right?
+
+I mean, for me as we're trying to bring, I think private blockchain is like bringing a secure group chat to enterprises and founders think we need to set rules we need to set like strict control over access.
+
+And then we need to, yeah, this is the link between things here.
+
+So we need to verify applicants to actually get access to these networks, like do the steps I just mentioned there.
+
+So imagine like a group of hospitals where they're using a peroned blockchain.
+
+To track patient records, hospital data.
+
+And you need to.
+
+Also note you need to let the respective parties enter the network.
+
+And privacy, that's one, interoperability that's another one. When we talk about data, we want to make sure that we're using the same data language.
+
+You know, imagine like hospital records, insurance policies and...
+
+Lab reports to interact, so with blockchain, we enable this as well to help these institutions, like hospitals, students.
+
+Yeah. And lastly, I'll say the compliance side of things.
+
+Regulations. Also we need to ensure the compliance with the local.
+
+Local law rules with the GDPR and HIPAA for example, where whenever you're posting sensitive information or data.
+
+And then make sure it's put off-chain.
+
+Of course you can encrypt it and using cryptographic technologies like ZK proof for example, then you can say hey I am actually qualified without actually having to show my certificate. So to sum it up.
+
+Let's set the scenario where supply chain for example.
+
+They don't have to put everything on chain.
+
+Let's say they were to use the flushing technology.
+
+But you can put like a hash of the shipment data to it, and the rest of the documents can be written and stored in an encrypted storage.
+
+Right?
+
+So this way, not only government can trace it and track it, but also it protects what is called the confidentiality of the enterprise itself.
+
+Yeah. So Darryl, you and I were chatting offline before this and you were kind of mentioning that.
+
+As well, why?
+
+Why would a company want to kind of explore this new concept?
+
+Because it benefits you in the long term, right?
+
+So I was a management consultant before, just like everything else. When I was doing digital transformation work for a company, it's very simple. If you are not adopting, foresaying, you know you are lagging behind your competitors, they're going to be one step ahead of you, all right and.
+
+To think about large corporations, they didn't want to lose, you know they have...
+
+Obligations to their shareholders itself.
+
+So I would say that.
+
+From a benefit perspective, it's there, right?
+
+But I think sometimes it's also up to the people in the industry.
+
+To evangelize and promote the use and the applications of safe technology itself,
+
+right?
+
+I would say that you can't just...
+
+I mean let's be honest here, even like when OpenAI came out with ChatGPT.
+
+Everybody was like, great.
+
+You know, we can, you know, use it now and then.
+
+Enterprise clients were figuring out, OK.
+
+How do we actually, you know, can we use this?
+
+Can we apply this right away?
+
+And it's actually up to people within the industry, within the ecosystem to promote the different use cases before they finally realize, 'Oh, we can adopt it on an enterprise scale, and not just, you know, on an individual retail user level.'
+
+So I would say that it's also up to us to promote that.
+
+Yeah. Well, so it's interesting, right, because.
+
+If you're a smaller company, you can pivot much faster and you can adopt new technologies.
+
+And we see this cycle where emerging technologies are brought up by emerging companies.
+
+Who then overtake these large conglomerates?
+
+So what is?
+
+Maybe some practical advice you could give to an enterprise level company that sees the technology, understands the value?
+
+They know that it's going to be good.
+
+You know they have been sold on your evangelizing.
+
+But implementing it seelike a challenge.
+
+What can they do?
+
+I would say that I think, you know, Justin gave a really good example right when you guys were working together.
+
+It all starts with a pilot case study, and this applies to all technology itself.
+
+When I was implementing anything from like, you know, AI or ERP solutions, it all starts at the pilot level in a single country itself.
+
+It's kind of like a sandbox environment and once it's tested out, then you do a full rollout across.
+
+You know, whatever.
+
+How many markets you have across the globe itself?
+
+So I would say that start small, don't be afraid.
+
+And the good thing about?
+
+The frontier industries like Web3 or AI,
+
+is that the ecosystem is there and extremely willing to help you. Unlike I would say solutions which have already matured, they are less likely.
+
+I mean, this is from a practical standpoint, they're less likely willing to pay for the pilot.
+
+But I think for the Web3 industry, a lot of the companies here are willing to at least fork out the pilot itself. And say that, hey, you know what, you take the risk of adopting my solution?
+
+I'll take the risk of paying everything, right? And so to...
+
+You don't.
+
+Enterprise customers.
+
+You don't lose. At most it's some cost for you, which is your time and resources.
+
+You know, having a project team set up just to run the pilot itself, but that is something practical.
+
+I would say, OK.
+
+So Justin, you mentioned a lot of companies who are willing.
+
+You go to that proof of concept stage, right?
+
+How do we?
+
+How do we get it to a full scale deployment?
+
+Or maybe tell us how you've gotten some of your companies too, that over that initial hump of getting the proof of concept and then moving on from there.
+
+Yeah. So I'll probably talk about a familiar use case here.
+
+So Nexon is a big gaming conglomerate in Korea, if you don't know.
+
+Their annual revenue is like, $3 billion.
+
+Would it be?
+
+And they have this IP called MapleStory, which has like 250 million users for the last 20 years.
+
+And they have proble
+
+This is the best gaming IP in the industry but they have problebecause of a lot of these item sales.
+
+Characters were being traded in black market and this wasn't contributing to the company, so they had this idea.
+
+If we can actually make this very transparent.
+
+Also integrated into our system.
+
+They can actually see, you know, like a growth of revenue. So they actually came up with this idea and they did a lot of proof of concepts, due diligence, technical due diligence and they ended up with Avalanche because we
+
+had a long time of consultation and we figured they actually needed their own blockchain to handle these massive transactions.
+
+And they had, because gaming is also a regulated industry.
+
+They have geographical limitations.
+
+So we reflected that in constructing their own blockchain for just the game, right?
+
+And they just launched about two months ago and it is currently the biggest gaming IP and...
+
+Everyone's very happy to see this character with levels over 200 being traded for over 20 thousand U.S. dollars.
+
+So that's pretty insane and it's happening every day, every minute. That's incredible.
+
+And man, sometimes I think we don't realize that this isn't happening in the future.
+
+It is happening now and you mentioned regulation.
+
+Matt, I'd love to talk to you a little bit.
+
+About what?
+
+What can enterprise companies do?
+
+Around regulation and making sure that we are staying compliant.
+
+It's common nowadays that there could be some regulatory landscape we observe, especially for stablecoins.
+
+coins,
+
+It's a whole topic recently after the Luna's Crash and there are some compliance.
+
+Regulation just came out from.
+
+Varies across the globe.
+
+That's from, for example, the ssippi and the Hong Kong MA and other authorities to regulate the standards for issuing stablecoins, and for us the reality is that we have two more.
+
+Other than the audit, for example, we can also...
+
+We know.
+
+We know that the stablecoin is just.
+
+Dilemma: What type of token is a corrupt token?
+
+And the audit is not very difficult, but from the life cycle of the stablecoin from the issuance to the circulation and in the loop, there could be something you can.
+
+Do that, for example.
+
+You were
+
+involved with the custodian key assessment and as well as the regulation.
+
+Just we could prepare for the issue to the regulator.
+
+And we can be the bridge to become the bridge from the East Shore or from the Web3.
+
+Three players to the regulator and to give them advice and to give feedback on how to make this happen.
+
+Yeah, yeah, I'm...
+
+I'm, I'm glad that you brought that up as well because it's, it's important to make sure that we are staying on top of this. And it's great to hear that there's, there's so much happening there.
+
+We were talking earlier a little bit about IP and transparency.
+
+Kyle, I'd love to hear a little bit about...
+
+Why transparency for one, and when it comes to IP, is there something that we can say to put enterprise level companies at ease?
+
+Yeah, sure.
+
+So the funny thing is also, coding on one of my projects is inhibited by this as well.
+
+So we actually just hosted a party yesterday as well.
+
+They call Mofu.
+
+They're the second IP after Toho, which is 100% owned by Toho.
+
+By the way, they're the IP holder for Godzilla as well. Although they own a lot of IPs like Mothra and the rest of the enemies, but they don't fully own those IPs so.
+
+I was thinking how can we, you know, build something that's 100% owned by them and you know, I'll give you transparency to the holders. And so like we, they want the holders not to just see the IP.
+
+Holders to feel IP, right?
+
+So true, blockchain when you see the transparency of you know what are the let's say you remain one of the NFTs? Buy more, for example, you can actually track where these IPs going, whether to merch or to idols, or to movies, or whatsoever.
+
+So I think blockchain.
+
+It comes with a very big responsibility.
+
+When it comes to delivering that... So Darryl, do you have anything else to add on top of that?
+
+I think when it comes to IP creation, it's more of a monetization at the end of the day. You know, we, I mean, just probably people have heard of this like, you know, read, write, own, right?
+
+Well, what?
+
+What is ownership about?
+
+And that's about, you know, how do you monetize assets these days?
+
+So it's not just applicable to say IP, but it could be any, you know, real asset itself that you would want to tokenize.
+
+So it changes the way people see ownership.
+
+Right, and can people not just be a consumer, but also a participant?
+
+But be part owner as well?
+
+That's kind of like what Web3 is trying to change the game on when it comes down to, say, IP creation or other types of asset organization.
+
+So ownership is kind of a central pillar when it comes to Web3.
+
+But I can give you a little example.
+
+So for the audience to understand better, as enterprises are seeking to get known to blockchain, right, we can expect more enterprises to make use of smart contracts and whatsoever.
+
+So if you should see something like, you know, NFT-based EventCATs. And then on top of the incentivization, we can say, hey, we can actually have a resale loyalty for those who are holding NFT tickets.
+
+itself.
+
+So, you know, these are one of many use cases that we can, you know, do in the future.
+
+What about internally for employees working at the enterprise in terof having ownership over?
+
+Their own IP. Right now, if you work for a company, technically whatever you invent, whatever you create is...
+
+Property of the company. Does Web3 and decentralization solve for that?
+
+...property of the company. Does Web3 and decentralization solve for that?
+
+Right, so there's a major K-pop company that's launching their own Avalanche EDM blockchain in a couple of months.
+
+This is public information, so I can talk about this.
+
+So when it comes to K-pop and IP, I think also like you mentioned monetization, but monetization.
+
+Is based on engagement, fan engagement.
+
+So plugins actually enable and increase the experience of fan engagement.
+
+For example.
+
+Yes, that's right.
+
+You're a fan of this new K-pop group, right?
+
+And let's say they have 7 members.
+
+But they are releasing their first single with five members.
+
+Now you can actually vote with ERC tokens.
+
+So every vote counts and you can vote multiple times. Let's say one vote is like a dollar.
+
+And when the vote is about to end, you can actually spend $7000 to actually, you know, make your move.
+
+Make the debut in the first single.
+
+So this is a new, again a new source of revenue for K-pop industry.
+
+So this is one example of how IP can be enhanced with blockchain.
+
+Fascinating. So, if I understand, the first album is released with only five of the members, does that mean that you get to vote the two who don't make it on the album?
+
+Or what?
+
+What was the 5 out of 7?
+
+Who will make it?
+
+I mean, you can't vote for the first five.
+
+First 5.
+
+Yeah, it's a survival.
+
+But two of them are.
+
+OK, interesting. Does anyone have an example of what that might look like from an enterprise level?
+
+When it comes to the ownership, or in terof working directly with clients, is there a way to?
+
+Move beyond. We want raving fans of our product or our services.
+
+How do we offer these Web3 services in a way that might help them to better engage with our company and feel like they own a part of what we're doing?
+
+I don't think we're there yet, but that seeto be tokenizing equities itself.
+
+But you know, there's some point doing that because you can just buy public equities itself. But I think it's more towards, can you change the way people engage with your brand?
+
+And I think there are certain companies already starting to do it and ticketing is one area.
+
+NFTs.
+
+So those are the areas where you can start engaging with your consumers itself, because one way you can think about it this way, right?
+
+The traditional sense of
+
+You being a consumer as a participant is you just buy stuff.
+
+And that's it.
+
+All right.
+
+It's a one-way experience itself.
+
+But what if you could be part of the engagement itself?
+
+Right?
+
+There's a two-way transaction now, so it's not just you spending money, but you could get something in return or it can be part of something bigger itself, right?
+
+I think, you know, Justin mentioned if is one, right?
+
+And that's the reason why games.
+
+But imagine that for all games, right?
+
+Was used because it has always been one way and, of course, not surprisingly, there was a huge black market.
+
+Back then, right?
+
+So people were saying that, hey, since the market already exists, you know, there's just no avenue for people to, kind of, you know, do it in a proper way.
+
+Why not be kind of, you know, make it so, right?
+
+So entertainment, I would say, is one of the biggest ones, I think.
+
+Kyle also mentioned, right with Toho, and this was.
+
+There's also other major IP companies who are trying to do that because entertainment is the first one that you will have.
+
+Loyalists of fans who will be willing to engage and re-engage with the IP itself.
+
+And not just from a consumer perspective, but now they're able to participate as a part owner of it.
+
+Yeah, I also have one more use case that might be really interesting, because something that's unique is the whiskey brand.
+
+I don't know if you're doing whiskies but like Hibiki, Yamazaki or high-end very expensive whiskeys, and they're actually tokenizing all whiskey bottles on Avalanche.
+
+So what they're doing right now is so every whiskey bottle has a paper share, right?
+
+So they're now replacing the paper seal with...
+
+B-chips.
+
+So what NFC does is when you put your phone to it, it executes something.
+
+So it executes an NFT as a proof of ownership.
+
+So this is boring stuff, right?
+
+But NFT has developed as a technology.
+
+Now, you can actually make it execute two functions.
+
+So when you actually break the NFC and rescan it, it means on NFT as a proof of...
+
+Testing. So Suntory had a really, really old traditional company, never had access to where their bottles were and when their bottles are opened.
+
+So, for the first time in history, first in Suntory,
+
+They now know where and when their bottles are opened.
+
+Let's say I...
+
+We sold the bottle in Tokyo, but it's actually opened two years later in France.
+
+Paris. So that now they can allocate more marketing resources.
+
+But these are really genius ideas.
+
+I do hope that idea is sparking some ideas for how you can do that at your enterprise.
+
+Let's get back to data here for a moment.
+
+Our technological barriers.
+
+Curious what you see?
+
+To rolling out this technology.
+
+That's open for anyone.
+
+I think when it comes to Web3 adoption for enterprises at least is, you know, trying to understand the technology itself.
+
+What is the ledger, right?
+
+Like, you know, what is it?
+
+And how does it actually work?
+
+And what is possible or what's not?
+
+But I think the challenge is actually coming up with the use case, right. If you realize, the entire conversation that we've been having is that the use cases are slightly limited right now.
+
+But that's because, you know.
+
+That's the limitation itself.
+
+So, you know, if we can think of other ways of adopting blockchain, I think that's where it's limitless in terof what we could do.
+
+So it's like, one part informational, informative, and one part creativity.
+
+Are we willing to experiment and try and fail?
+
+And continue, which I think you shared some great examples of companies who are willing to take the risk, they're willing to move into proof of concepts.
+
+So I would love to hear where do you see?
+
+We understand that Web3 is still in its nascent phase, but where do you see in the next three to five years?
+
+Are the opportunities for enterprises?
+
+From an investment perspective or for adoption itself?
+
+OK.
+
+Just adoption, I would say, for enterprises is tremendous, right?
+
+I think it was interesting that Justin mentioned about tokenizing.
+
+The bottles itself.
+
+In time, I think there could be massive adoption of the use cases that will be built on the blockchain.
+
+Yes, this is also.
+
+The second is that we can see that it is data privacy friendly.
+
+A way that the community or from the company that
+
+To employ the emerging technology, for example,
+
+I mentioned that the case Nurk to all the CKP that's Certigo has also take take place or take the to post the thermal verification on the ZKP and which is also guaranteed by the.
+
+Insurance Foundation, I think that's a very good example.
+
+That's from the community and the audit.
+
+The security fircollaborate to make this shift.
+
+To bring the security friendly to the enterprise users, yeah.
+
+Wonderful. In the last minute that I have here.
+
+What is one word that you would use to describe this moment as it relates to Web3?
+
+Enlightening.
+
+Skip trying.
+
+I'm calling him out for two.
+
+You can have two.
+
+Collaboration.
+
+Keep building.
+
+Yeah, wonderful, that is it. For this panel, we want to thank our panelists for being here and thank you for being here as well.
+
+Thank you, panelists and Drean for great discussion.
+
+The ideas you shared helped us think about the desired ways in which enterprises and new technology should coexist with adequate regulation and responsibility.
+
+It was a perfect way to conclude the first day of this year's METACON, as we continue to serve as bridges between business and emerging technology each year.
+
+And plus, I think the analogy, the example of K-pop survival reality show and games added an extra layer of...
+

@@ -1,0 +1,654 @@
+# Work 3.0: AI 시대, 기업이 일하는 방식을 어떻게 바꿔야 하는가
+- 발표자 : 조쉬 드린 (Work3 전략연구소 파트너)
+
+All right.
+
+It's great to be with you.
+
+I have been coming to this conference for the past four years and I just want to say it's been amazing. To watch the numbers grow, to watch the enthusiasm as you come out and you participate in this conference,
+
+So can we just real quick give a moment to recognize the individuals working behind the scenes?
+
+They do.
+
+A lot of work to get us all in the room all at the same time and we made it. So let's give a round of applause to the conference planners.
+
+Real quick.
+
+They did a great job.
+
+It's great to be with you, so many young faces out here.
+
+I am so excited to talk about AI and the impacts that it will have on the future of work.
+
+Everyone's talking about AI right now and we're all excited about it, but it feels like there are a lot of companies that don't know how to move forward.
+
+From proof of concept to full scale deployment, we're all looking for use cases like, does it actually work?
+
+Though?
+
+Is this actually the future, or is it just hype?
+
+When I first came to this conference, we were only talking about the metaverse.
+
+And where did the metaverse go?
+
+It's still there, honestly.
+
+And you're the ones out there building it. But there are so many companies out there that don't understand the emerging technologies and the impact that it will have on all of us.
+
+And so it's great to be with you.
+
+My name is Josh Drean.
+
+I am a Web3 advisor.
+
+I am also co-founder of the Work3 Institute.
+
+And what I love to do is talk about how emerging technologies are going to change the future of work.
+
+How are employees going to be employed?
+
+How are we going to implement AI in the workplace?
+
+And so that's what we're going to spend the next 23 minutes on.
+
+It's really interesting, actually.
+
+Actually, 96% of C-Suite executives expect AI to increase productivity. Almost every single leader thinks that we should... AI should increase productivity at our organizations.
+
+However, 47% of employees within an organization that are actually using AI say that they don't know how to use it to meet the expectations of our leaders.
+
+Furthermore, 77% of employees.
+
+believe that AI has actually increased their workload and decreased their productivity.
+
+For instance, they're spending more time moderating AI generated content, learning how to use AI, and now they're being asked to do more work.
+
+Wasn't the point of AI to reduce workloads?
+
+The fact of the matter is.
+
+If employers are handing employees AI technology and they say, go pull productivity out of thin air, you're not going to achieve the expected productivity.
+
+Games that AI can give you.
+
+It requires an entirely different mindset shift.
+
+And when I look out here, I can tell that a lot of you are already thinking differently about AI compared to...
+
+a C-suite executive and so a part of our role is to help coach them and get them.
+
+To that place.
+
+But the big question on our minds is.
+
+Will AI take my job?
+
+Everyone's a little bit nervous.
+
+Because they see leaders on two sides of the spectrum. On this side, they say, 'Oh, wow, we can replace employees with AI.'
+
+I love it. And this is not great for employees. On the other end, there are leaders that say maybe we can get AI in the hands of.
+
+Our employees and we can figure out how to use it together.
+
+I'm over here, guys. I think this camp is going to win.
+
+I think these people over here are not looking at AI in the correct way.
+
+It's not a way to reduce workloads and reduce your overhead.
+
+It can be used to achieve productivity gains that we've never seen before in our lives.
+
+And so does AI.
+
+Will AI take your jobs?
+
+You in this room.
+
+Take your jobs.
+
+Will AI.
+
+Well, let me ask you a question. Is your job easy to automate?
+
+Because a lot of jobs right now are just designed to be checking boxes since the industrial age.
+
+That's kind of how we organize work.
+
+Every employee is just like a little cog.
+
+They press their one button and run the engine together.
+
+If that's the case, yeah, AI would probably take your job.
+
+I'm just curious if you've done this yet. If you just go to ChatGPT or any large language model that you like to use, you can just type in.
+
+Which jobs are going to become obsolete because of AI?
+
+And it will give you a ranking.
+
+You know, these are the top 13 jobs that I listed based on the probability that AI will likely take your job.
+
+So if you just take a look right, we've got data entry, telemarketer, service rep.
+
+Copywriter, we have medical transcriptionist. All of these jobs are pretty easy to automate in the age of AI.
+
+And what this means for college students who are graduating right now.
+
+It is not great.
+
+I don't know if you heard, but the CEO of Entropic, Dario Amade, recently just said something very controversial. He said that AI is going to replace 50% of entry level jobs in the next 5 years.
+
+That means of the jobs that are available right now, which is not a lot, I'm telling you.
+
+50% of them are going to be taken by AI.
+
+So what does that mean for college students who just spent four years at university?
+
+Spent a lot of money to get educated. If you're on TikTok or any social media, you're probably seeing computer science majors losing their minds.
+
+I just made a video about this. I want to show you. This is how computer science majors are thinking about the future of work.
+
+Let's watch this video.
+
+Here you can see in these computer science graduation posts.
+
+They know they're not getting a job, which sucks because look at how much they are pouring into it.
+
+The average Comp Sci degree costs between $60,000 and $100,000. More than 60,000 students will graduate with a Comp Sci degree in 2025.
+
+only to find a difficult job market and their jobs being replaced by AI.
+
+It's crazy.
+
+That what once was a shoo-in, surefire degree in the early 2000s.
+
+Is now almost irrelevant.
+
+Are you seeing a similar trend in other industries?
+
+So comp sci majors are struggling right now because people like Jensen Huang, CEO of NVIDIA, says that we don't need comp sci anymore.
+
+We don't need coders anymore.
+
+AI will do that for us.
+
+It's a major pivot for a big industry, so let's consider what this means for all of us in this room.
+
+Whatever your talent, whatever your skills, how can you move past being obsolete in the Future of Work?
+
+And it's really interesting to watch Jensen and Dario, right?
+
+Anthropic AI. Over here, we have Nvidia, he says.
+
+Everything that this CEO says doesn't make sense to me.
+
+And he says, Jensen, that AI won't take our jobs, but someone using AI will take our jobs.
+
+And so I think a great rule of thumb is, if you are just a button presser and you're just doing the work, you probably won't have a job.
+
+Very long.
+
+But I do believe that the human skills, the traits that make us human, are going to be our competitive advantage.
+
+It's going to be a collaboration.
+
+The creativity is going to be, you know, moving past what we learned in college and embracing a new way to look through knowledge.
+
+And one thing I want to know real quick, which is interesting.
+
+Only 2/3 of employees.
+
+I should say two-thirds, a majority of employees, aren't even using AI right now.
+
+So if you have your AI model on your phone right now and you're using it, you're already ahead of most people in the workforce.
+
+Because so many of them are not using it.
+
+My hot take.
+
+AI can replace tasks.
+
+It cannot replace talent.
+
+It will automate the things that we can't do.
+
+But that talent piece, the collaboration, the innovation, the case for humanity at work, is going to matter so much more in the future.
+
+Rather than dwindling and disappearing.
+
+I actually want to share with you real quick one of my talents, something that I learned just because I thought it was fun.
+
+Professor.
+
+Are you ready?
+
+Thank you.
+
+Thank you.
+
+Listen South Korea, you guys are the real beatboxers though, because South Korean beatboxer Wing, you guys know him.
+
+No, guys, come on.
+
+Well he's the best. I'm going to be honest, right?
+
+This skill has no value, no.
+
+ROI is not enhancing the productivity at an organization.
+
+A lot of CEOs will look at that talent and they'll be like, that's a waste of time, worthless.
+
+But think about the feeling that it brings in.
+
+I mean, we're sitting in an auditorium.
+
+Doesn't a part of you want to be entertained, right?
+
+Like, we've been sitting here, listening to presentations, information overload.
+
+How do I just take a break and have some fun for a second?
+
+That to me means so much more moving forward. Like your talents and your abilities, your passions, the things that you have inside of you that you want to share with the world.
+
+AI cannot replace.
+
+That's what I would encourage you to think about.
+
+Humanity at work and how much that matters.
+
+So let's just talk about how do we use AI?
+
+How do you get started?
+
+Three things to get started here.
+
+The first is be mindful of the Employee Experience.
+
+The employee experience matters.
+
+Did you know that companies today only one in 10 actually include employees in the employee experience design process?
+
+A lot of times, they don't even ask employees what they want.
+
+How do you feel about AI?
+
+How are you currently using AI in your role?
+
+How can we give you the resources that you need to further your skills using AI?
+
+We need to be mindful of the Employee Experience instead of trying to replace them and forget about them.
+
+The second is rethink productivity.
+
+Again, if you are just tracking productivity and that's all you care about, you're not going to win in the era of AI.
+
+Because there are so many more opportunities available for us to make something great.
+
+So we need to rethink the way that we measure productivity and the way that we measure work.
+
+And, finally, having a mindset shift.
+
+AI is not a new tool.
+
+It's not just tech, it's a teammate.
+
+I think Microsoft knew that when they called it Copilot, it's not driving the plane, but it is helping us to drive it further.
+
+And faster and I guarantee that most of you in this room are already adopting and using it as an operating system.
+
+As Sam Altman has said.
+
+We need to change our mindset around this.
+
+A nine-to-five job doesn't cut it anymore.
+
+We actually wrote this book. Me and my co-founder and co-author Deborah Perry Piscione wrote this book with Harvard Business Review Press entitled Employment Is Dead.
+
+And it's a bold title.
+
+And I'm surprised that HBR actually kept the title since the very beginning of us pitching this book to them.
+
+The argument that we make is that emerging technologies are changing the way we work.
+
+So rapidly.
+
+That outdated methods for employment are failing to adapt to the needs of the modern workforce.
+
+These are the 10 Operating Principles of Work3.
+
+Three, the non-negotiables of the modern workforce.
+
+We have to be mindful of these 10 things.
+
+As we are bringing employees into work for us, because they have a lot of options (it might not seem like it right now).
+
+I understand that the economy globally is all over the place.
+
+And that employees are staying longer at their jobs right now.
+
+But you better believe when they have more options, they're not just going to jump to a new job somewhere else, they're actually going to enter a new
+
+Ecosystem.
+
+Powered by Web3 technologies, a decentralized digital talent marketplace.
+
+What that means is that
+
+If I were you guys, why would?
+
+why would I come work for you?
+
+You add the pay is good, but do you offer partnership?
+
+I don't want you to just tell me what to do and I just have to do it.
+
+I want to be cut into the deal.
+
+Are you going to be transparent with your data?
+
+And where we're at with the company?
+
+Because lying to us isn't an option anymore.
+
+We're smart.
+
+We see what's going on.
+
+We're going to figure it out.
+
+Autonomy, ownership, decision making, flexibility is one that we talk a lot about.
+
+What do we have the ability to be able to work on our own ter
+
+Upskilling, incentives, interoperability, community.
+
+Let's just talk about a couple of these again.
+
+Flexibility is a big one.
+
+It's really interesting whether you work 9:00 to 5:00 or 5:00 to 8:00 or 8:00 to 6:00.
+
+That model just doesn't make sense in today's workforce because we can work according to our circadian rhythm.
+
+And you've probably seen some articles out there about the endless work day.
+
+How even when you're not at work, you get 8 and 9 messages, bosses are asking to have meetings.
+
+More frequently beyond 8:00 PM.
+
+8:00 PM now, and we're just stuck at work all day every day.
+
+We need to offer flexibility to our employees.
+
+How about instead of forcing an RTO?
+
+You can help people work according to their circadian rhythm.
+
+They like to sleep in because they're crushing it.
+
+From 9:00 P.M. to midnight.
+
+Or you're a single mother.
+
+You need to pick up the kids at 3:00 PM so that you can get on with your day.
+
+We can introduce some more flexibility.
+
+Ownership is a huge one.
+
+We're here at METACON, I think.
+
+All of you are a little bit further.
+
+advanced than most companies when it comes to Web3 technologies, decentralization and what that looks like.
+
+Employees want ownership over the work that they complete.
+
+This isn't arbitrary stock that vests over time.
+
+This isn't, you know, a way that you contribute and you just get a paycheck. If you are adding value to the company, you should get a portion of that.
+
+And so when we talk about a Dow and core contributors, core contributors are, like, you know, frontline employees today.
+
+But if we expand that ecosystem to include bounty hunters and individuals that want to work on a project at your organization, that will open up a whole new world for the way that you interact with your talent.
+
+And so it's not just about working for one company.
+
+It's about working within a work ecosystem.
+
+I don't need to preach this to you, but Roblox is a perfect example of developing ownership right now.
+
+You have these young developers who are working in ROBLOX like they're not full-time employees.
+
+These are just like a 16-year-old kid who loves the game so much.
+
+And they build a cool app, or they build a cool world and invite their friends into it.
+
+And according to their Developer Exchange Program, they get paid according to the engagement in their little world, right?
+
+So last year, game developers earned $741 million. If you calculate that out across the 12,000 developers, it's about $62,000 a year.
+
+Ask this generation if they would rather have a traditional 9-to-5 where they are told exactly what to build or get to be a free-thinking developer.
+
+And build worlds.
+
+And also still have enough money to pay the bills.
+
+That is the new world.
+
+That is the new work ecosystem, and we can evolve into that.
+
+And finally, changing the incentive model again.
+
+It's not just about
+
+The contractual-based employment.
+
+I work for you.
+
+You pay me X amount of dollars.
+
+What are the incentives that we offer beyond just that paper trail?
+
+And we can start early, right?
+
+We can start with just talking about how young students have a lot of college debt.
+
+What if we put in a program in place to help them pay off their debt?
+
+Millennials are interested in life experiences.
+
+So what if we gave them a paid sabbatical?
+
+Boomers are interested in leaving their legacy.
+
+How do we help them leave a legacy at the organization?
+
+And by the way, we can actually leverage in order to get to that place?
+
+AI can create almost a, you know, it's an agentic mentor, where all of your older staff can flood their information into the AI agent.
+
+and then that agent can then be used as a training model for young workers who are hungry to understand how to get on their way.
+
+Feet, and they can get on boarded a lot more quickly. So we're changing the incentive models as well.
+
+We don't have.
+
+A ton of time to jump too far into this, but I did want to just touch on this.
+
+This is the Work3 roadmap at the Work3 Institute, which is the company that me and my co-founder started.
+
+We help companies move from, say, a Web2 company to a Web3 company.
+
+Sometimes it's just HR consulting.
+
+How do you implement employee feedback surveys?
+
+How do you talk to your employees?
+
+How do you give them the resources that they need?
+
+But there are some companies out there who are very interested in decentralization, so we help them pilot.
+
+No doubt.
+
+We help them set up.
+
+You know a lot of the smart contracts and the blockchain that they'll be using and setting up some of the incentives there. So just kind of looking at this, the first thing that you want to do is establish a work.
+
+3. Transformation Committee.
+
+What this is is a
+
+Task force that is interested in AI, that wants to get more involved in these emerging technologies and are interested in starting.
+
+And then you conduct diagnostic interviews and develop transparent communication channels.
+
+Once you do that, you can forge cutting-edge technological foundation.
+
+This isn't just about again purchasing AI tools and getting them into the hands of your employees.
+
+It's being strategic.
+
+What is the strategy that we're using? Instead of chasing the shiny new object, let's take a step back and say, Who's our people?
+
+What's our process?
+
+Why do we want to achieve these goals?
+
+And then track our success?
+
+And number six is to pilot a DAO within four tea
+
+We're seeing a lot of really big companies.
+
+Like BMW and IBM, they are piloting DAOs within just a small group of their organization to see what it's like to run a decentralized, trustless system where you don't need a manager.
+
+We're seeing the great flattening of organizations right now. Mid level management has gotten a little out of control.
+
+We have so many layers of hierarchy.
+
+And now, to cut costs, companies are flattening the organization again.
+
+And individuals are not taking promotions as much.
+
+And the reason why is because now with Web3 technologies, we can talk.
+
+And we can transparently share data across our syste
+
+Once you have your strategy in place, then you can unveil it to your plan, to key stakeholders at your organization and implement the training program.
+
+We like to call it a work-through bootcamp and then you commit to a Dynamic Continuous Learning Ecosystem.
+
+We don't just hire someone because they learn some skills in college and then off they go.
+
+We have to train our people because the half-life of skills is real and it's getting less and less, so we need to make sure that we are upskilling our people as best we can.
+
+Uphold the principles of the 10 Operating Principles of Work.
+
+Three, we already talked about that.
+
+There are 10 Operating Principles.
+
+And then you can implement Advanced People Analytics.
+
+One thing I love about people analytics is that we are measuring constructs that have been previously very difficult to measure, like sentiment analysis in real time.
+
+How are people feeling about their jobs?
+
+How do they feel about that?
+
+Meeting on Thursday at 9:00 AM.
+
+How are they feeling about their boss?
+
+If we can create a more open and honest communication channel, then we can collect that data and make changes within our organization based on the needs.
+
+and wants of our employees.
+
+Employees.
+
+And then, finally, establish a Transformation Governance Framework.
+
+This is where we're getting into the Web3.
+
+Three technologies with smart contracts with the blockchain and other ways that you can help with distributing governance tokens and getting employees more involved.
+
+They want a voice.
+
+They want to talk, they want to share, and we can give that voice to them.
+
+So let me just end by asking this question.
+
+What do people need most from their leaders right now?
+
+Just like you, to think about that for a second.
+
+What? What is the most important thing that people need from their leaders?
+
+This is something that Gallup studies, and I was asked this on a podcast recently and I said trust. It's trust. It's been trust forever.
+
+It's trust.
+
+And they informed me that no, trust just got beat out for the number one spot.
+
+And it's not even close.
+
+The number one thing that employees need right now is hope.
+
+They need hope.
+
+They're so desperate for hope that they are begging for it from their leaders.
+
+And we can give it to them.
+
+They hope that we will not be laid off by AI. They hope that despite political upheavals, the company will do the right thing by employees.
+
+They don't hope that their job is secure.
+
+And right now, while everything is changing and the chaos of our world, the one thing that you can do and deliver to employees is hope.
+
+I've just talked about a lot of stuff, right?
+
+We had some fun. We talked about employment, we talked about how we can get more involved.
+
+But again, I see so many young people in this audience.
+
+Who have been an employee and probably decided that's not the life for you.
+
+I have a feeling that a lot of you are entrepreneurs.
+
+You want to build, you want to move, you want to grow. You literally are the future.
+
+And so as I stand up here and I talk about all of these emerging technologies.
+
+I honestly think you already know what to do.
+
+Gen.
+
+Gen Z is leading the charge and we need to continue to empower them to be able to make decisions, to be able to build their start-ups, to be able to embrace emerging technologies, to try new things, to take risks and to fail, but to get back up again.
+
+And keep going.
+
+So if you're like me.
+
+And you've been coming to this conference for a while now.
+
+I hope that you are pushing things forward.
+
+I hope that you're seeing success.
+
+Please connect with me.
+
+I would love to stay in touch with you and see how we can work together.
+
+So snap that QR code and let's talk about how we can move from a Web2 world to a Web3 world.
+
+Where AI empowers us.
+
+Not diminishes us.
+
+Thank you so much.

@@ -1,0 +1,705 @@
+# 텍스트를 넘어 이미지와 음성까지: 멀티모달 AI의 기업 활용 전략
+- 발표자: 스테파니아 드루가 (구글 딥마인드)
+
+There is.
+
+The topic is Beyond Text: Real-World Applications of Multimodal AI in the Enterprise.
+
+I know a lot of you waited for our next speaker.
+
+Stefania Druga, Research Scientist at Google DeepMind,
+
+DeepMind will present the next session Beyond Text.
+
+Real-world applications of multimodal AI.
+
+Ladies and gentlemen, please welcome Juga.
+
+I'm Druga, hello.
+
+Hello.
+
+Thanks for inviting me and for coming.
+
+My name is Stefania and I'm Romanian.
+
+I'm currently based in Tokyo and it's my second time in Seoul, so I'm very happy to be back.
+
+Thank you for having me today.
+
+We're going to talk about the future of multimodal AI applications, and I have some live demos for you too.
+
+So let's get started.
+
+What's the vision?
+
+Why should we care about multimodal AI applications?
+
+So for multimodal, we usually have more than text.
+
+Can I see a show of hands?
+
+How many of you have played with ChatGPT or Gemini?
+
+OK.
+
+Yeah, so you interacted with AI that uses primarily text.
+
+But now we want to have applications that also use sensors and video streaand voice, and we put all of these different modalities in a context.
+
+And then we have much richer interactive applications that can give us video output or images output or even create new sounds.
+
+So...
+
+Why does multimodal matter? When we move beyond text,
+
+We can have richer AI applications that understand the environment in which we operate,
+
+So the answers we're going to get from AI are going to be more grounded, right?
+
+Like if let's say you want to fix your bike, right?
+
+You have both hands busy.
+
+You can put your phone above and say 'How do I do this?'
+
+What is this?
+
+Well, if you have a camera that is watching what you're doing, it knows you're referring to the chain.
+
+How do I put the chain back on the bike, right?
+
+So it allows for more grounded and richer answers from these large language models. It also allows to have this kind of real-time interaction, like the example I gave you of fixing the bike, right?
+
+Or AI.
+
+Don't know, fixing something in the house?
+
+And this is the multimodal AI blueprint, right?
+
+So when we're talking about multimodal AI, we have different forof inputs.
+
+Camera, microphone, sensors.
+
+Then we have different types of processing of these modalities. We can fuse the data from these modalities together. We can do some context modeling to decide when do we care about them.
+
+When do we care about text?
+
+When do we care about audio?
+
+And we have knowledge integration for different specific applications. And then like I mentioned before, the output can be visual like either images or video, audio, or even haptic if you have sensors that can stimulate your aror like a haptic suit.
+
+Suit. So I'm going to show you a couple of examples of multimodal AI applications that I built to kind of give you concrete examples.
+
+The first example is this Google Home integration that we build for Gemini.
+
+So in Gemini.
+
+In the Gemini app, you can now control physical devices.
+
+You can use the Gemini app on your phone or on your laptop to take actions in the real world.
+
+So for this application it is multimodal because I can talk to it.
+
+I can type, I can take a photo, and based on those inputs, it will take actions in the real world.
+
+And show me something on the screen. So...
+
+Let me show you a live demo, and hopefully this will work.
+
+and we have Internet so I'm going to open a new chat.
+
+Hopefully you've played with Gemini before, and here if I put 'app', I'm going to see all of my extensions in the Gemini app and the one that I wanted to show you, the one I worked on, is the Google Home one.
+
+So let's try something simple.
+
+What would you like to control in my home?
+
+We have absolute power - you can turn on and off devices.
+
+Can you give me a query?
+
+What would you do in your home?
+
+Like what?
+
+Why do you use AI in your home?
+
+Turn on the light in the dining room.
+
+Thank you so much.
+
+Turn on the light.
+
+In the dining room.
+
+So we see it's calling that Google Home extension. And it turned on my living room light, right?
+
+But we could do something more interesting because it is multimodal.
+
+So let's ask it.
+
+If it's hot in Seattle.
+
+On my AC.
+
+So I still have a place in Seattle too which has an AC and AC.
+
+So we'll see if this works.
+
+Hopefully we still have Internet.
+
+OK.
+
+We'll try to refresh it.
+
+We'll do a new chat.
+
+Make the lights.
+
+The color of the sunset.
+
+If it did that, let's say prepare my living room.
+
+For a romantic.
+
+Dinner.
+
+And I can actually see how it's thinking about what a romantic dinner looks like.
+
+Wow, and he did quite a few things, like it lowered the blinds, it put on music, it adjusted the lights.
+
+Right?
+
+What if I say it's too bright in here?
+
+What do you think will happen or what would you expect to happen?
+
+Oh, it's too fast.
+
+It is dimming the lights.
+
+And if I had blinds, maybe it would also like...
+
+Close the blinds.
+
+So that's the Google Home extension, and you can try it yourself. If you have smart devices at home, try to use Gemini to control them.
+
+And the next step I wanted to show you is a science lab assistant.
+
+So this app works on the same idea. It works on the computer, it works on the phone, and it's meant to help people learn more science by doing.
+
+And I primarily design it for young people, but anyone can use it really.
+
+So it allows you to take camera input, live stream from a webcam, or any type of camera you connect.
+
+But it also allows you to control and connect to sensor readings from a board, micro bit board.
+
+And then gives you ideas for what kind of experiments, science experiments you can do with those objects that you're showing to the camera or in your kitchen or at home.
+
+And we'll try to see.
+
+Before I explain to you how it's built, we're going to try to do a live demo for this one too.
+
+So I have here a microscope and I have a board which it's a micro bit.
+
+It is very affordable.
+
+It's only $12.00 and I can connect it with any type of sensors.
+
+So first, let's try the camera.
+
+And I brought a crystal.
+
+So let me connect the camera first.
+
+And then?
+
+Selection the Star.
+
+OK.
+
+So now I just need to adjust a little bit the microscope.
+
+So I can see my crystal over here.
+
+And then I can send images of the crystal to the chat.
+
+And ask for help.
+
+Oh, it looks like a crystal. You can try to grow your own crystals from sugar. Mix sugar and water, heat it carefully, let it cool down.
+
+So that's all you can see.
+
+My skin. That's interesting.
+
+And you can see how quickly it works on the phone too.
+
+I cannot connect my phone to the projector, but it's deployed.
+
+You can play with it and it works from your phone too.
+
+So you imagine you're walking in the park, or you're walking outside and you see a leaf.
+
+Like what sort of experiments can I do with this?
+
+And now let's try to connect the sensors.
+
+I have to do this in two steps because I don't have enough ports.
+
+On my laptop.
+
+But we'll try the sensors next.
+
+So now I'm connecting the micro bit board and I have a temperature sensor and a
+
+accelerometer.
+
+And we don't have the microscope anymore, but we can.
+
+I can show it things here.
+
+While it's connected to the sensor.
+
+OK.
+
+So now I get the data from the sensors and it's going to take a little bit of time to detect them.
+
+The ones that are connected, but the light should change. Can put more light and you can see it's picking up the sound because I'm talking.
+
+And the temperature? So I can send the sensor data to the chat and also get ideas for experiments that I can do based on the sensor data I'm collecting.
+
+And then if I show it more pictures, it's going to make a connection between the pictures that I'm showing.
+
+It uses the camera and the data from the sensors to give me ideas for experiments and help me analyze what's going on.
+
+And let me show you how I built this.
+
+So it's just a web app.
+
+It's a React web app.
+
+It's responsive, which is why you can open it on any device and it's built in.
+
+React. So I have custom React hooks to allow the webcam connection and then I have custom React hooks for the Micro:bit which is like deck sensors for the board.
+
+And for the speech, because I can also talk to it, I forgot to show you I can talk to it, and it talks to me back.
+
+So it has sound input and sound output.
+
+And I'm sending all this data in a message request, together with my question to the Gemini API that I'm using for this one.
+
+The 2.5 model.
+
+But you can use any model. And then I get back an analysis of the sensors together with my question, and that becomes the response that I get back.
+
+But I can also get back visualizations.
+
+So I'll show you in a second.
+
+So let's say.
+
+The chemistry assistant is telling me that's a certain type of molecule or it's a certain type of reaction, and I don't know what that looks like.
+
+I can actually generate a visualization for me to understand what's happening.
+
+Like, what's the molecule that I'm looking at?
+
+Or what sort of reaction I'm observing?
+
+So it also creates visualization, not only text.
+
+And I told you that multimodal enables more grounded responses.
+
+From LL, ssippi.
+
+And this is a specific example of that. If I'm asking without having the sensor connected, is my reaction getting warmer?
+
+The model is going to say in general reactions get warmer.
+
+Be careful.
+
+They release heat, don't touch the container.
+
+It might be hot, but if I have the sensor connected and I ask the same question, then it knows like, 'Oh yeah, your reaction is getting hotter because your sensor indicates this temperature,' right?
+
+So you get more grounded and specific responses that are more useful.
+
+I also wanted to show you that having these multimodal apps allows you to create documentation right on the fly.
+
+As I'm trying things, I'm taking pictures, I'm recording the data.
+
+All this becomes kind of like a lab, like a protocol, and it's hooked up to a benchmark of misconception.
+
+So if I ask a question that shows that I don't understand the scientific concept, like, can you see molecules under the microscope?
+
+It's going to detect that.
+
+That's something I don't understand.
+
+So it's going to flag it for teachers or for parents or for myself to know like, oh, that's something I don't.
+
+Then so it has a benchmark of science misconceptions under the hood.
+
+So it's helping you learn better.
+
+And then what I want to do?
+
+more complicated reactions.
+
+It allows me to collect the data over time and then analyze it,
+
+So I'm going to show you an example of that.
+
+So moving from education in Cambodia, right?
+
+Which is more kind of like a toy.
+
+Get ideas for experiments.
+
+How do we actually build a copilot for scientists?
+
+Just like we have copilot for coding, we're gonna have copilots for scientists.
+
+Like real time pair scientist. And this is very similar architecture to the ChemBODY, right?
+
+Like, we have sensor inputs, webca text, and then on the output.
+
+However, besides having the text and images that are being created, I can also have robotic cameras and robotic arthat take actions in the lab.
+
+that help me do experiments as a scientist.
+
+So this is what I wanted to show you.
+
+Some experiments I ran over multiple days.
+
+Using this lab per scientist for my experiments.
+
+This was my setup, so I had all sorts of different sensors and boards, and I also had these robotic cameras that can track specific objects.
+
+And this was the lab in my apartment in Tokyo. And one experiment that I tried was to grow crystals like the crystal that...
+
+I showed you earlier, but I would have different samples, like a sample that had salt, a sample that had less salt.
+
+I would change the temperature between the samples and then I would monitor the growth of the crystals for each of these conditions.
+
+And because crystals take a long time to grow, what I did was that I basically went to sleep and I let them grow overnight.
+
+But I.
+
+Had my system recording the reaction so you can see that the humidity is changing and the temperature is changing.
+
+And then after I collected all of that.
+
+Then my system can actually show me what was the rate at which the crystals were growing and see that crystals actually grow in spurts.
+
+That's just like, you don't have to worry about that, but that's what happens.
+
+And that actually matches what we know from science.
+
+But thanks to DeepSeek scientists, research scientists, I can just let my reaction, my experiment, run.
+
+I go and do something else.
+
+It collects the data, it analyzes it and it gives me the output.
+
+And I told you I had a robotic camera.
+
+It's called the Wii Camera.
+
+It's actually open source as well. Everything I'm showing you is open source by the way.
+
+And this camera is from Seeed Studio.
+
+It's I think it's $130.00.
+
+It's not very expensive.
+
+And what's cool about this camera?
+
+Is that it can actually run local models?
+
+So I don't need it to be connected to the Internet.
+
+I can train a model that runs on the camera and it tracks objects. I can train the model to track specific objects in my lab or in my house.
+
+or in my factory.
+
+Right in my business, and it's going to run projects without having to connect to the Internet.
+
+And this is only the beginning.
+
+I told you that it's useful to have their scientists because it can help me see things that I don't notice in real time.
+
+It can give me ideas.
+
+For additional experiments, I can let it run, go into something else, and then I get the recording and analysis of the data.
+
+But moreover, it actually allows me to parallelize the experiments.
+
+So based on the one experiment that I'm conducting.
+
+I can run a lot of different simulations, right?
+
+So I have the setup in my kitchen or in my lab where I'm growing crystals based on the data that I'm getting from the sensors.
+
+And my reactions, my system can start to create simulations.
+
+Like, what would happen if we would increase the temperature by this percentage?
+
+What would happen if we increase the humidity by this percentage?
+
+So it helps me parallelize the exploration, the scientific exploration?
+
+And you're going to tell me like, why should we care about crystal growth?
+
+This is not about crystal growth, right?
+
+It's just an example of a system.
+
+That you could use in lots of different settings. And I'm showing the science experiment.
+
+But you can imagine having something similar for, I don't know, like if you have, let's say you have a robotic assembly factory and you want to know what's happening, right?
+
+You're collecting the data from your assembly factory.
+
+You see?
+
+You're analyzing each part.
+
+What are the different conditions?
+
+It could also be used in that kind of scenario.
+
+The next example is a multimodal app that I built for detecting math mistakes.
+
+So one big problem.
+
+The reason?
+
+A lot of people stopped doing computer science or getting into technology is because they think math is hard, and it turns out math is not hard.
+
+It's just the way we're teaching.
+
+It needs to change, and during the pandemic.
+
+For young people, the biggest learning loss was in math.
+
+So this motivated me to build a system.
+
+And the way it works, I can solve math on paper, students can solve math on paper by hand.
+
+There's a camera.
+
+It could be from the phone or webcam. And it analyzes what I'm doing, how I'm solving the math, and if it detects that I made an error, it's going to ask me questions.
+
+So I can learn.
+
+From my own mistake, like let's say I don't know the order of operations, it's going to ask me questions and suggest additional exercises for me to practice that concept.
+
+So there's this input, where in real time I'm just solving math on paper, and the output is speech and text and exercises.
+
+And for this, the first part was let's have a benchmark of what are all the possible mistakes that one can do.
+
+Learn algebra, for example.
+
+And this is a benchmark we created.
+
+Algebra, misconception.
+
+It has over 55 mistakes.
+
+So under the hood.
+
+The system is actually looking at that taxonomy every time I have an image that is being uploaded and sent to the model.
+
+The model actually has access to the taxonomy that I created, so it can give me specifically an analysis of this.
+
+This is the mistake that you made.
+
+These are additional exercises that you should try and ask me questions to figure out conceptually what I did wrong.
+
+So that's the user support flow.
+
+And one thing I wanted to highlight for this project is that I actually evaluated it against open source models.
+
+So you can see like my system when I'm using the Gemini 2.5 Pro has the highest precision and recall for detecting the errors in the pictures. But.
+
+Actually, open source models are pretty good as well.
+
+So the Llama or the Phi-3.
+
+The Llama.
+
+These are all models that work with image input.
+
+And some of them could technically run on device on the phone.
+
+You would. You would not need to use the cloud or the Internet.
+
+But I didn't evaluate these models only on how accurate they were detecting the misconception.
+
+I also evaluated them in terof how coherent they were, what was the tone that they used.
+
+How clear were the answers?
+
+How age appropriate? Did they give the right answers for students versus experts?
+
+Right. So that was the analysis for this application. I showed you 3 different examples, one that was connecting and controlling physical devices in your home, the Google smart home. One was.
+
+A science assistant.
+
+Right, one was math. More like education assistant.
+
+But in the future, we're going to use multimodal across so many different domains.
+
+The moment we are not limited by having text, text input and text output, we can actually do a lot of useful applications and accessibility.
+
+Like how people use sign language, for example, or in robotics.
+
+In creative tools, more tools for personalization and some of the domains.
+
+I'm very excited about material science.
+
+Like, how do we discover new materials?
+
+There's a lot of promising work from DeepMind in this domain.
+
+Area that I'm really passionate about, coming from Romania and speaking lots of different languages, is how do we use multimodal AI for low resource languages?
+
+or rare languages? Low resource languages are languages that are spoken by a lot of people, for example, Igbo in Nigeria spoken by millions.
+
+Of people, but there's not enough content in Igbo on the web, which means that LLdon't work well in Igbo, right?
+
+So actually using multimodal AI, where maybe people can just tell stories or take pictures, or can help create more content in low resource languages.
+
+And rare languages and preserve contribute to cultural preservation.
+
+Another example of cultural preservation is using multimodal AI to scan monuments or trees.
+
+Like that's an example from Romania actually, or old scrolls and.
+
+And analyze them.
+
+I love this example.
+
+These are some of the oldest scrolls. They were discovered at Vesuvius and they were burned.
+
+So for hundreds of years we did not know what's written on them.
+
+But now with the advances in computer vision and...
+
+AI, we were able to decipher a big part of the text on these scrolls, and it's part of a challenge called the Vesuvius Challenge.
+
+So every year, people kind of compete for millions of dollars to figure out how to decipher the history from these burnt scrolls.
+
+Now, can you guess what this number represents?
+
+There are some challenges with multimodal AI, right?
+
+Like when we don't only record text when we care about.
+
+Video and audio and images.
+
+What do you think is the biggest challenge and what do you think this number represents?
+
+400 milliseconds.
+
+It's pretty fast.
+
+It's kind of like half a second.
+
+So this is actually our attention span.
+
+Like how quick we expect technology to be, how quick we expect technology to respond when you ask a question.
+
+So the challenge when we use multimodal is that each data stream takes different time to process, like video versus audio versus sensors. Like these.
+
+take very different time to be collected and to be processed.
+
+Yet we have this challenge, right?
+
+Like, we need to respond very, very fast. And of course, it makes a difference if we process this data, if we send it to the cloud, or if we process it on device.
+
+So, in order to address this challenge, latency is the biggest challenge for multimodal applications. In order to address this challenge, there are lots of techniques.
+
+One technique is called Advanced Data Fusion.
+
+So, kind of figuring out what part of the data do we want to combine?
+
+And we want to like do it on the device - let's say we package the data and compress it and then we send the compressed message. Or do we want to do it in different stages like we compress the audio separately and the images separately, or we...
+
+Do a hybrid like some data doesn't get compressed at all.
+
+Other data does get compressed.
+
+Another solution is how we process it, like if we do parallel processing. Like, maybe I'm in the background analyzing the images, but I'm already going to give you answers based on the text, right?
+
+Or maybe I decide on device, I have some sort of a routing logic, like, is this change significantly enough?
+
+Did the image change enough that the sensor data changed enough to send it to the model?
+
+And if not, I'm not going to.
+
+So I have some sort of like local processing that is hierarchical.
+
+I have some logic, right?
+
+So all of these routing techniques.
+
+And fusion techniques are at the forefront in the research in multimodal AI.
+
+And I mentioned earlier my evaluation of the math coach application and in general, you probably heard the bottleneck for AI applications is evaluation, right?
+
+So in multimodal apps, there's standard benchmarks and strategies that are being used, like for documents.
+
+We have DDU, VQA for text, VQA for videos.
+
+There are specific benchmarks, but you've probably heard that these standard benchmarks get saturated really fast.
+
+And there's data contamination.
+
+There are lots of issues with the standard benchmarks.
+
+So one thing that I would encourage you to think about if you're going to build multimodal applications, or if you're going to use multimodal applications, is how do you test it?
+
+And how do you create data sets? And benchmarks?
+
+That are task specific and user centric, right?
+
+Like what are the most important elements of the interaction that matter to your user?
+
+Speed. Maybe it's accuracy.
+
+Maybe it's the tone of the voice. Maybe it's all those.
+
+But in what order?
+
+So for that we actually need to do user studies and understand what the user cared the most about, but also create these specific evaluations that maybe you collect logs from how people are playing with your platform and from those logs you can get ideas for questions and then.
+
+You're judging like, 'OK, for these types of questions...'
+
+Did it identify a mistake?
+
+Did it provide the right guidance?
+
+Was it accurate, right?
+
+What was the tone?
+
+So here I'm actually showing an open source unifying framework. This is for tutors. But it could be used for any multimodal applications evaluation, where you can just add your own criteria for evaluating and then run that against your application.
+
+So.
+
+So I'm almost at time. This was a lot to cover in a very short amount of time.
+
+I am actually teaching an online lesson on multimodal AI applications where you could learn more about it. And I've written about this extensively on my blog and online.
+
+I think I will stop here for now and I don't know if we have time for questions, but I appreciate your attention.
+
+And yeah, I hope, I hope this was useful.
+
+Thank you so much.
+
+Thank you, Yoga.
+

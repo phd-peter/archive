@@ -1,0 +1,368 @@
+# AI기반 콘텐츠 추천의 실전 전략 – 스포티파이 인사이트
+- 발표자: 디비타 보타 (스포티파이)
+
+Hello everyone.
+
+Thank you so much for having me here today.
+
+My name is Divita Vohra.
+
+I'm a Senior AI Product Manager at Spotify.
+
+I work specifically in our AI foundations organization, within our personalization on.
+
+I'm thrilled to be here today to talk to you all about the vital role AI plays at Spotify.
+
+Since 2011, we've been using the power of machine learning to create highly personalized experiences.
+
+And individualized experiences for millions of users, and with the rise of generative AI, new opportunities have emerged to experiment and build truly innovative experiences.
+
+That drive discovery.
+
+And forge connections between our users and creators and artists on the platform.
+
+The AI ecosystem is evolving rapidly.
+
+It's changing day by day, week by week, and we as a company are evolving and learning and growing with that evolution.
+
+And today, I'm really excited to share some of those learnings with you today. And to start a conversation on how we can deploy AI responsibly.
+
+and in impactful ways.
+
+So before we get started, it's important to set the stage in terof the scale that we're dealing with here.
+
+More users than ever are enjoying Spotify's vast catalog of over 100 million tracks.
+
+6.5 million podcasts and 350,000 audiobooks.
+
+We're the world's most popular audio streaming platform, with over 675,000,000 monthly active users.
+
+263,000,000 paid subscribers across 180 markets all over the world.
+
+This scale is really important to keep in mind when we talk about creating highly personalized experiences.
+
+When you're working at this massive scale, it becomes very difficult to create personalized experiences for every user across many different countries.
+
+And it is a two-sided market. Our listeners are trying to find the content that they most resonate with. And the creators that host their art on our platform are trying to find the consumers that most resonate with their art.
+
+And while over half a billion artists discover...
+
+Are happening on the Spotify platform every single day, which is really awesome.
+
+Our core challenge is to continue to drive discovery and create connection opportunities as the tech evolves and the landscape changes.
+
+So to give you an idea of the sheer volume that we're dealing with here, we record about half a trillion events on our platform. To put that into perspective, it would take an army of humans 1500 years to comb through that 200 petabytes of data, so.
+
+It's really important that we find the right balance between connecting users and creators on our platform, and that's where our personalization system comes in.
+
+At Spotify, personalization is about connecting the things listeners want, with the things creators make.
+
+It is at the heart of what we do at Spotify, and AI driven personalization is the engine that drives it.
+
+ML and AI driven personalization is woven into almost every surface of your Spotify experience.
+
+So this slide shows you just a few examples of where we leverage ML and AI to drive personalization, from experiences like your homepage to Daily Mixes to personalized playlists like Discover Weekly and Release.
+
+Radar AI is working behind the scenes to curate your audio experience.
+
+And we're constantly experimenting with new ways to integrate personalization.
+
+Into your Spotify experience,
+
+But the goal remains the same. We want to create an intuitive and seamless discovery experience no matter where you are in the Spotify ecosystem.
+
+And personalization isn't just about music.
+
+We're also applying it to podcasts, audiobooks, and fan to artist engagement.
+
+And while the challenges remain distinct across each of these verticals, again, the opportunity remains the same.
+
+We want to connect our millions of users with the content that they most resonate with and the wonderful creators that host their art on our platform with consumer groups that most resonate and connect with their art.
+
+We've been investing in this recommendation engine since the early days and we're now at a point.
+
+Where we can create highly individualized and personalized experiences for our users.
+
+And in music, we are honored to be considered best in class. Over the last few years we've been utilizing and reimplementing this infrastructure to apply to podcasts, audiobooks, and other experiences on the Spotify app too.
+
+Again, build a really deep understanding of what you as a listener want to consume across each of these vertical types.
+
+All right, so, with the rise of generative AI, new opportunities have emerged to scale our discovery.
+
+experience in nuanced and unique ways.
+
+We're doing this in three core categories.
+
+The first is core recommendations: finding the right consumer group for our content through content understanding.
+
+Cold start ranking and retrieval across all of these diverse vertical types.
+
+The second is content enrichment, ensuring our creators reach the most users through content translation, through explanations, through summarization and through moderation.
+
+And the last, but certainly not least, is AI experiences, providing our users novel
+
+This is to find the content that they love, to curate content as well, and to narrate and explain content.
+
+And I'm actually going to walk you through some examples across these categories today.
+
+So large language models are now pivotal to our team's operation.
+
+Driving novel interfaces across a variety of functions in this presentation.
+
+Today, I'm going to walk you through how we've integrated generative AI into our daily workflows and user experiences that are beloved by millions.
+
+I'm going to.
+
+Take you through how we've implemented these systeand some key takeaways that you can walk away with.
+
+All right, so to kick things off, I'm going to walk you through how we use large language models to marry and explain content and to provide a level of transparency on why you as a user are receiving a recommendation across music, podcasts, and audiobooks.
+
+So for those that are not Spotify users, totally OK, but I'm going to walk you through.
+
+AI DJ is your personalized AI guide.
+
+That knows you and your tastes so well, it knows exactly what to play for you and at what time.
+
+AI DJ also provides commentary on the tracks and artists that it thinks you'll like.
+
+So think about AI DJ as your pocket DJ.
+
+Except, this DJ is built purely with AI, and it is built specifically for you.
+
+Since the debut of DJ, we've learned about the importance of commentary and context for our users.
+
+When users see this commentary that is generated by LLM.
+
+LLin collaboration with our team of experts.
+
+Editors. Alongside the personal music recommendations they get, they're more likely to listen to a track, or to an artist, or to a genre that they might have otherwise skipped.
+
+The median DJ listener also listens to more hours of AI DJ than any other user of any.
+
+Other recommended set on Spotify.
+
+So clearly we're doing something great here.
+
+We're using the power of generative AI to create a deeper connection between users and the content that they love.
+
+And to give.
+
+Creators' content a really good shot at being appreciated by the users on our platform.
+
+OK, so, building on the success of AI DJ, we've now started this journey of expanding to multiple markets.
+
+And languages?
+
+So since last summer, we're really excited to share that. AI DJ is now available to Spanish speakers with the introduction of DJ Livy, with millions of Spanish speakers on our platform.
+
+DJ Livy is uniquely tailored to the cultural nuances and listener preferences.
+
+of the Spanish-speaking world.
+
+And this again represents how our generative AI systeand our personalization experiences are enabling users to reach content that they might not have reached.
+
+And also for creators to reach more users than they may have reached.
+
+And we hope that one day we'll be able to bring DJ AI to Korean listeners as well.
+
+The main piece of feedback and pain point that we see from artists over and over again.
+
+Is that they struggle to find the consumer group that can appreciate their art?
+
+And we believe that with the AI DJ experience, we've started this journey by providing insights built by our editors for the tracks and artists that we think you'll like, offering this content.
+
+Really great shot at being appreciated by our users all across the world.
+
+All right, so I promised that I would walk you through how this system works.
+
+So there are three key ingredients to how the AIDJ system works.
+
+The first is our personalization machine.
+
+This machine is what delivers the set of curated tracks that we think that you will like.
+
+The second is generative AI.
+
+We put large language models in the hands of our editors to build insightful facts about the tracks, artists, and genres that we think that you will like.
+
+The third key ingredient in the AIDJ system are realistic voices that are made possible and scaled by AI.
+
+So at Spotify, we have an AI voice platform.
+
+That was made possible by an acquisition of a company known as Sonantic.
+
+And what this platform enables us to do is to deliver realistic voices that really resonate with our users.
+
+So DJ Livy was made possible by this AI voice platform as well as DJX, which is the voice of the American.
+
+Thank you, Jay.
+
+And the way that we're able to make these experiences possible to our users is through the use of first-party technology.
+
+And so what that means is that we combine best-in-class technology from the external market, and we domain-adapt it and tailor it to our specific needs.
+
+And we do that in a couple of different ways.
+
+The first is by creating.
+
+These voices, like I said, and we do prompt instructions to make sure that these characters and these personas really resonate with our users.
+
+So again, we're not just building AI for the sake of building AI. We're really building it to make sure that it's driving a deeper connection between our users and creators.
+
+And the second is we own the leading proprietary AI voice model.
+
+And again, we make that possible by doing domain adaptation and unique tailoring inside of Spotify.
+
+But by also leveraging external models and external technology that allows us to create experiences that are best in class.
+
+OK.
+
+So I talked about how we're using large language models to create commentary for AIDJ.
+
+The next thing that we're using generative AI technology for is creating explainability in terof the recommendations that we're getting.
+
+So we talked about commentary through voice on this slide.
+
+You can see how we're providing textual commentary on surfaces that you might be familiar with, like your home page.
+
+So, by combining our understanding of users and the content that is being recommended, we can give this content a really, really fair shot at being enjoyed by our users.
+
+And this is really succeeding. In a lot of instances, we've observed an increase in up to 200% to 400% in click through rate.
+
+And so again, this is an example of where we're leveraging generative AI to drive real business value.
+
+These are the early days of integrating and implementing this technology.
+
+But we're really excited to see some of these initial results and we're going to continue to fine tune and improve on these experiences based off of real user feedback.
+
+All right, another way that we're using generative AI, or large language models, is by understanding what resonates with users.
+
+And so what that means is we put these baseline experiences out for our users, and we use the user interaction data to improve these AI systeover time.
+
+So imagine that we have the AIDJ experience and we have commentary that we're generating for the user, and we're learning that.
+
+certain styles or certain flavors of the commentary are most resonating with our users.
+
+We can take that real user interaction data and we can form data sets that are then fine tuned and fed back into the LLM to create an even better experience for our users.
+
+So this becomes a virtuous flywheel where we're constantly learning and improving the experience based off of how users are interacting with these.
+
+AI experiences, and that is made possible with the power of large language models.
+
+Another way that we're using LLis to understand what resonates with users.
+
+It's again by putting these baselines.
+
+Out there and then working with our team of experts, humans in the loop, our team of editors that are experts at Spotify, and we actually involve them in the implementation process.
+
+So they learn what resonates with users.
+
+Maybe a certain style is working really well with people in terof the commentary or the text that they see.
+
+And then these editors are actually a part of the prompt engineering and prompt instruction process to again improve these AI experiences that we have.
+
+So to summarize the slide, large language models enable us to really understand what resonates with users and it enables us to continually improve these AI experiences with time.
+
+All right, on to the next category.
+
+So chat bots powered by large language models are now becoming agentic.
+
+So what that means is think about every user prompt or user conversation triggering a mini AI or machine learning engineer that is building, curating and executing code on your behalf in order to fulfill a user action.
+
+That's exactly what we're doing with the AI Playlist feature, which is another example of a generative AI experience.
+
+I'll walk you through next.
+
+All right, so for those that don't know AI playlisting, it's a new feature.
+
+That was launched in early 2024.
+
+And what AI playlisting enables users to do is to turn their ideas into personalized playlists.
+
+So, AI Playlist empowers any user on our platform to create highly personalized playlists simply by passing information on the mood that they're interested in.
+
+Maybe they're working out at the gym or a simple concept that they want to see brought to life.
+
+So, whether you're a novice playlist creator or you're someone that's creating playlists all the time, AI Playlists combines our personalization technology with cutting-edge AI to deliver musical sets that are built specifically for you.
+
+AI playlisting is redefining music discovery.
+
+And it's really allowing a new method and a new interface for users to connect with tracks and artists that they already know.
+
+or tracks and artists that they might not know.
+
+And so we've also observed that younger users.
+
+Are more likely to interact with and to benefit from this experience, they're more likely to embrace this experience.
+
+And again, this is still early days.
+
+We're expanding to multiple markets as time goes on, but this is another example of where we've integrated generative AI into the Spotify experience.
+
+All right, so I mentioned that this is not just a chatbot experience.
+
+It's agentic.
+
+So what does that actually mean?
+
+So when you pass in a prompt into the AI playlisting experience, maybe you're at the gym.
+
+You want something like upbeat and really hype for the gym.
+
+What the system does is it takes that prompt and it actually turns it into executable code in order to build that playlist that is returned back to you.
+
+So this is not just a conversational interface.
+
+Like what you would see with ChatGPT?
+
+This is something that's building code on your behalf in order to fulfill a user intent that you've defined.
+
+So, the foundation of a lot of our generative AI experiences is a combination of two different things.
+
+The first is world knowledge that we get from these external.
+
+LL
+
+And the second is our internal expertise, and when we talk about internal expertise, we're talking about our proprietary data sets.
+
+that no one else has access to and understanding of how you as a user are.
+
+Enjoying our experiences as well as other data that we've collected across the many years and also editorial expertise.
+
+So I think that we have a whole team of editors at Spotify, data curators with deep understanding of music and the content that we host.
+
+So we combine these two pillars to create really resonant and impactful generative AI experiences for our users.
+
+All right, to sum things up, we've had a lot of success with AI at Spotify.
+
+So I want to talk about why AI is working at Spotify. Underpinning all of our efforts is a deep and unwavering commitment to solving core challenges for our listeners and for our creators.
+
+That host their content on our platform. We're not integrating AI just because it's cool or just because it's novel. We're doing it for a meaningful reason.
+
+We're doing it to scale discovery and to drive deeper connections between creators and users. And the way that we measure if we're being successful in integrating AI is by understanding user satisfaction and understanding creator success.
+
+So if our users are engaging with these experiences, if they're building familiarity and they're building loyalty with these experiences, and our creators are able to reach more and more people across the world, that's when we know that we are hitting the mark with AI.
+
+At Spotify, we're still in the early days of experimenting and integrating AI into various parts of the Spotify ecosystem.
+
+But we really imagine a world where AI is working behind the scenes to carry out a really, really magical experience for our users.
+
+And for our creators.
+
+And I think these venues are really, really important to continue discussing how we as a global, you know, community can continue to integrate AI in responsible and impactful ways.
+
+And I'm really excited to continue to discuss and to connect after this talk. But that's really it for me. And I just want to say, thank you so much for inviting me here today.
+
+We are hiring for some roles in terof this generative AI work.
+
+So if that is something of interest to you, we are a global company.
+
+Please connect with me on LinkedIn.
+
+I would be happy to talk you through some of the job postings that we have and thank you so much for inviting me here today.
+
+Thank you Vohra for the presentation. As a very heavy user of Spotify, it was very interesting to find out the drive and the mechanism surrounding the seamless and dead on experience it provides.
+
+You gave us a deep dive into how it's being utilized for content recommendations, and I know you're seeing adoption.
+
+Thank you.

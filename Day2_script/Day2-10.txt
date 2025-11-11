@@ -1,0 +1,769 @@
+# AI × 양자: 가능성의 경계를 다시 그리다
+- 발표자 : 크리스토퍼 룬디 (파인드인피티니 랩스 AI)
+And Christopher Lundy, thank you for being here.
+
+Now let's get to it.
+
+So who am I?
+
+Chief AI and Innovation Leader at FindInfinite Labs.
+
+That is my startup.
+
+We are focused on helping companies build their AI strategies, work with very large companies like Pfizer and Seattle Genetics.
+
+Columbia Sportswear and others also focused on Quantum Computing and solving very complex proble
+
+Using quantum computers, we're currently involved with XPRIZE. If you're not familiar with what that is, that's how SpaceX started.
+
+So first thing I want to really say is thank you to all of you.
+
+You're doing a good job.
+
+First of all, thank you so much to all of you. You're doing a great job.
+
+Keep going, you've got one more to go with this talk.
+
+So what are we going to talk about today?
+
+We're going to talk about artificial intelligence in biopharma.
+
+So what are we doing?
+
+Work system intelligence.
+
+Now, I assume that most of you do not work in life sciences or biopharma.
+
+Maybe some do, but the majority don't.
+
+But in your space, you are the intelligence that your company needs.
+
+Now, why do you say that?
+
+Because you bring something to the company, you bring your talent, you bring your skills, you bring your devotion, your emotions, and you add to the company.
+
+We're also talking about syste
+
+Systeare the different tools that you might use.
+
+AI, quantum computers, regular computers research.
+
+To do your job, maybe you don't do any of those things.
+
+But that's OK because you have tools at your fingertips.
+
+And then finally, intelligence.
+
+So Thomas Malone, who is a researcher at MIT, coined a phrase called superintelligence.
+
+Now each of you is intelligent, each of us in this room.
+
+But when you bring everyone together, you get a superintelligence.
+
+But when you put AI on top of that, then you get even much more intelligence.
+
+So let's put this lesson to the test.
+
+So you may not work in life sciences, but we're going to talk about it.
+
+So take your device.
+
+Use your favorite AI tool and put this in the prompt.
+
+What are the six to seven areas of focus?
+
+In life sciences, please do that.
+
+Put that in your applications.
+
+Now, when it does that, it should come out with six to seven areas of life sciences.
+
+Now you're not in life sciences, but in order for us to proceed, you need to know a little bit about it.
+
+So what just happened?
+
+You just proved why you're here at this conference today.
+
+You're using your intelligence to enhance your intelligence.
+
+So what does that mean?
+
+Well, the question comes down to you might be able to do it, but is your company ready?
+
+Are your partners ready to use innovation, AI, quantum computing to accelerate their delivery and their value?
+
+Well, how do you know?
+
+Well, you can ask questions like: Do you have an AI strategy?
+
+What do you consider ethical?
+
+What does your company consider ethical?
+
+Who is responsible for the AI and the results that the AI gives you?
+
+What are the economics?
+
+What happens if people leave because you force them out?
+
+Because you're using?
+
+Your company may not be using AI today, but your partners might be. The software that you're using to do your job might be using AI.
+
+So the question is, does their strategy fit into your strategy?
+
+Are they helping you to accelerate your understanding of your industry?
+
+Are you?
+
+Are they taking responsibility for the results that they provide to you?
+
+And does your partner view AI as an advantage for you and your company?
+
+Or is it just a tool that they're providing to you?
+
+Those are good questions to ask to help to see if your company is ready.
+
+So last year, FindInfinite Labs did a master study on many, many industries across the world.
+
+And what we did is we looked at the trajectory of AI in business.
+
+So you'll notice here in biopharma or life sciences that's this discovery of drugs and methods to help cure cancer.
+
+You'll notice that the trend biopharma is producing - producing means that they're actively using.
+
+To generate new... maybe it's a new drug.
+
+Maybe it's a new compound that they can test.
+
+Maybe it's a new simulation where they're taking a mouse, and we'll show this in just a second, taking a mouse and creating a simulation, testing it with that drug.
+
+We also looked at the areas of capability evolution.
+
+A business capability is what runs the business.
+
+It is the why you do what you do.
+
+And some of the areas that are very heavily focused on with AI are drug discovery, obviously, but also matrix organization breakdown.
+
+So within very large companies like Pfizer, Roche, Merck, there are these vertical business units that follow the different aspects that you have in the answer from your AI.
+
+There might be research and development, there might be preclinical studies, clinical trials, there might be manufacturing and supply chain and
+
+They have tens of thousands of workers in phases.
+
+And then somebody sitting at the top, making all the decisions.
+
+AI is changing that. It's taking and looking across all those verticals, all those different organizations and creating new things.
+
+More than that, AI is also going to be heavily used in space-based research.
+
+There was a study that was just done a few weeks ago where a company sent up chemicals.
+
+Satellite. And in that satellite they grew a crystalline structure that was almost impossible to grow on Earth.
+
+They grew it up there, brought it back down and used it in their clinical trial.
+
+Or in the drug study rather.
+
+So pretty interesting.
+
+What are some of the challenges that come with using AI and biopharma, for instance?
+
+Well, so what's happening is there's lots of companies and maybe this resonates with you.
+
+There's lots of companies where they don't want to use, or if they do use AI, then the chief leaders of those companies grab onto that as their technology.
+
+And they control the use of it.
+
+Well, the problem with that is every single one of you is an intelligent person who brings a use case to the business. You're bringing a perspective that will fundamentally change their business if they listen.
+
+And so what we're finding across the different organizations is that people are not breaking free from that.
+
+However, there are disruptors.
+
+And this is where you can come in.
+
+There are disruptors in this space, companies like Recursion who are using AI to find new drugs.
+
+They will disrupt these large organizations.
+
+The future of Biopharma Lab 360?
+
+Everything is simulated, all the data that's happening in what would be a real lab is done on a simulation first.
+
+And then they implement the lab and then also these things called Innovation Pipelines.
+
+An Innovation Pipeline. If there's anything that you could take away from today's talk, the Innovation Pipeline is critical.
+
+Now, what is that?
+
+We'll talk about that.
+
+So, in your chat, in your response from the AI, what you'll notice is that there are different areas of the business.
+
+Six to seven areas, right? Each of the colors on this chart represents one of those areas.
+
+And each of the boxes in those shaded areas.
+
+Represents where the biopharma companies are using AI heavily.
+
+And when I say heavily, they're producing new things in those spaces.
+
+We're going to look at just two of them. For instance, in Genomic Analysis, the human genome is 3 billion base pairs.
+
+The problem, if you like math, is 3 billion to the three billionth, plus there is not a computer, quantum or otherwise today, that can solve that problem.
+
+So what are they doing?
+
+Well, they're breaking it down into smaller things, they're doing target validation to help understand areas where they can. They can focus on hit identification, for instance, using quantum computing to find efficiencies in doing their research.
+
+But every single one of these, they're using AI, so that should make you think about your job.
+
+Remember what they said about earlier?
+
+FindInfinite Labs teaches companies not to get rid of their employees, but to upskill them using AI.
+
+So instead of AI being the primary thing, you are the driver, you are the pilot, they are the ones helping you.
+
+And so we teach people and we teach companies how to do that.
+
+In manufacturing, it's huge.
+
+Manufacturing in Biopharma, we can actually simulate the entire process of a $500 million antibody drug conjugate lab for instance, or manufacturing facility.
+
+So how do we do that?
+
+Well, two areas.
+
+One, protein studies.
+
+So one of the marvels of design of our human body are proteins.
+
+So proteins are composed together of different... A cell has unique characteristics, so a cell might...
+
+Your or it's the color of your skin.
+
+Or maybe it's the type of breath that you have, good or bad.
+
+So each of those cells are composed together through RNA.
+
+And I'm greatly oversimplifying this, but RNA tells how to put those things together.
+
+There's proteins that are created.
+
+Composed together, put together, and at some point.
+
+And scientists don't know why.
+
+The protein folds up and it turns on life.
+
+It becomes alive.
+
+So what they're doing is they're using AI to help understand when that happens and what proteins to put together so that they can start looking at why.
+
+specific diseases affect people in specific ways.
+
+Way that we're doing it.
+
+FindInfinite Labs is using simulated animals, so animal studies typically take one to three years.
+
+and to perform.
+
+There's these things called host cells.
+
+They're like almost a perfect cell that they use to grow mice.
+
+Takes 23 weeks to grow a mouse.
+
+That mouse is ready, and it's running around its little cage.
+
+And the researcher grabs it.
+
+Sticks some drug compound in it and it dies.
+
+And that's what happens.
+
+They do this over and over and over again.
+
+The average scientist can do about 5,000 experiments.
+
+a year.
+
+What we've done is created a way that they can say how many mice they want, what type of cancer they want, what type of characteristics that mouse should have.
+
+And it's done through an API and it creates a Digital Twin like that one with those characteristics so it.
+
+Could have HER2-positive cancer.
+
+Then what they can do is go and take the drug compound and test it, and that way they're not killing animals.
+
+So we've taken something that would take 345 years to do and shrunk it down to between three and six months.
+
+It's pretty amazing.
+
+AI allowed that. So pipeline of innovation, this is the pipeline.
+
+If your company does not have this in place today, if they don't even have an aspect of it, or if they only have one part of it, it's not enough.
+
+You have to start with strategy, design, features, connections, and enhancements.
+
+The reason that's important is because you're going to circle through this.
+
+You're going to go through it if you're looking for something to do for your future, find one of these areas and stick with it.
+
+So, use case: How does AI work within Biopharma?
+
+We're going to show you one that we're currently working on, and this is Personalized Medicine.
+
+So you go to a doctor, what happens?
+
+The doctor has all of your information.
+
+They keep it in their computer syste
+
+And then what?
+
+They give you some diagnosis, right?
+
+Well, the problem with that is maybe you don't want that.
+
+What that doctor says to be true.
+
+Or maybe the doctor d something.
+
+Or maybe he used AI and it said hey you should be doing this or that.
+
+OK.
+
+So what do you do?
+
+That's great.
+
+Who has control of it?
+
+The Doctor.
+
+What we're doing is creating a product that allows you to have control of your own data.
+
+So your data belongs to you.
+
+It's part of the system.
+
+It uses AI and quantum computing. You can see that we collect genetic and molecular data.
+
+We go through connections to things like 23andMe or other services.
+
+Data your service, then we use AI to help look for treatments.
+
+The AI ChatGPT, for instance, has passed the medical exam.
+
+Many, many times now.
+
+That doesn't mean we're going to use it exclusively, but the key here is that we have all of the technology that we need in order to make this happen.
+
+So this is a view of looking at it from life sciences, from you as an individual.
+
+We're going to look at it when we start talking about education in just a minute.
+
+So just remember the use case: Personalized Medicine.
+
+Before we do that, how does quantum computing fit into drug discovery?
+
+Well, it was interesting last year.
+
+A group of students and professors from a university in Spain.
+
+OK.
+
+Came up with the first Generative Quantum Eigensolver.
+
+How does quantum computing work?
+
+Very simply.
+
+It's very simple.
+
+So imagine you have a jar of marbles.
+
+And those marbles are different colors.
+
+And what you want to do is you want to make a rainbow with all those colors, so you shake it up.
+
+And you're like, OK, that one's supposed to be red?
+
+OK.
+
+There's a few in the red spot. Not enough.
+
+You shake it up again. OK, a little bit more. You shake it a little bit more.
+
+You shake it and you just keep doing this for thousands and thousands and thousands of times.
+
+Something that looks like a rainbow.
+
+Is what quantum computing does.
+
+It looks at the probabilities to say, 'OK, I have enough in their specific spatial states to know that this is a rainbow.'
+
+The eigensolver, what it does, in order to do that test in quantum computing.
+
+You actually have to create what's called a circuit.
+
+What the circuit does is basically it's just a set of instructions.
+
+That tells the quantum computer how to take this question and map it into the processor.
+
+OK.
+
+So the problem with that, though, is that most quantum computers have to run their program in less than 100 milliseconds.
+
+Now why is that?
+
+Because a lot of the quantum computers today use Josephson junctions. Those are superconducting junctions. They only last for about 100 milliseconds.
+
+And then they have to be recreated.
+
+So the point is.
+
+What these folks did is they created the optimal circuit so that you can run your process.
+
+You can run your algorithm and you can get your answer in less than 100 milliseconds, and they can run this over and over and over again.
+
+And you can try different types of circuits to make sure you're optimizing the use of the quantum computer.
+
+OK, I'm done.
+
+Know if they just went over your head? A lot of times?
+
+It does.
+
+When we talk about quantum computing, but.
+
+Did you realize that you could walk out of this room today?
+
+You can go home and in less than a day, you can have yourself set up to work on a real quantum computer.
+
+There is code that you can write that takes 10 seconds, 15 seconds that will actually run a quantum application for you.
+
+ChatGPT can do it.
+
+It's not as good as some of the others, but you can use something like Grok and say I want to create an entangled system using Quantum Computing and it will give you about 15 lines of code that you can run in a simulation and.
+
+On a real quantum computer, and believe it or not, 100 milliseconds goes by really fast.
+
+But these companies give you 10/15/20 minutes an hour for free. You can run a lot of tests in that amount of time.
+
+So quantum computing is on the horizon.
+
+It should be included as part of your work.
+
+So what are we trying to do?
+
+What's being accomplished in quantum computing space today?
+
+So first of all, before we get into that, thank you.
+
+You're doing well.
+
+I know that was that one.
+
+Make you want to go to sleep, right?
+
+And it's kind of warm in here.
+
+So what are we doing?
+
+You know the periodic table of elements, right?
+
+You use this chemistry.
+
+Yeah, OK.
+
+So we've created a periodic table of quantum elements, taking the elements in the standard periodic table and mapping all of the quantum states.
+
+Quantum states are important because when you talk about quantum chemistry.
+
+Quantum chemistry is used to help develop new drug compounds.
+
+So what you see here is a heat map. If you're a data science person, you'll know what this means.
+
+But basically, anything that is a positive, that's what you're looking for.
+
+So this test didn't really do a good job.
+
+Each of the boxes represents a different qubit and a different state of that qubit.
+
+So the idea is you keep running these things thousands and thousands of times until you get one that almost looks right. And you say, 'OK, that's enough for me.'
+
+The reason this is important is because once we have all of those mapped, then we can start composing. So taking different periodic elements, putting them together to create molecules.
+
+A molecule is what cures.
+
+Quantum computing can do this because it happens so fast, it can work so quickly.
+
+All right, let's just focus on higher education.
+
+How many here are in a university today?
+
+I imagine there's quite a few.
+
+Good in your university program.
+
+Do you have a program dedicated?
+
+A curriculum dedicated to AI and using AI in your business and in your future.
+
+If you do, I see a few heads saying yes, that's great because 98% of universities that we survey do not.
+
+They're lagging years behind now.
+
+Why is that?
+
+There's two key things the AI will change.
+
+For instance, assisted understanding.
+
+So have you ever used Khan Academy tools?
+
+Khan Academy has an AI built in that actually detects when you use AI on your coursework.
+
+What about product development?
+
+Well, when we look at AI and using products, we can develop products in the institution.
+
+And one of the problethat we're seeing across the United States, for instance, is that universities are running out of money.
+
+either.
+
+The administration has taken their money, or they're not getting the grants like they used to, because people don't have the money to devote to or donate.
+
+So what's happening is universities are becoming creative.
+
+They're tapping into the student intelligence to create AI products that they can market and sell.
+
+Have you done that in your class?
+
+Do you have an accelerator in your school that takes your idea and turns it into an actual sellable product?
+
+If not, that's something good.
+
+One of the challenges you're going to face is tenure.
+
+This means that the professors, the instructors have been there for a long time and don't want to change.
+
+I currently teach at the University of Oregon.
+
+And they are doing something great.
+
+They're bringing all of their instructors and faculty into training.
+
+So if they can, we can help them develop their new curriculum and they're doing a great job with it.
+
+They're using students to help them.
+
+Also, the future of that is you're going to create AI professors. Now, we're not talking about a person.
+
+I mean an AI that's doing work.
+
+We're talking about a person that uses AI to help them.
+
+Also, you'll notice again, Innovation Pipelines are important there.
+
+This is kind of a trajectory.
+
+So you'll notice this probably makes a lot of sense.
+
+You'll notice that Business Administration hasn't even reached the fundamental stages of using AI yet.
+
+Finance is way behind because they're afraid that it's going to give the wrong answer.
+
+Information Systeis way ahead because they want to make sure that the syste the AI that you use is available. And the research obviously is running.
+
+because they're getting grants to use AI.
+
+So it all makes sense.
+
+But how do you take your university program?
+
+How do you convince your faculty to use AI more effectively?
+
+Well, here's a process that you can follow.
+
+So first of all, you need to help them recognize the potential.
+
+Then you need to help them with the economic value, and then how is this going to affect you as a student?
+
+So you might already have that in your mind if you don't write it down.
+
+Go to your Dean and say, look, I think there's an opportunity for us here.
+
+Then design learning paths.
+
+In fact, use AI to help you design learning paths based on what you just discovered. And when you do that you can split.
+
+It's called bifurcation.
+
+You can do two different things.
+
+Basically set up a core program that teaches ethics, responsibility and how to use it.
+
+And then you could set up a more complicated one that uses Large Action Models to create new generative ways, agents, things of that nature.
+
+Products in your institution that you can create new revenue streafrom.
+
+All right, so what's the impact?
+
+Let's look at our use case again.
+
+Same set of data, same set of criteria, business capabilities that we want to enable.
+
+This time, we're using a different set of data to help us get there.
+
+So you're looking at this through the business lens now, and what you'll notice is that you're looking at studies, you're looking at product development and simulation, also looking at different therapies and backfilling.
+
+and essentially back propagation.
+
+Again, using personalized treatment investigation and in this case you're using core value streaof information to bring into the personalized medicine so that that person can make an informed decision.
+
+All right, so future trends?
+
+Disclaimer: This is FindInfinite Labs' idea.
+
+Don't use this to go invest in something. If you do and you make a lot of money, call me and then we can talk. If you don't make a lot of money, don't call me.
+
+OK.
+
+The point is, these are things that we're seeing.
+
+These are things that we think are going to be next.
+
+Cognitive and behavioral process frameworks.
+
+What is that? It means, like you heard from the Adobe speaker, that your AI that you're developing, maybe your blockchain that you're developing, is now connected to the unique experiences that each person has.
+
+Each student, each faculty member, each family member. If you're in personalized medicine, for instance, it also means that you're creating frameworks that can.
+
+The understanding of those models.
+
+Basically, help you to do social interaction.
+
+Maybe your graph is showing that your student or even your child.
+
+Behaving in a socially.
+
+Or maybe they're lagging behind some of their classmates or their friends.
+
+That would give you an opportunity to look for personalized treatment.
+
+Maybe that treatment is you just spend more time with your kids.
+
+Well, maybe that treatment is they have a developmental problem and you have to go take them in to get assistance.
+
+Another area here: emotional regulation, cognition.
+
+How are they learning?
+
+We work with homeless people all the time.
+
+Homeless people are not unintelligent, they're super intelligent.
+
+They've decided to go their own way.
+
+So how do we take that?
+
+And help them to follow the norand behaviors of society while maintaining their own uniqueness?
+
+Another area, space-based manufacturing. Quantum offloading with AI. Cognition.
+
+That's a handful of words.
+
+Basically, what it's saying is there are groups of people, including FindInfinite Labs, who have developed ways to do manufacturing in space.
+
+Now this is important because I'm gonna go back to the biopharma example.
+
+Did you know that in the vacuum of space, cancer cells grow five times faster?
+
+Now why is that important?
+
+Than they do on Earth now.
+
+Well, think about it. If it takes anywhere between 7 to 11 years to develop a cancer drug, which is currently where it's at.
+
+And anywhere between 9 and 10 billion U.S. dollars for one drug.
+
+And they can develop it five times faster.
+
+What do you think that's going to do to that company?
+
+I go back to our example of recursion.
+
+They're doing this type of...
+
+They're developing.
+
+They can use Space-based Research to test them.
+
+Now, that's not all that could be done up there.
+
+Biopharma is one area.
+
+But think about manufacturing for space travel.
+
+So if you've been following SpaceX, you know they're going to Mars, going to the moon, they're planning on putting people up there permanently. And the estimates for the industry say there's going to be 50 to 100,000 space workers in the next two to three years.
+
+You ready?
+
+Well, you don't have to.
+
+Do you want to go to space?
+
+You can send up a manufacturing plant with complete simulation on the Earth using something like Omniverse from Nvidia, using digital twin technology.
+
+Where you're seeing things happening in real time but you're not there.
+
+Or maybe you want to go to the moon. That's great.
+
+Develop something for them.
+
+And, finally, Devices for Impaired People.
+
+It was interesting, the conversation earlier about the blind person that was here.
+
+The friend of mine that I met at the NVIDIA GTC conference two years ago.
+
+His name is Cornell.
+
+He created a company called Dot Lumen, Dot LUMEN, and he created a wearable for blind people.
+
+So what happens is as they're walking, if somebody standing in front of them or wall is there, it taps them on the forehead. It tells them where the obstacle is. And if you go to his website, Dot Lumen, you'll see an example of this.
+
+A person can be walking and they'll get tapped and they'll know to avoid that particular space.
+
+Perfect example of going beyond the exoskeleton, helping impaired individuals to lead normal lives without invasive surgeries.
+
+One neural link, for instance, although Neuralink is pretty cool if you've had a chance to look at that.
+
+So hopefully that didn't go too far.
+
+That wasn't too bad.
+
+That was it.
+
+I appreciate each of you staying.
+
+I know it's late, but thank you so much.
+
+And thank you to Chris and partners and TV Chosun for letting me come.
+
+Please connect on LinkedIn.
+
+We are doing XPRIZE and we're looking for teato help us with that. If you'd like to participate, we can give you more information.
+
+Just connect on LinkedIn and thank you so much.
+
+What's the word coming up?
+
+Send me that.
+
+Exactly right.

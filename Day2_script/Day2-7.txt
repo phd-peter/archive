@@ -1,0 +1,784 @@
+# 웨어러블: AI와 비즈니스의 미래
+- 발표자 : 오스틴 메히아 (구글 웨어러블 AI 총괄)
+
+Thank you so much for having me today.
+
+Hi Austin.
+
+It's an incredible honor to be here at Seoul Meta Week and it's been absolutely incredible also getting to visit Korea for the first time.
+
+Thank you so much for the opportunity.
+
+Today I want to talk about something that is very important to me and I believe will have a huge impact on our world, our daily lives and also the businesses we live in.
+
+And that's the wearables you'll notice at the top of this presentation.
+
+I have a timestamp for this current month.
+
+That's because the nature of AI and the wearable landscape is evolving.
+
+so quickly.
+
+I want to make sure that we have a way of referencing this information.
+
+It might very well change in a month or so.
+
+Along that note, I want to emphasize this disclaimer here that the landscape is evolving super rapidly.
+
+And that's part of what makes it so exciting, but also what makes it very turbulent with information.
+
+I also want to highlight that this is my personal opinion and not the opinion of Google.
+
+Yes, I'm a product leader at Google, and so some of these things may be very similar, but I want to emphasize that.
+
+My personal beliefs here are only what's reflected in.
+
+This deck now. Then who am I?
+
+Why should you spend the next 30 minutes listening to me?
+
+Well, my name is Austin.
+
+I'm a product manager and I created the AI team focused on wearables, specifically the Pixel Watch at Google.
+
+I previously studied at Princeton University and Tsinghua University as well, and I am an advisor with many academic departments.
+
+Throughout the United States and also globally,
+
+I'm also a founding member of the AIFOD, which is the AI for Developing Countries forum.
+
+We work with industry leaders, policy experts, and others in the space to make sure that AI is equitably developed for all countries globally.
+
+I want to start by talking about what even is a wearable and why do we care about them so much?
+
+This is going to be a very simple game. Because it's really a simple question. But it gets to a much deeper issue of how tricky it is to pin it down.
+
+So I'm going to show you some images.
+
+I'm going to ask you, do you think this is a wearable?
+
+And if you do, please just raise your hand.
+
+Right, let's get a little bit of engagement here.
+
+So this is the first one.
+
+This is the Pixel Watch I work on.
+
+I actually have it on my wrist right now.
+
+Is this a wearable?
+
+OK, I see most hands up and I would agree with you, right?
+
+I think it's a wearable.
+
+I work on this.
+
+How about these?
+
+These are the AirPods.
+
+They're the most popular headphones sold in the world.
+
+Is this a wearable?
+
+OK.
+
+Yes, I see the same amount of hands.
+
+Here's something a little bit harder.
+
+This is called the paparazzi hat.
+
+It's a special hat that has fibers woven into it.
+
+That makes it so that when you try to take a photo of someone, the light is reflected back into the lens and it blurs out.
+
+Their face. Is this wearable?
+
+OK, I still see some hands, but it's a little uncertain, right?
+
+We don't know quite as much anymore.
+
+How about this last one?
+
+This is a glucose monitor.
+
+It's used by people who are prediabetic or diabetic to track their blood glucose levels.
+
+You replace it every two weeks and you can check it with a phone app or directly.
+
+Is this a wearable?
+
+OK, I still see hands, right?
+
+But it's a changing number of hands every time, and I think this speaks to a core issue of wearables - that they're really hard to define when a watch and a pair of glasses and headphones and a medical device can all be wearables.
+
+How do we get any?
+
+Clarity about what we're talking about. By contrast, if you look at the difference between a phone and a tablet, it's basically just the size of the device.
+
+And yet, despite that, I can show a phone or a tablet to a toddler through an 80 year old and they'll all be able to distinguish the difference between the two.
+
+So it's very hard to get clarity in this space.
+
+And that's part of the hardest things of talking about it because we don't know what we're talking about. So let's get a little bit more granular and let's talk about something I spend most of my time focused on.
+
+The smartwatch.
+
+I believe the smart watch is an intersection of a wearable device that does fitness and productivity.
+
+But I would also put forward that most smartwatches are not true smartwatches.
+
+They're basically productivity devices, so show of hands, who has ever used a smartwatch or has a smart watch?
+
+OK.
+
+I see some hands. Keep your hand up if you've ever used it to make a call from it or you've actually ever sent a text from it.
+
+OK.
+
+Yeah, I saw a few hands go down. And I think that calls to a really fundamental issue about a smartwatch.
+
+Today, we believe that they're supposed to be productivity from the smartwatch.
+
+That's what differentiates it from the common fitness tracker.
+
+But we don't use it as a productivity tool.
+
+And one of my biggest focuses as leading this Watch AI team is really thinking about how do we introduce more productivity functionality and helpfulness to the everyday products you're using day in and day out.
+
+So we've talked a little bit about what wearables could be, but let's talk about why wearables.
+
+Why do we believe now?
+
+is the time and why do we invest in them so much?
+
+And I think there's three core reasons, the first of which is that wearables are respectful, or they feel more respectful, they feel less intrusive. And they feel like the future.
+
+And let's start with that first one.
+
+Even though technology such as phones, laptops, computers have become commonplace in our daily lives,
+
+the truth is that they are super disruptive to our ability to connect with other people.
+
+A recent study from Harvard showed that if you just have your phone on the table when you talk to someone, face down, both people walk away feeling less connected.
+
+feeling 40% less connected to each other than if there were no phone in the first place. And that.
+
+Clearly shows the way in which phones disrupt or disrespect.
+
+The people around us and where those can fill that role in a nice way, because.
+
+Wearables are less intrusive.
+
+They mimic form factors that have been part of our daily lives for centuries.
+
+Not millennia.
+
+Rings, glasses, watches, pendants.
+
+These are all things we accept as commonplace.
+
+And so their presence in this form factor is a little less intrusive.
+
+And it makes it feel a little more like it's part of the environment around us.
+
+Lastly, where does it feel like the future?
+
+Time and time again, throughout media, we've tried to imagine what the future could look like.
+
+And you can't.
+
+You can't disthe power of human imagination for trying to move us forward,
+
+Jules Verne very famously imagined space travel, or the submarine before it had even been invented, and part of our achievement of that technology was because we were motivated by the way it captured our imagination.
+
+So we've talked a little bit about why wearables. Let's talk about why wearable AI today.
+
+So there's a lot of hype and a lot of skepticism around AI. And there's so many product launches that have come out that are supposed to come out. That have been huge successes and huge failures,
+
+But it's important to question why now is the time for wearable AI, and not a decade ago when Google Glass was first introduced.
+
+And didn't do too well.
+
+or a century ago when we tried to build whatever this thing is here.
+
+And I think there are two core reasons for that.
+
+I think it's first that wearable hardware has hit a powerful tipping point that unlocks a new set of use cases.
+
+That wasn't allowed.
+
+And two, we have evolved new technology that unlocks and unblocks certain experiences that were previously unavailable.
+
+on a wearable device.
+
+I want to highlight this chart here.
+
+This was put forward in a paper originally by Gordon E. Moore.
+
+Who was the founder of Intel in 1965? And in 1965, he noticed a trend where he was seeing that every two years.
+
+the power of chips were doubling the number of transistors. We
+
+Could put on that chip were doubling.
+
+And he postulated, though he had very little evidence at the time.
+
+That this trend could continue in perpetuity.
+
+It turns out this was a really good guess.
+
+This is called Moore's Law, and it's one of the most fundamental principles of computing today.
+
+It articulates that every two years, the same chip will be able to fit double the number of transistors on it.
+
+And you can think of transistors as another way of saying the the chip is powerful.
+
+It's this dynamic of Moore's Law that enables the smart calculator that you buy from Walmart for $3 to have more computational power than what was available for the Apollo 11 space on.
+
+It's a very, very powerful dynamic that has unlocked all the computing experiences we know today.
+
+I highlight Moore's Law to contextualize this quote, that in 2017, the head of Qualcomm's wearable division said that Moore's Law did not exist for wearables.
+
+And he had sound reasoning.
+
+Logic to articulate it.
+
+Yes, chips were still becoming more and more powerful, but it's also worth noting that there's so much more to put in that device.
+
+We have smartwatches, but they didn't have GPS.
+
+They didn't have calling.
+
+They couldn't do all the sophisticated health tracking that we expect from them today.
+
+And so, while the chips were getting more powerful, we decided to make the chips smaller and put more inside of that device,
+
+However, it is no longer 2017, it is now 2025.
+
+And that means that there's a lot more choice that we can have.
+
+Because smartwatches have most of everything we would imagine from them.
+
+You could put a bigger battery in it,
+
+Garmin is very famous for this.
+
+Their smart watches last weeks, if not months, and that gives a lot of value to users.
+
+You could also make the device thinner.
+
+The most recent Apple Watch 10 reduced the body of the device by about 10%,
+
+which I know doesn't sound like a lot, but I promise is an incredible feat of engineering.
+
+You could also unlock new form factors. The aura ring, the metal ray bands rule. All these new devices are achievable because these chips are finally small enough and powerful enough to fit inside of them.
+
+But there's a fourth thing that could happen.
+
+You could just make the chip more powerful and if you do that you start to unlock a new set of capabilities.
+
+Especially with on-device AI that we previously hadn't seen before.
+
+And I don't think any company has quite taken advantage of it yet.
+
+That only explains how we unlock it.
+
+But there's a fundamental characteristic of wearables and technology that has prevented their adoption, and it's not the input on the device.
+
+It sucks. If you have used a smartwatch before, you know how hard it is to try and navigate or use it effectively.
+
+And that's because as you move from larger to smaller devices, the precision of input available to you decreases as well.
+
+And so, while a phone is able to do a lot of tasks, it turns out that a smart watch is super to use effectively.
+
+And that has limited our ability to make it more of a productivity tool.
+
+A language model can help off you skate some of these gaps because instead of precision, you have something that can interpret your content.
+
+It can interpret your intent.
+
+It can interpret the data available on the device.
+
+It can make actions that are more AI to what a human might do.
+
+So here's an example. Let's say you are driving into work and you get a call from your school saying that your son is sick.
+
+You need to go pick them up.
+
+You're driving.
+
+You only have your watch on your hand, so if you were to try to do this without a language model, it would be absolutely torture.
+
+It would be so hard to do.
+
+You'd be trying to navigate.
+
+It just wouldn't work.
+
+I hope you never have to be in this situation. But if you had a language model on that device, in theory, it could take that phrase.
+
+My kid is sick.
+
+I need to reschedule all my meetings today.
+
+It could understand what it's supposed to do.
+
+What does rescheduling mean?
+
+The message that you could send people to explain why you need to reschedule, it could do all of based off a single phrase.
+
+And if that's the sort of experience you can unlock, then all of a sudden a smartwatch is a really good productivity tool.
+
+Now you might be hearing all of this and you might be thinking, should I throw my phone in the trash?
+
+Right, if smartwatches and wearables are going to be so incredible, why do I need that device?
+
+And I'd say, well, hold on to your phone for just a moment because it's important to remember that we live in a computing ecosystem.
+
+Phones, or wearables I should say, are not going to be a replacement to phones.
+
+They're going to be a complement.
+
+The same way that a smartphone today is one of the most powerful computation devices ever built.
+
+But you still have a laptop, some people even have desktop computers in addition to laptops. And that's because, even though your smartphone could do all of those tasks, it doesn't mean it's the best surface for it.
+
+So, while your phone may never become your go-to spot for editing a document, you could write and read emails from it.
+
+And while you could in theory write and read emails from a smartwatch, maybe that's not the best use case.
+
+Maybe the best use case is being able to check if you got an email, writing a text generatively, being able to disand triage important notifications and messages you might be getting from people.
+
+That's the value, and that value cannot be diminished. If you've never seen this or you don't know the name of this, I'm sure you've seen this before.
+
+It's called a desire path, and it happens when there's an established trail and a small path that people naturally form in between.
+
+two points on that established trail.
+
+And I think what the desire path speaks to is that humans are naturally trying to optimize their lives.
+
+We are lazy.
+
+We seek efficiency.
+
+And so if you give someone a tool that is faster or easier or less effortful than what's available today, people are going to take it.
+
+Even if it's not as nice because those seconds add up. There's a really great quote that says you don't realize you're in the Stone Age until you invent fire, and that's going to happen very much with these experiences.
+
+We don't know that we're suffering from all these daily paper cuts because we haven't encountered that new tool yet.
+
+And I think it's around the corner.
+
+So let's talk a little bit about how wearables may appear in our daily lives, particularly in the workplace.
+
+Because I think this is something that's of high interest for a lot of people here.
+
+We tend to have big grand visions of wearables, right?
+
+They're full goggles.
+
+They're going to be this integrated interface between multiple devices.
+
+We keep imagining it, but the truth is that wearables have already been part of our work for quite a while now.
+
+Just not in very obvious ways.
+
+It turns out that wearables, in particular, in a business sense, have the strongest traction with physical trade based jobs.
+
+Think logistics warehouse managers.
+
+Nurses, doctors. And that's because even though...
+
+That this technology wasn't quite fully developed.
+
+There are unique constraints and characteristics about a wearable.
+
+Best complemented by certain unique and constraining jobs.
+
+And you should see that Google Glass, even though it's not sold commercially anymore, is actually quite successful in a business-to-business application.
+
+And many companies still use Google Glass for their warehouse logistics today.
+
+Wearables excel at a few sets of tasks I think are important to call out.
+
+They excel best with tasks that are quick.
+
+So short communications, maybe just responding to a message.
+
+They also do quite well with repetitive tasks that might come up very often, such as checking for the status of something or a delivery.
+
+It also does well with tasks that are very unpredictable.
+
+You might be out and you have an idea that captures your imagination.
+
+And you need to jot it down, but you can't predict when.
+
+Inspiration will strike.
+
+They also complement jobs that are uniquely physical and mobile.
+
+It's worth noting that one of the biggest consumer markets for smartwatches is actually nurses and doctors.
+
+Because they have to be on their feet and moving constantly between roo between floors, between patients. And that smartwatch is the only way that they have it.
+
+tethered to the outside world.
+
+Or any awareness of what's happening?
+
+So it's a very important tool.
+
+How smartwatches or other wearables will emerge in our workplace will come across three main value propositions.
+
+It's going to reduce cognitive load.
+
+It's going to take away the need to remember that next meeting, that idea you had to send that text later. It's going to be able to offload all of that off your brain.
+
+It's also going to help you maintain focus and presence, something that can help intuitively understand when you need to be notified of something and when you don't, when you should be left alone.
+
+It's also going to help turn those 10s of seconds into single seconds.
+
+And as we mentioned before, that's going to be huge and it's going to build these really incredible habits once you have that in your life.
+
+So now I want to close a little bit, talking about the future of wearables.
+
+What might the future hold?
+
+I must emphasize again that this in particular, and in addition to all the slides, is my personal opinion as someone who's deep in this space.
+
+Looking forward, trying to think about what the future might hold.
+
+But I think there's some very important trends that I want to highlight for everyone here.
+
+The first of which is the drop in costs of language models.
+
+They're getting cheaper.
+
+What does that mean for you?
+
+How is that going to impact your daily life and your business?
+
+The second is the rise of open models, particularly a lot of the disruption that happened from the Chinese LLthat came out of China.
+
+What does that mean for you?
+
+How do we interpret these models?
+
+What does that mean for the future of the internet long term?
+
+And lastly, I want to talk about on-device models.
+
+How increasingly, models are becoming smaller, more efficient, and are going to be locally right on your device.
+
+And what does that mean in terof a value proposition for you, the consumer?
+
+It is worth noting that models have never been cheaper, and they're only going to get cheaper and cheaper over the past two years.
+
+The lowest price point model has dropped 99.7% in terof cost of inference.
+
+Inference is just a fancy term for asking a model to generate an output.
+
+And this trend is continuing.
+
+It's not reflected in this chart, but the Gemini Flash model just introduced a new version that cut the cost by another third.
+
+And so still seeing costs over months dropping by half or a quarter.
+
+1/4.
+
+Then there's no reason to expect that it might not continue for the future.
+
+And even at this point, these price points are enabling a set of use cases that were previously unavailable.
+
+Models had to be conserved for high, high-value use cases because the cost was so high.
+
+But if it continues to get cheaper, then all of a sudden it's totally fine to run a model for a text message that you're sending.
+
+It's OK to run a model to interpret and better understand if this is a notification.
+
+You should be into right now or if you should wait for later. And with that improved cost basis, you're going to see a huge range of experiences. A lot of these things that you currently see behind paywalls will soon become free and accessible to everyone.
+
+Going to see deeper and deeper integrations into your daily life.
+
+This is a huge win.
+
+Next, I want to talk a little bit about this trend of open models.
+
+A few months ago, this was all anyone could ever talk about. And I think it's still important to highlight, because the impacts on the ripples of it are something we're still feeling in our ecosystem today.
+
+So DeepSeek is a very famous model.
+
+It was released by a Chinese venture fund.
+
+And when it gained traction, it really gained traction.
+
+In that single day that it really blew up, it became number one on the App Store.
+
+It took 600 billion dollars off of the valuation of NVIDIA,
+
+Which, for context, that's the entire GDP of Mexico.
+
+So a lot of money, right?
+
+And it sent Meta into a total spiral.
+
+They were having red alert panic meetings inside the company.
+
+So it's worth examining what was Deep Seq.
+
+Why was it so impactful and what does this rising trend of open models mean for all of us globally?
+
+So it's important to highlight that Deep Seq was really profound across a few different dimensions. Most importantly, I think it's that it's a good model.
+
+It'd be one thing if it was cheaper and it was better, or if it was cheaper to train, but it wasn't as good.
+
+But on release, DeepSeq was a really, really good model.
+
+It was just as performance as a lot of leading labs in their work as well.
+
+It's also worth noting that DeepSeq on release was 100% free.
+
+So anyone could access it.
+
+And it was called an open model.
+
+Now I'm going to define these open models.
+
+It means it's a model that you yourself, as a consumer, can download, run on your device and tweak however you see fit.
+
+Compared to most models that are available today, such as ChatGPT or Gemini, those models are called closed models.
+
+You can only access them via a server and you have no idea how those models are structured.
+
+You have no access to them.
+
+You can't have that model run locally on your hardware, and you can't do some fine-tuning or training to improve it. For a specific task that you want to do,
+
+At least not the same way that an open model can, and so an open model gives you an
+
+Incredible amount of flexibility and agency.
+
+Because not only is this a top performing model, and not only can anyone access it, but anyone can download it and have it run locally on their computer.
+
+And that's huge in terof enabling a huge set of capabilities.
+
+Lastly, one of.
+
+The innovations that DeepSeq brought forward was a novel training method.
+
+I'm not going to get too deep into the details here.
+
+There's a lot of controversy about if it did do what it was supposed to, what they said they'd do. In terof training, there's a lot of controversy there as well.
+
+Let's just take the paper that described Deepseq at face value, and that face value that they were able to train and produce this model for $5,000,000.
+
+$5,000,000, which is 10 times more efficient than OpenAI or Meta were speculated to have spent in terof their research.
+
+To train comparable models that performed about as well, if not a little worse.
+
+So it's innovative. Across those three fronts,
+
+It was a good model.
+
+It was a free model.
+
+It was a cheap model and it was very easy to train.
+
+What does this mean for us?
+
+Right, it's been a few months since.
+
+In steep seek. And I think we're starting to see some things start to settle a little bit here, I think.
+
+I think one of the most important ones is that China is becoming a more and more important leader in the AI space.
+
+and that the Western ubiquity of having dominance over all these models is starting to falter a little bit.
+
+We in the United States.
+
+I'm American.
+
+Sorry about that.
+
+I apologize for everything we've done.
+
+The United States has tried to impose tariffs, monopolies and protectionism to keep these chips.
+
+That are used for top training models from being sold to China.
+
+And what's something like Deepseq seeto indicate is that that was largely unaffective.
+
+Right, it didn't do what we were hoping to.
+
+China is innovating just as effectively, if not creating a more innovative spirit.
+
+I think it's also important to note that not only is China innovating, but there's also a mentality right now about going abroad.
+
+This phrase here is called Chuhai (出海), and it means to go abroad. And it's a mindset that's very common in the Chinese AI and startup scene right now.
+
+About building for an international market.
+
+First, this is very different than how many companies were built in China.
+
+They usually try to target their domestic market and then go abroad.
+
+But many companies, particularly in the AI space, are starting with the international focus before the domestic market.
+
+But good example is a company called Manus AI, which was very viral in January, February earlier this year and is still considered a top agentic platform.
+
+In the West, particularly in the US.
+
+But Manus AI has very low traction in China.
+
+It's basically unheard of.
+
+It's not considered a major contender.
+
+And I think that speaks to a larger trend of companies focusing their markets, if not, if not exclusively, then mostly outside of China.
+
+And I think that means we're going to see much more choice and much more.
+
+For us as consumers,
+
+Which moves me to the third point.
+
+AI availability will skyrocket if you can get access to these incredible models for free.
+
+And you can download and tune them and change all these applications yourself.
+
+Then that means that we as the consumer have more choice than ever.
+
+More models, more companies, more services, and it's going to be, at a cost basis, much cheaper than what was previously available. Just a year ago,
+
+This is a huge win for us.
+
+I know there's a lot of controversy about the development of Deep AI, but it's undoubtedly going to make the everyday technology we are going to rely on more and more abundantly available.
+
+Lastly, I think evolutions such as Open Models and DeepSeek begin to question the value proposition of certain companies.
+
+We're currently in an era of selling the raw tech by huge companies such as OpenAI, Meta, Perplexity, Anthropic.
+
+Their whole business is basically just selling a model.
+
+They have an interface to it.
+
+Maybe they have some nice integrations, but it's pretty much the model that you're interacting with directly.
+
+And if things like DeepSeek keep happening, we're really good.
+
+Open models are available for free.
+
+It really questions the value proposition of these companies.
+
+Because if you can get the best for free, why would I pay for your also best service?
+
+It just doesn't work out the same way.
+
+By contrast, I think companies that emphasize their value proposition around integration may see the most benefit.
+
+here.
+
+Now I might be biased.
+
+I work at Google, but I think it's fair to say that.
+
+What has been harder to duplicate or replicate in terof value is not necessarily model quality, but the platform, the integrations, the ecosystesuch as Gmail, search, Apple's iMessage network, right, these are.
+
+All things that are much harder to replicate at face value because they're so expansive and integrated. And I think this means that those companies are going to be potentially in a better position long term.
+
+Lastly, actually before that, before I move to this next point, I want to close on a quote that's actually from the head scientist at Meta. And I think it speaks to a trend that we've seen globally about tech development and where it can come from and where it.
+
+Shouldn't come from. And there really is this, for lack of better word, superiority complex in Silicon Valley in the United States. Where they really do believe, to some extent, that they have a monopoly on all good ideas that are available for public access.
+
+And I think at the.
+
+Mostly we see any progress or developments that we couldn't achieve as potentially cheating or fraudulent?
+
+And I think that undermines the power of a global AI community.
+
+Where we're able to be more distributed, where we're able to work and connect with other people and innovations can come.
+
+From truly anywhere,
+
+I think it diss that power of the Internet.
+
+Lastly, I want to close on something that's very important to me and what I'm very passionate about: on-device AI. So I've talked about it a little bit, but most of the AI you experience today is available via cloud. These cloud models have a lot of benefits, they...
+
+Very cheap.
+
+They're very efficient and they reduce the impact on your device. If you're not running something on the device, you save more battery, you don't have the same thermal issues,
+
+It's overall a huge benefit to you.
+
+The problem is that an on-cloud model can't solve everything.
+
+There are some applications that are very privacy and security sensitive.
+
+For example, messaging if you use an app such as WhatsApp, WhatsApp believes very strongly in end-to-end encryption, which means that as a policy,
+
+They prevent any company from being able to process the information from the WhatsApp messages in the cloud.
+
+So if you want to generate a smart reply to a message that you might have coming from WhatsApp, it can't be done in the cloud.
+
+It has to be done locally, on your device.
+
+There's also certain applications where latency is very important, right?
+
+If you imagine.
+
+The UI experience that might be more agentic.
+
+You can't wait 1-2 seconds for something to be sent to a server and come back to your device.
+
+It needs to feel snappy, needs to feel immediate, and those experiences are going to be prevented because of an off-device model.
+
+Lastly, there's availability.
+
+There's some tasks that just need to be available to the user consistently. If we believe these AI models and agents are going to become a fundamental tool for how we interact and navigate a device or a surface, they have to be available 100% of the time.
+
+That necessarily requires something on device to power that.
+
+Now, we haven't seen much of this yet.
+
+But I would postulate that we're going to see a huge rise in on-device AI, first with phones, then increasingly on laptops and wearables.
+
+Other form factors, very, very soon, and when we see this rise, we're going to see a huge number of benefits.
+
+First of which is that some experiences are going to be much faster.
+
+One of the speakers yesterday talked about how the average person is willing to wait.
+
+400 milliseconds for an experience to be delivered to them.
+
+And that can't be done with certain latency constraints, needing to go over the Internet or cloud. Having something local is going to cut that down and make all these AI experiences feel much snappier.
+
+Much more media.
+
+Much more powerful. The second one is that it's going to unlock a set of experiences that rely on more security, more privacy.
+
+So if you have certain information that you'd love to be applied for an AI query, but you're not comfortable with it leaving your device, that on-device compute is going to be able to use that context applied for a use case and keep it in a privacy-preserved way.
+
+Manner where it never has to go to the Internet or never has to go to a server.
+
+And, lastly, what an on-device model is going to do is really enable and proliferate a set of experiences.
+
+We haven't even imagined yet.
+
+They're so far away because so much of how we build experiences assumes the cloud-based infrastructure and models we see today that we haven't even begun to see them on the horizon.
+
+But once we start bringing more devices or more models on device and more of that.
+
+Is locally available?
+
+Available locally.
+
+We're going to see a whole set of experiences that we couldn't have imagined before.
+
+I want to thank you so much for this time.
+
+I'm more than happy to connect with anyone as well.
+
+My LinkedIn is right there.

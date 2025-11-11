@@ -1,0 +1,624 @@
+# AI 에이전트로 바꾸는 고객 경험 – 세일즈포스 인사이트
+- 발표자 : 샐리 노루지 가드너 (세일즈포스)
+
+Good afternoon, everyone.
+
+Good afternoon, Seoul Meta Week.
+
+It's so good to be here with you all today.
+
+I'm based out of London, so I've flown in specifically for this conference today and I'm really excited to be with you all today.
+
+to share some of the work that we're doing at Salesforce and will hopefully inspire you with some of the amazing technological innovations that we're seeing.
+
+Today.
+
+My name is Sally Nowroozi-Gardner.
+
+I'm a responsible AI strategy manager at Salesforce and I work in our global AI practice.
+
+where we help our customers design.
+
+Build, implement, test, and govern AI agents.
+
+And it really is an exciting time for all of us before we dive in with today's presentation and talk about AI agents.
+
+I just want to ground us all in Salesforce's on and vision, and it's quite simple, really.
+
+Since our inception.
+
+In 1999, our vision was to help customers connect with their customers as a whole.
+
+Today, we do that by providing a unified customer 360 profile.
+
+So organizations have a really good way of understanding the true picture of their customer.
+
+And they're guided by our core values, trust being number one.
+
+#1.
+
+For example, your data is not our product. Customer success, making sure our customers are successful, innovation.
+
+We have multiple releases a year automatically with all our products and we believe in driving an equitable and sustainable future for all.
+
+Now, with every new innovation moment that has been met, some of you may remember the launch of the Internet in 1995.
+
+I know.
+
+I certainly do.
+
+In 1999, that's when we were born.
+
+That's when we effectively brought cloud computing and revolutionized the software industry, and since then we have seen hundreds, if not thousands of companies follow suit.
+
+Which is really inspiring.
+
+And, of course, we had the birth of mobile social in 2016, when we launched our first ever AI.
+
+Was Einstein's predictive capabilities?
+
+And we're finally now in the next chapter of AI.
+
+Agentic AI.
+
+AI, and in November last year, we launched our brand new capability called Agent Force. And that's where we're looking at humans working with agents to drive customer success together.
+
+Now, to really show the breadth and depth of this platform, Salesforce, and the way to really explain it, I like to do that through the lens of 24 hours in the life of Salesforce.
+
+It's a far busier life than many of us.
+
+Let me tell you.
+
+Over 280 billion Einstein predictions are being powered across our platfor
+
+Nearly 5 billion marketing messages are being sent out.
+
+So you can really see the scale here.
+
+Across consumer engagement, we power and commerce experiences.
+
+For example, there are over 2,000,000 commerce orders, over 485 million commerce views and pages as well.
+
+Globally too.
+
+And you can see the employee usage as well.
+
+So it's not just about power and customer experiences, but it's also employees internally that we're supporting through automation, workflow and insights as well.
+
+Now this is no longer about social transformation.
+
+This AI-led revolution that we're all in is not just about technology either, because we're all in a cognitive revolution together.
+
+We're all here to learn, to share, and that must continue in order for us to make sense of how to leverage this amazing capability.
+
+Because it's strong and it's powerful, but it's a step changing how we need to think and deploy this technology as well.
+
+Now, I always believed, if you want your customers to love your brand, you get your employees to love their jobs.
+
+So you're giving them the best tools and resources to do their jobs so they can serve the customer in the right moment on the right channel.
+
+And having every bit of information of their customer context that they need.
+
+Now, customer experience has always been important.
+
+It's one of my favorite topics and we provide a lot of research at Salesforce.
+
+It's all available on our website.
+
+One statistic that really stands strong, and for me, is the guiding principle behind the why of everything that we need to do.
+
+Is that a customer experience?
+
+A brand or company provides is just as important as products and services.
+
+So if we think about for a moment, how many times have you chosen to transact or engage with a brand or a company?
+
+Based on the experience they provide, not necessarily their products and services.
+
+And as technology advances.
+
+As consumers of technology as well, we also expect more and we've seen this translate into the enterprise as well.
+
+Customers are expecting a faster service as technology advances, and they also want better personalization.
+
+So it's imperative that we use all that data really well to drive that customer experience forward as well.
+
+Now when we speak to a lot of customers.
+
+They all have different goals.
+
+They're all trying to do different things.
+
+One golden thread throughout all of this is the most successful companies are relationship builders.
+
+There are people who are bringing together all the different departments, whether it's sales, service, IT, marketing, data.
+
+They don't think in their respective departments. They think about being value multipliers and bringing all the information together so they can drive richer customer experiences.
+
+So knowing that relationship building is important and knowing that identity technology is only going to get bigger and bigger.
+
+How do we leverage it into technology to help organisations become the best relationship builders?
+
+Before we do that, we hear about agents every day.
+
+Let's just break down what that means for a moment. The way I like to look at an AI agent is...
+
+A new total assistant inside your organization that has access to all your customer information, to all your business policies, to all the enterprise data that you've actually built in your organization.
+
+It's something that can operate 24/7, plus a benefit to humans there.
+
+Because no one wants to work 24/7.
+
+It can show up on any channel, whether that's your website, your social channels, your mobile channels.
+
+But it can also escalate to a human being.
+
+But it can also do things autonomously, and it's important to think about when you want something to be fully autonomous and when do you want to transfer over to a human.
+
+Now, like an intern or an apprentice in your organization, when an intern starts on day one, you don't just give it everything and never check in on it ever again.
+
+You give it a task, you check in on it.
+
+You test them, you get some feedback and that's how we need to think about agents.
+
+They grow and they evolve over time.
+
+You start small, but you know they have huge potential.
+
+Now a lot of people say to me, isn't an AI agent just a chat bot?
+
+And I understand why this is a common misconception.
+
+Look at the two screenshots on the screen here.
+
+Side by side customer conversation about a challenge.
+
+If we look on the left, the experience is quite repetitive.
+
+It's quite reactive.
+
+It's quite scripted now.
+
+Chatbots are great for a specific use case, like a password reset, something that can follow a script and can follow a process flow.
+
+Many of us have always been in a loop with chatbots.
+
+Because we can't get what we need, we have to answer things in a way that the computer can respond to.
+
+That's not a great customer experience.
+
+It's a great experience for a particular use case, but it's not scalable for natural language conversations.
+
+that we like to have.
+
+Let's look at your right screen.
+
+Where's my left screen?
+
+Let's look at what's dynamic.
+
+Proactive conversational experience with.
+
+Agents could take action.
+
+So in this particular instance, a customer has an air fryer.
+
+They're very popular in the UK.
+
+And it stopped working.
+
+So you reach out, you upload a photo because that's a natural human thing to do.
+
+You show a photo and in this Asian experience it can read an image.
+
+It can read an image and it can see the error code that's on the error message.
+
+So it's starting to reason and think.
+
+And when it asks the customer 'What was your last order?'
+
+They can just use natural language.
+
+It was the last thing I ordered.
+
+It's very different from what your order number is.
+
+Let me go back in my emails.
+
+Let me try and find it.
+
+Let me find my receipt.
+
+That's a painful customer experience that gets abandoned.
+
+So natural language you can. You can tell her what your last order is because it has information on you.
+
+You can.
+
+You can see that come through.
+
+And the agent has been tasked to be able to make a replacement and exchange on the customer's behalf.
+
+And that whole process becomes seamless, autonomous.
+
+Great customer experience.
+
+But also you've saved someone to focus on.
+
+Maybe a more important topic for the customer as well. So I hope that really explains the difference there of what we're seeing when it comes to agents and their power.
+
+And this really now shows the evolution that we're seeing from business to business experiences, business to consumer experiences.
+
+To what I like to coin agents to consumer experiences.
+
+Because these agents potentially could be the first line of interaction that you have with an organization.
+
+That first service experience could be the first time that you've actually engaged with the organization.
+
+So that really shows how we can be thinking about these being your greatest brand ambassadors.
+
+The difference is they're not just a portal that shows up on your channels. They have your customer contacts, your business information, and they're tasked to do what you set as a business.
+
+AI agents have many abilities from what we're seeing so far today, and I'm sure they're only going to get more and more.
+
+They have many characteristics that can really get us thinking about why they would be good for certain use cases.
+
+For example, they're autonomous, meaning they can take action, they can make decisions, they can operate independently.
+
+And I put in asterisks there because we don't want all agents to act autonomously.
+
+So when you're designing agents, you need to think about what you want to have with a human in the loop or a Salesforce.
+
+We like to call it human at the helm, meaning human and agents working together to build trust. Trust with the employees, but trust with the end consumer as well.
+
+They can have goal-directed behavior, they can adapt their actions, they can gather knowledge and data from the organization.
+
+And they can process information as well.
+
+And what I love about them is they can learn.
+
+It's not once set, implemented, done, they can learn over time and improve their performance.
+
+A bit like the apprentice or intern analogy I shared with you earlier.
+
+And they can reason.
+
+We talked a lot about trust this morning through the various speakers and working in responsible AI strategy.
+
+Trust is no longer.
+
+A nice to have.
+
+It's an imperative in AI because we all need to learn to trust this technology more.
+
+As we're designing and building them, but as consumers, as we actually start to use them and interpret them as well.
+
+Now all the other things that we hear from our customers is that they want to be the brand.
+
+Customers love who?
+
+We don't want that. That's going to drive natural retention, it's going to drive great engagement.
+
+That's the North Star that surely everybody points to.
+
+But being a brand that customers love is really hard.
+
+Disconnected data, data in multiple syste Being really hard to get to the bottom of your case, because no organization has multiple data systeon you and you don't have a unified profile.
+
+Different channels, mobile tea social tea
+
+Commerce tea they don't talk to each other.
+
+They're not very connected, and I've yet to meet an organization that says, 'Yep, I have all the budget and resources in the world.'
+
+Because the reality is there's always a resource and budget challenge, which makes us all very creative in our jobs.
+
+So that poses the question.
+
+If it's hard to be a brand customers love, and if it's hard to address,
+
+one of these roadblocks.
+
+What if workforces have no limits?
+
+The two most powerful words in the world that we know are 'what if?' Every great thing that I've ever been a part of began with those two words. And today, thousands of organizations are saying 'what if?' with the power to act on those words like never before. What?
+
+If every child had a tutor, what if every healthcare visit felt personal?
+
+What if every family had their own financial advisor?
+
+What if you never had to sleep?
+
+What if your company could solve problefor you?
+
+They existed.
+
+But if you could empower every employee with a limitless digital workforce, and the AI listens and acts all day, every day.
+
+This isn't some science fiction.
+
+No, it's happening right now.
+
+They are in Salesforce.
+
+It's called Agent Force. Agent Force turns your vision into AI.
+
+Teacher, every student, patient, citizen, and customer experiences the best service possible.
+
+And your people?
+
+But now they're free to focus on the work that matters most.
+
+All you have to do is bring your drea
+
+What if every company was an AI powerhouse company?
+
+So let's continue that thought.
+
+What if we lost Matthew McConaughey as well?
+
+What if we shifted from running campaigns as marketers where we send an email and there's quite a convoluted process for customers to respond?
+
+Back to sparking conversations with our customers.
+
+One-to-one conversations with that agent that has all the customer context and information on you? Well, that.
+
+Might be exciting as marketers.
+
+And what if we took blind storytelling that we do in our social media or our websites?
+
+And involved our AI agents to be brand ambassadors as potentially that far second, third interaction that employees and customers may have with organization.
+
+And if we think about the hard work that goes into brand guidelines and policies and all that documentation that you do upfront to develop the ethos of your brand.
+
+What if we spent that time and brought that to life through every touch point and thought about agents and...
+
+The work we do with them as personality engineering of how your agent is actually greeting your customers as well.
+
+So in November, to bring this to life, we talk about agents and humans working together to drive agents. To drive customer success, we launched Agent Force into our platform.
+
+This is the next generation platform layer on top of the Salesforce platform across Customer 360, our Data Cloud across all our sales, service, marketing, commerce tools.
+
+To give people a low code and no code.
+
+Platform so you can build, design, test with Testing Center.
+
+Any use case across any agency, and we have tons of use cases that are already pre-built.
+
+And now people are leveraging today like FAQ agents or an order status agent. We're digital banking agent and that's exactly what me and my team are working on today.
+
+Day in and day out, we're learning loads. The fundamentals of how we look at agents across Salesforce is through the five attributes of an agent.
+
+#1 is what is the value what you want your agent to do?
+
+Remember, I said,
+
+We start small, so we'll sit with a customer, but I'll think about all the use cases that they want to have and we'll think about what use case is going to drive most value that's going to be adopted.
+
+That's going to have longevity.
+
+So we think about the role.
+
+Is it in order?
+
+Status agent? Is it a product recommendation agent?
+
+Agent.
+
+Instead of banking.
+
+Data. What's the data you want?
+
+Your agent to have access to weather knowledge articles that you bring in, was the customer information that you bring in.
+
+What are the policies that you want to bring in?
+
+What are the website integrations you want to bring in? A customer of mine recently wants to bring in the weather because they were asked about them.
+
+Shopping assistants.
+
+So they wanted to have a weather as a direct API feed so they can better drive recommendations on personal styling.
+
+Actions. So we mentioned that agents take action.
+
+They have.
+
+They have agency.
+
+So what actions do you want agents to have?
+
+Is that processing refunds?
+
+Is it looking up order status for example?
+
+My favorite one is GoalWhat's.
+
+What don't you want?
+
+The agent to do?
+
+We talk about trust, building it internally and building it with our customers.
+
+So we run a whole workshop thinking about the risks and concerns of the use case. We're making sure the agent doesn't do something that we don't want it to do. So in financial services, we will say do not provide...
+
+Account history if the customer hasn't authenticated or provided ID.
+
+For example, in retail, they want to protect revenue, so they don't want the agent just processing refunds all the time.
+
+So a department store in the US had a guardrail which was 'do not process refunds over $500' because they wanted to escalate that to humans and then channel.
+
+Where do you want the agent to live?
+
+Is that your website?
+
+Show up.
+
+Is it your e-mail?
+
+Is your social channels, et cetera, and you'll see a bar called Trusted.
+
+That's how Einstein Trust Layer works.
+
+There's a whole topic within itself, but that's how we're providing citations.
+
+Checking for toxicity, harm, bias, all that important stuff that underpins all in Agent Force.
+
+There are a couple of use cases that are in line with today's topic around customer experience.
+
+These are out-of-the-box, ready to go.
+
+Design, build, turn on.
+
+The first one is around automating personalized conversations in WhatsApp.
+
+So you can have conversations in WhatsApp, connecting different departments together.
+
+It could be anything around product recommendations, purchases and returns.
+
+The next one, I really love. It's building customer journeys for every attendee.
+
+So imagine today, this week I saw Meta Week where there was an agent actually greeting you and helping you.
+
+Tell you what sessions.
+
+What event would you like to book?
+
+Which session do you want to attend?
+
+And then you think about the world of customer experience and marketing.
+
+You'd capture acquisition.
+
+Always important. So having agents on your website where you can actually get that information and that data can also be there, whether it be an asset that you want them to go to, you can have a gated link there for them as well.
+
+Now, to bring this all together, I thought it'd be really helpful to see these capabilities through the lens of a couple of customer stories that we have.
+
+The first one I'm going to talk about is World Economic Forum, the next one, of course, we should talk about our own journey. At Salesforce, we like to call ourselves customer zero.
+
+And the next one's remarkable.
+
+There's innovative paper tablets that are taking the market by storm.
+
+So I'd first like to start with Salesforce.
+
+We had a customer support website like many people do, but we wanted to make that experience authentic.
+
+So we launched a whole new channel called help.salesforce.com.
+
+We loaded over 700,000 articles into this agent.
+
+We talked about giving knowledge to this agent.
+
+And a customer can come on the website or the mobile app, and they can ask anything, from product information through account information.
+
+Pretty much anything that they would want.
+
+And we've seen a huge success with this.
+
+In fact, we have launched the agent on the very first home page of our website, as well as launching it as a little widget as well.
+
+We've powered over 800,000 conversations globally.
+
+So far through an agent and we've had a deflection rate of 85%.
+
+That's 85% of that.
+
+800K plus where a customer has gone to the website and has managed to get what they need.
+
+That's great.
+
+It's great for customer experience.
+
+It's great for our customer success managers because then the right case can be routed to them and they can get contacted when someone is in real need of help as well.
+
+People like to self-serve.
+
+The next one I'd like to talk to is World Economic Forum.
+
+This is an annual conference at Davos in Switzerland.
+
+Every year, where 1600 of the world leaders get together, 900 CEOs.
+
+We've got heads of states and government there as well.
+
+They get together.
+
+It's a very busy conference.
+
+I know I tune in and listen to them all week.
+
+Just look at that photo.
+
+That's a busy conference and it's not like this conference where you know what where to be at what time.
+
+There's so many sessions happening at the same time, so you want to go to sessions that are of interest to you.
+
+So we launched an agent for them in partnership, and these are the screenshots live from that experience.
+
+Where you could ask, 'Hey, I'm interested in AI' or 'I'm interested in the environment?'
+
+Can you help me get to the right sessions?
+
+And notice these prompts are in natural language - they're not using keywords.
+
+Scripted conversations.
+
+A bit like that chat explore experiences that we can see, and it could take action.
+
+So not only are they going to surface information for you, it can actually book you into those sessions as well.
+
+And the last story I'm going to leave you with here is remarkable, innovative paper tablets.
+
+They really experienced some rapid growth and they wanted to maintain that white glove customer experience that they wanted to provide.
+
+But doing that was hard because customer support requests went through a massive surge.
+
+So they built an agent called Mark.
+
+Mark is available on the Contact Us page.
+
+So different brands hit different strategies.
+
+Some will have it at the front center of their website.
+
+Some might have it on the Contact Us page.
+
+There are agents in every brand experience that we're seeing.
+
+So you could contact Mark. And they've seen great results as well, with really great deflection scores, meaning that they're able to really help their customers.
+
+Some of the more pressing issues that they have.
+
+So that was a really whistle-stop tour of what we're seeing in the realof customer experience and with agents. And really, if you think about the five attributes to an agent, you know if you can describe the jobs to be done with the agent.
+
+The platform can.
+
+Really do it for you through no-code, out-of-the-box tools. But also if you want to develop them, you can do custom ones too.
+
+I mentioned a couple of use cases.
+
+Today, we have hundreds of use cases, so feel free to scan the QR code if that's a thing in Korea, and you'll see a link to all the use cases. Across different industries.
+
+These are out of the box, ready to use, ready to ship.
+
+Of course, you can design custom agents as well, and custom agents.
+
+I'd like to close out and just say it was wonderful to be here with all of you today.
+
+If you're interested in more stuff that we're doing, that was just a sliver of some of the innovations of Agent Force.
+
+We have our annual conference coming up with over 40,000 attendees across three days in San Francisco and we have over 1,200 sessions packed there.
+
+No keynotes. It really is a bit of a tech festival.
+
+Would love to see many of you there.
+
+And if you can't make it, of course, you can stream online on salesforceplus.com as well.
+
+which is our broadcasting channel.
+
+Now, thank you so much for your engagement today.
+
+I hope that was insightful and I'll be sticking around if you've got any questions.
+
+Thank you for listening.

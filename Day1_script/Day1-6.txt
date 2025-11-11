@@ -1,0 +1,420 @@
+# AI 광고 추천의 혁신: 멀티모달 LLMs로 정밀하게 고객을 찾는 기술
+- 발표자: 제지안 펭 (스냅)
+
+Hello everyone.
+
+Good afternoon.
+
+My name is Zhejian Peng.
+
+I have been working on recommendation for the past five years.
+
+First and foremost, I want to sincerely thank all of you here in Seoul Meta Week,
+
+It's an incredible honor to be speaking in this vibrant and innovative city.
+
+flying 12 hours from San Francisco.
+
+Definitely worth it.
+
+I'm grateful for the invitation and your presence here today.
+
+So let's dive into the topic Next-Gen Recommendations: Interactive Recommendation with Multimodal-LL
+
+So you guys have been hearing about a lot of chat-based applications today, right?
+
+So let's talk about that.
+
+So let's talk about how recommendation differs.
+
+With modern advancement on.
+
+Interactive Recommendation system represents a new paradigm, one where recommendations are driven not just by past engagement, but by actual conversation with users.
+
+Unlike traditional systethat heavily rely on
+
+User engagement data like watch time, clicks, likes, sharing and so on.
+
+A chat-based interactive recommendation system can actively gather information from your chat history.
+
+And users have the ability to alter the system or steer the recommendation system in a significant way. Through chat interface, users can express preferences, refine suggestions and steer the experience in real time.
+
+Today I will walk you through how such system works.
+
+And including some technical details to improve and core technical challenges to improve such system.
+
+And finally, to wrap up, I will share some key trends I'm seeing in the industry and some of my vision.
+
+How this technology evolves with AI in the past five to 10 years.
+
+Let's start with the system overview.
+
+So as you can see, this is a very simple overview of how this system should work.
+
+Everything starts with a conversational chatbot.
+
+And there's an information extraction module where the LLM will actively review your chat history and extract key information for recommendation.
+
+And finally, they will organize that information and write it to a distributed key-value storage.
+
+where user ID is used as a key and there's a JSON string that can be used for the recommendation system to act on.
+
+And you can see the conversation chatbot, information extraction, and the organized information async write, read and write components.
+
+They should be done offline, and the rest of the components are done online.
+
+This design choice is made such that the critical delivery path for the recommendation system will keep a low latency budget.
+
+And finally, today's talk will have a focus on the multimodal retrieval using CLIP model and how I improve that.
+
+To bring personalization to this experience.
+
+And finally, the retrieved product or retrieved videos will merge with other retrieval sources and send to a final ranking, which is a personalized fine ranking model.
+
+And then finally this.
+
+Video will be selected for impression to the user.
+
+Now let's review some of the key design principles. Our team has been thinking about this for the best user experience.
+
+OK.
+
+1st, we want to have immediate feedback on strong user intent.
+
+So this means we talk to a chatbot.
+
+We express some strong intent on liking something or being interested in something, or, for example, me travelling from San Francisco to Seoul.
+
+The system should be able to recognize my interest.
+
+Points of interest I saw should be able to capture this and start recommending the relevant content.
+
+To create recommendations based on the culture and points of interest of the city and vicinity.
+
+But should be able to surface this feature.
+
+Intuitively, this reflects user intent without explicitly showing the user how this feature works. The user should be able to just look at the page and have this.
+
+Aha moment.
+
+Now and suddenly know - like the chatting is interacting with the recommendation system.
+
+Second key design choice is no additional latency added on the delivery path.
+
+As I mentioned in the previous slide.
+
+These components can be broken down to offline and online by having this distributed key-value store.
+
+We are able to have a lot of computation or model inference done offline, such that online delivery paths are not slowed down.
+
+Because this is a very critical component.
+
+Where any drop in latency can lead to drop in top-line metrics.
+
+3rd design choice is that the chat responses are natural and human-like.
+
+Imagine how your experience is with the chatbot, where the words come out one by one.
+
+1.
+
+We made an explicit design choice to not do that.
+
+Instead we generate the response at once and make sure to prompt the model to generate concise responses so that it feels a little bit more human-like.
+
+And finally, the fourth point is generation safety and content safety.
+
+This is often overlooked for user-facing applications.
+
+So this is very important for any user-facing application such that the content you returned or respond are safe and safe for the user in the community.
+
+For this part, we fine tune the Ram model to guard user input and model output to ensure content safety.
+
+Second, now, this is the Agent Execution DAG for the information extraction component.
+
+So as you know, this is a chat-based app, so we use LLM to understand the chat history.
+
+And I also mentioned the key design choice: we want to have low latency overall, therefore we break this into multiple large language model calls.
+
+So if you look at the second layer of this, you start with the key phrase extraction, user intention understanding, information extraction, and the safety check.
+
+All those are running with different models in parallel.
+
+And the advantage of that is first, we're able to train, test, and evolve different model components for each different task, and have a golden evaluation set such that each component can be iterated separately.
+
+Second, we're able to choose the model wisely.
+
+Depending on the task, such that the most appropriate model is used for each task.
+
+After the second layer is a task selection layer that's basically a fine-tuned classification model with different tasks we defined.
+
+For example, if you tell the system that I want to learn more about Seoul culture, it will recognize the 'learn more' phrase and classify this task to show more videos about Seoul culture, Korean culture.
+
+So that's something that is done in the task selection part, and finally all this information is organized into a generated JSON to control the recommendation system.
+
+So this JSON string is where?
+
+Written back to the KV store.
+
+The big circle part can be read by the recommendation system in the key delivery path.
+
+Finally the response was sent back to the user to keep the conversation going.
+
+Now, with this system, I think as far as we have gone so far, we have a good understanding of how this system works.
+
+Now I'm going to dive into the key components of this.
+
+That's a CLIP model.
+
+where we enable finding relevant videos based on the text.
+
+So now, this is a relatively old paper.
+
+Back by OpenAI in 2021.
+
+I will start from here and gradually build up to what we're working on today.
+
+So this is the whole text-to-image CLIP architecture.
+
+CLIP is basically a contrastive learning framework that maps the text embedding and the image embedding to the same space, such that the text...
+
+so that you can search the image using text.
+
+Basically, that's what it does.
+
+So here we want to build a text-to-video model but we can start from a text-image model.
+
+So, initially, this CLIP model was pre-trained on 400 million text-to-image pairs, and the loss function used here is called Info NCE loss.
+
+the NCE.
+
+The InfoNCE loss is working, but the NCE dot product represents a similarity between text and the image embedding.
+
+So all the positive pairs are organized diagonally.
+
+Oh, actually the slice color is not correct.
+
+So if you see the slice carefully, the diagonal is blue color.
+
+Just a pulse-wise. And all the pairs in the horizontal or negative pairs, those are organized diagonally such that every batch have a positive and negative pairs. And feed into the system.
+
+And one thing I want to highlight is this influence loss.
+
+There's a
+
+There's a temperature parameter as a denominator.
+
+That's a very important parameter. Actually it controls how much the model penalizes hard negative samples.
+
+The smaller temperature makes harder negatives more penalized, and makes the training overall converge faster, but less stable.
+
+A larger temperature smoothes out the overall loss function and has slower convergence.
+
+And possibly underfitting, so actually to achieve the best result, we tune this very carefully.
+
+There are two ways to do this.
+
+One is that we can have this as a trainable parameter.
+
+The type can be a trainable parameter, and the model can learn that automatically.
+
+The second way is we start with.
+
+The relatively large token, and gradually decay.
+
+It's a small token. This way, we can have the model learn.
+
+Overall distribution first, and then focus on the hard negatives in the way it works.
+
+Usually takes multiple rounds of experiments to find the best paradigm.
+
+Now this is a working solution for text-to-video because we can just use one image to represent the video, right? The main image.
+
+However, this is nowhere near the optimal solution.
+
+From there we enter the second stage where we added the visual transformer to this component such that we replace the image encoder to a video encoder.
+
+So how are we achieving this?
+
+So if you look at the plot on the right carefully, you can see there's.
+
+On the right half, there's a linear projection of Feature Patch, where it maps the image to a linear layer.
+
+And then there's a positional encoding.
+
+So basically, we sample frames from the videos and then send those images to the Vision Encoder and add positional encoding to inform the model how those frames line up.
+
+Because transformer architectures are intrinsically order agnostic, without the positional encoder it doesn't know which frame comes first.
+
+It needs to have this positional embedding to tell the model which frame comes first.
+
+So initially with this model we used a constant frame extraction.
+
+So think about video.
+
+10 seconds.
+
+We can extract 1 frame every second.
+
+That's a perfectly fine solution and workable, but it's nowhere near optimum because for a video sometimes the action is more intense in some parts, right?
+
+So we later adopted a called Adaptive Keyframe Extraction technology.
+
+Where more frames are extracted when there's more action happening, we identify through optical flow.
+
+Since that's not the key point of this presentation.
+
+So I will leave that part and go to the next section.
+
+So yeah, with the Adaptive Keyframe Extraction, we're able to train a well-working CLIP model, but there's some part ng in this.
+
+So, going back to the beginning, where I mentioned, recommendation is all about personalization, right?
+
+But this type of training framework itself lacks knowledge in personalization and lacks human preference.
+
+Because when we prepare the training data.
+
+Because when we prepare the training data.
+
+Those positive pairs.
+
+They are very similar in terof content. Like if you look at, I don't know how many of you can see short-form videos, but if you do, you can see some of them are very similar in terof visual content.
+
+Therefore, it's very hard for the model to learn human preference.
+
+And that's where the
+
+The key part comes in: how do we improve the model to actually bridge the gap?
+
+There are two things we've done here.
+
+1st is that we collect a bunch of unsupervised data. This type of search user faces when users enter a search query.
+
+You will come up with multiple videos.
+
+This is very common in many search platfor
+
+And often you will engage with one of the videos that brings us, that gives the system a very clear signal that you have a preference on the video engaged over the field that's shown to you.
+
+So this is very valuable data to tune the click model to capture the schema level preference. Because for the video you searched, you know that they're already similar because you enter query to search them.
+
+They're already similar, but now you click one of them, that means you have preference in this over others.
+
+So this is another layer of data we use to fine-tune the model.
+
+And the second layer of data we use to fine-tune the model is we have a human-labeled query to video preference pair. So a human agent is being given a text query and two videos.
+
+They will label one positive, one negative, and those pairs are used to form the model fine-tune to support model fine-tune.
+
+So this is the key method we use to give the CLIP model human preference, and I think this type of method can be used in other types of models as well.
+
+Whatever that fits your need in your use case.
+
+Now, second point: personalization.
+
+So human presence does not equal to personalization.
+
+So human preference is how we all think. Like it's collected over everybody's preferences, but it doesn't represent personalization.
+
+Therefore, we add a personalization model to this.
+
+And it was. If you look at this plot carefully, in the merge score with U2I model part, U2I means user to item.
+
+Item here usually means video.
+
+So this is another model that's trained similar to CLIP architecture but trained on user engagement data like clicks, sharing.
+
+In comments, such positive actions. And this gives the score for personalization because user represents you as using the platform.
+
+It specifically represents you.
+
+Therefore, we combine the score of U2I to the tweet model to give the system an understanding of personalization.
+
+This in our experiment.
+
+This shows it improves our engagement metrics by using just.
+
+CLIP model.
+
+Now finally we have this safety fine-tune for safety component. As I mentioned previously, safety is always very important for any user facing, for any user facing application. In this case, we internally have a dictionary of unsafe words and we also have human pipeline, human labor to.
+
+Label unsafe contents and we use this as a fine-tuned data to fine tune on the LLaMA model.
+
+Make sure the packs generated.
+
+By then the GPT models are safe and safe to show the user.
+
+So this is another important component, and we also use LLM to generate a lot of new training data.
+
+pair based on the dictionary.
+
+So it's kind of like, tell the LLM to generate different unsafe examples based on the dictionary so that it can better fine-tune the model.
+
+So combining all these points.
+
+This gives us a well-functioning, chat-based system.
+
+Where it actively captures information in your chat history and starts steering and altering your feed page.
+
+Yeah, so that's what we have so far.
+
+So I want to also talk about.
+
+What's the implication of this in, say, in the next 5 or 10 years?
+
+So, first thing I observe is that content consumption is shifting from human generated content to AI.
+
+generated content.
+
+So think about how just myself, I start to spend a lot of time on ChatGPT daily to ask questions, to get help, to ask strategies.
+
+Help me to write stuff or ask for recommendations.
+
+Attractions around Seoul.
+
+So this is a clear direction where the content consumption is changing from user-generated content to AI-generated content.
+
+From recent statistics, we already know that.
+
+Snap's My AI bot is available to our 800 million active users and OpenAI's ChatGPT also has reportedly surpassed 8.
+
+100 million weekly active users as well.
+
+So there's a clear direction where current generation AI systeare not personalized enough.
+
+So, the current way for personalization is using memory modules and tracking your conversation history.
+
+And to give a little bit of personalization.
+
+But it's nowhere near the level we want. So I think that's one direction that.
+
+The technology is going to evolve to where the generation. The base generation model will have some personalized component, will have some like personalized parameters.
+
+Embedded into them. The second direction I want to mention is that in traditional recommendation tech stack we heavily rely on this cascade modeling.
+
+where there's a retrieval stage, there's a rough ranking stage, there's fine ranking stage and the re-ranking stages multiple stage and each.
+
+Of the stages are separate models.
+
+So if you think about this, you will notice that the actual
+
+Computation utilization is actually very low. Because for every stage there's a lot of candidates, and only a few of them pass to the next stage.
+
+and if the alignment is not right, a lot of computation is wasted.
+
+Therefore, a generative-based content.
+
+Recommendation process might be the next direction where more computation power can be used to have an end-to-end solution.
+
+Just recommend.
+
+Just generate whatever you're going to see next.
+
+Just generate the content instead of going through this cascade modeling.
+
+So the key highlight here is the computation utilization might be better.
+
+Yeah. And I think that's the two directions I want to share that I see coming in the next few years.
+
+Thank you guys for your patience, that wraps up my presentation.
+
+Thank you.

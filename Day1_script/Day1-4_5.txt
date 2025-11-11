@@ -1,0 +1,1013 @@
+Will it work?
+
+Let's make it a little louder with applause.
+
+Alright, welcome, we are excited to be here.
+
+Thank you for having us.
+
+We are excited for this panel and we've got a great lineup here for you.
+
+We have Ram, Geston and Yohan.
+
+Thank you for being with us.
+
+Let's first just get an introduction of who you are and what you do.
+
+What you're passionate about.
+
+And we can jump in from there.
+
+So, Ram, go ahead.
+
+Awesome. Good to see you guys again.
+
+I'm Ram.
+
+I'm one of the core contributors at OpenLedger.
+
+We aim to be an AI blockchain that enables users across the globe to monetize data and build better AI models.
+
+We've been in the space for close to about two years.
+
+I've personally been in crypto and machine learning over the last 10 years and built a large organization about 200+ employees across the globe, did about $40 million plus revenue, and OpenLedger is a product that has been in development over the last two years.
+
+I mentioned, and it's something that we want to do.
+
+public code for AI and I'm glad to be talking about that over here. Thank you guys.
+
+Hi, I'm the VP of gaming for Protocol.
+
+I basically lead the AI and gaming arm in Virtual World Call, where we form a joint venture with Sovereign. The engine is called Ready Gamer, whereby the virtual protocol provides the AI framework to the games.
+
+But at the same time Sovereign also helps in the integration of...
+
+The framework into the games.
+
+So our current focus is actually building modular AI agents for games.
+
+In terof whether to monetize the game, to onboard or to enhance player experience.
+
+Hello, I'm Yohan actually.
+
+Great to be back in, you know?
+
+So I met at Seoul Meta Week last year I was speaking for The Sandbox, but this year I'll be speaking for Gaia.
+
+So I'm currently with Gaia.
+
+Gaia is an open source decentralized network that provides infrastructure, compute, and inference tooling that's needed.
+
+To create, deploy and monetize autonomous AI agents, we are basically trying to build a decentralized ecosystem to support applications that learn, improve, and grow over time.
+
+Yeah, personally.
+
+Speaking, you're coming from the gaming background, he mentioned about gaming.
+
+But yeah, coming from the gaming background, my expertise is in structuring go-to-market strategy for crypto projects in Korea.
+
+And eventually help them scale across the APAC region.
+
+Yes, thank you.
+
+Wonderful. I love hearing all of my favorite buzzwords coming out.
+
+We're talking about decentralization and blockchain.
+
+There's so much to talk about around Web3.
+
+And AI, I've been coming to this conference for three years now. By the way, my name is Josh Drean.
+
+I am the co-founder of the Work3 Institute and co-author of the book 'Employment Is Dead: How Emerging Technologies Are Revolutionizing The Way That We Work', published by Harvard Business Review.
+
+And I get very excited about these emerging technologies.
+
+Web3 technologies specifically and how they are.
+
+Revolutionizing.
+
+Everything. You know, the first time I came to this conference was four years ago.
+
+And we were talking about the metaverse, and we were talking about Web3, and I think a lot of times those terblended together and we weren't quite sure what Web3 was.
+
+What is the metaverse?
+
+So first and foremost I want to ask.
+
+Where are we at with Web3 today?
+
+Even though the hype has kind of died down a little bit, where do you see these technologies taking us, and why is it important to continue to pay attention to Web3 technologies?
+
+You want me to start, please?
+
+So I think now is the time for Web3. That's what I would think.
+
+I wouldn't say it's tied down because there's so much that's happening across various technology across the globe, right?
+
+Let's talk about AI itself.
+
+A lot of people need to think about responsible AI, and responsible AI starts with making sure that.
+
+We don't have like one single centralized party.
+
+There's like one kill switch, right?
+
+How can they do that? The best way to do that is to make sure there is a decentralized system that enables that to happen.
+
+And Web3 enables in three different ways for AI or other technologies as well.
+
+The first most important thing is resource.
+
+We enable users to have resources across the world in a much more subsidized way compared to these traditional methods.
+
+Right?
+
+We started with compute, right?
+
+Most of the compute problem was solved by three companies by providing decentralized compute at a very low cost.
+
+Because they were able to amass resources across the globe and make people contribute.
+
+compute.
+
+Another one apart from this optimization is verification, right?
+
+I spoke about this. Most of the AI today is a black box.
+
+You don't know how these AIs work at all.
+
+Any output that you get from a model, you have no clarity about the data that goes in.
+
+You have no clarity about how the data is actually transformed into action output. Web3 systelike ours enable that to happen.
+
+We make models much more open than being opaque.
+
+Another important aspect of Web3 is that, because of its decentralization, there's natural unbiasedness, right?
+
+Most of the AI systetoday are biased, biased either on Western culture or biased on a particular aspect of that company that's building them. The decentralized nature...
+
+And makes it unbiased.
+
+I think these three are very important for any kind of emerging technologies.
+
+Let's take AI today.
+
+Tomorrow it could be AI You need to have a system which is not controlled by a bunch of people.
+
+It happened on the Internet.
+
+That's one of the reasons why you have major companies ruling the internet with AI.
+
+We shouldn't do that because AI is much bigger than the Internet.
+
+It's going to be like electricity, right?
+
+It's going to be part of everything that we do. So, if you want to make sure that AI is responsible, we need to have it as decentralized as possible.
+
+That's one way that they can add value to this ecosystem.
+
+Yeah, I really love that. Trustless trust is all about the unbiased element of what you're talking about.
+
+I guess I'd love to hear it from a gaming lens a little bit.
+
+You know what?
+
+Why is Web3 important in the work that you do?
+
+I think for me in gaming is when we say Web3 gaming. But what people don't know is that when Web3 games plan for to develop a game, they shouldn't just look at the Web3 audience, but they should look at the Web2 audience because.
+
+We're looking at, you know, the billions of gamers out there and then just like few millions in Web3 gaming.
+
+It also helps a lot with AI now because we can build AI that can actually execute smart contracts and, you know, look at on-chain logics and not just backend logics.
+
+So if you take a look like, for example, if you were to build an AI companion for a game, right?
+
+The AI companion can do so much more than just what was being programmed.
+
+So for example, if we have like an on-chain marketplace, I can tell my AI companion that I want to sell this.
+
+You know this item at price A, but if let's say that, you know, if it keeps certain below certain supply. If let's say there's only less than five in the market,
+
+I want to like increase the price by 20-30%.
+
+I don't have to like keep.
+
+You know, monitoring it, but my AI companion can do it at the same time.
+
+That database might be able to monetize.
+
+It is that, for example, if because AI can now perceive the environment, they're able to actually compute whether you know what is the best weapon to buy on the marketplace.
+
+Rather than, you know, trying things out, you can ask your AI to compute it for you.
+
+Fun fact, I should do it with Chat GPT, but I have to type everything you know by myself on the ChatGPT.
+
+Actually ask them to complete for me, but now you can have an AI companion that can perceive the environment as you do computation for you.
+
+So I think with on-chain logic, there's so much more that AI can do at this point, rather than just trading and everything. But on gaming, things will make it so much fun.
+
+But it also takes time to develop because besides doing it on-chain, we also need...
+
+to see like what kind of programming language that the games are using.
+
+For example, they're using Unreal, Unity, or like that on Roblox they're using Lua Scripting.
+
+So we need to optimize all these AI agents for their programming language at the same time,
+
+Which chain are they on?
+
+We have multiple EVM chains.
+
+Solana and currently I think Move language as well.
+
+So yeah, it takes, like, I think, at least one or two years before we see like, a very good PMF on the AI gaming front.
+
+Yup, yeah.
+
+It is exciting though, because we are moving from...
+
+Here are the games that we play to reverse.
+
+In my mind, right?
+
+Whatever we call it down the road is, how do we infuse?
+
+What we have with AI?
+
+How do we make it seamless in the games that we're playing?
+
+And I love what you said about, like, ChatGPT is fine, like, it'll do it today, but you do have to type it in and get the response back.
+
+What if it were an integral part of the games that you play? And that brings us kind of full circle around what we can do.
+
+And Johann, I'd love to hear your answer to that question.
+
+I think that, you know, going back to basics, if we think about what the Web1 was, it was, you know, Web1 is read, you know, Web2 is read and write, Web3 is...
+
+Read, write, own. So like convergence of Web3 and AI, you know, we get to actually own AI agents.
+
+It's not just using AI agents.
+
+So one of the solutions that Gaia provides is that you get to, you know, give identity to AI agent through domain, and you can prove that you're owning it.
+
+So that you can monetize.
+
+Or utilizing that AI agent and sharing that with others.
+
+So, you know, as a signaling, you know, incentive is also a big part of this. Because with the existing model, you know, not all the contributors and participants or users can get incentivized to being part of the AI ecosystem.
+
+Because there are so many intricate contributions and with...
+
+The intricate contributions with the existing system, it's hard to reward them.
+
+So by using tokens.
+
+It's a way to incentivize all the contributors within the ecosystem and in the system.
+
+So, you know, I mentioned that, you know, Web3 is, you know, read, write and its own. But I think because of AI, we are in the nascent stage of jumping into Web four stage.
+
+Actually, watch out for Web 4.
+
+Yeah, Web 4.
+
+So I think it's gonna be Web 4 AI, you know, I think Web3 can evolve into read, write, own and think.
+
+So I think that's what AI brings to Web3, and how Web3 helps AI become more decentralized and spread responsibility.
+
+And really incentivize all the contributors and.
+
+Other things in regards to privacy, data and also preventing bias. I think Ram mentioned them. Yep.
+
+We're already talking about Web 4. Here we go.
+
+You heard it here first. So one thing that I find is there's a dichotomy when we talk about decentralization in Web3.
+
+3.
+
+What we're trying to say is we want to make this unbiased.
+
+We want peer-to-peer.
+
+We want a trustless system.
+
+We kind of removed the middleman so that we can trust it, so there's a trust element. On the other hand, we have AI emerging so quickly and it is disrupting so many jobs.
+
+so many industries.
+
+I think the fear is that we can't trust AI, or how do we trust AI?
+
+Especially if it gets into the hands of, you know, a few powerful people who get to make the decisions.
+
+They get to design what algorithwe see, what AI.
+
+So I'm curious to hear from you.
+
+How do we bridge the gap of Web3 moves us closer to trust and AI?
+
+How does AI support us as we move into that world?
+
+Ram reaches for his microphone.
+
+You can go ahead.
+
+I think the biggest challenge over here is Web3. Companies have to make sure that they build a product which has a product market fit, right.
+
+It's not like AI companies do not want to explore.
+
+Web3 syste
+
+Web3 systehave been really talking a lot about decentralization. But decentralization is important only if the product is made useful because of that, right?
+
+And AI, if you take a look at it, we spoke about how there is a trust problem.
+
+That's a big issue. If you want to have a healthcare system use AI, you want to make sure that the entire AI system is auditable, right?
+
+OK.
+
+Sure, let's say charge.
+
+Everybody says that I'm going to provide you all the rehearsal.
+
+What data it went through, how this answer was brought in.
+
+You can go ahead and use that, but is it possible, right?
+
+Is it on an enumerable record, you know?
+
+So that's why blockchain comes in, right? Where we can make sure that whatever is said as an answer is stored on an immutable record, that it can be verified.
+
+Anytime. Having that in a technology like AI is very important because.
+
+Of how it's going to impact each one of our lives, because it's not just going to be used in healthcare, it's going to be used in finance.
+
+It's going to be used even on the cab that I'm going to book, right?
+
+So making sure.
+
+This AI is responsible. Making sure this AI is open is what?
+
+You know, the next big thing that needs to be focused on, right? As AI starts to go, which is really very fast, the companies have to catch up, make sure they build systethat are making these models open.
+
+and then, you know, kind of like trustless, right?
+
+And what we've always brought in from a Web3 company is fairness to other technologies. If you take a look at Decentralized Finance DeFi,
+
+It was a huge range.
+
+And the reason why it was a huge rage because it supported so many people who were debanked, right?
+
+I've heard stories where people have been debanked for no reason, because they spoke against the government or they did something wrong.
+
+How can we enable people to have better financial management?
+
+How can we have people own their finances?
+
+Not worried about any kind of red tape that is there.
+
+That is what DeFi made sure happened.
+
+A lot of people got enabled because of DeFi.
+
+We could do that for AI as well, right?
+
+We could build better systefor AI. We can have rails on top of which traditional AI companies can use and make sure they're open.
+
+I think it's all about the change.
+
+It's all about the mindset as well.
+
+Previous generations did not care about data privacy.
+
+Care about ownership because they wanted convenience better than, you know, actual privacy. The current generation is a bit different.
+
+We all have been educated a lot.
+
+We've known about what's happening on the Internet.
+
+We've known that larger organizations have been consuming our information, our data.
+
+We don't get any kind of benefit out of it.
+
+We know that there is no transparency. So it all comes down to the mindset. If we want something to be open, if we demand for it, it will happen. And so it comes down to the builders for building it and also the consumers that use it.
+
+Well, yeah, I think that's interesting because...
+
+In my conversations,
+
+in theory we want it to be open and we want to adopt the mindset in practice.
+
+In theory, it serves the masses, it serves many more people.
+
+In practice, what we see are these powerful leaders, these powerful CEOs who have control of AI.
+
+That's, you know, you see Sam Altman.
+
+Saying the most radical things, you know, because that gets headlines.
+
+We see Elon Musk.
+
+We see Claude with Anthropic and so there are.
+
+There's a race for AI right now.
+
+And so I guess what I'm highlighting and Johann, and guessing you can weigh in on this as well at one point. I know that what you're trying to say is that we all have ambitions, but it really comes down to actual implementations, right?
+
+So, but if you take a look at one particular organization that you worked with, which is, how does e-commerce?
+
+They wanted to use AI in their product.
+
+But the biggest bottleneck is that it was not having any kind of auditability, right?
+
+They decided to use us so that they.
+
+Can trace and make sure that any answer that comes in. They have a complete auditability of where the data came in and how it was used in the model.
+
+And what the context it got and what was the answer.
+
+Now all of that is on chain and they can verify it anytime.
+
+So it comes down to the organization that's going to use AI.
+
+For the AI to be responsible, they force the AI to be open.
+
+Everyone will change.
+
+Larger organizations will change, so it comes down to who uses it and what the demands are as well.
+
+So that's where we're at right now, right?
+
+is we have, you know, let's say a CEO of a large organization who recognizes that.
+
+Web3 technology will decentralize their power?
+
+And it will allow.
+
+Decision makers to come up from the bottom for the first time ever.
+
+How do we convince them?
+
+That one, you need decentralization, and two, we need to use AI not just for the good of your company and the shareholder value.
+
+How do we do it for the masses?
+
+You know, this is the discussion that we're having.
+
+Yeah, of course.
+
+I believe that.
+
+It comes down to...
+
+I think it matters.
+
+I let others also add, I don't want to take over the stage. But I think it comes down to the mindset of people, how they want to be part of it.
+
+how they want to contribute to something and be part of something which is larger as well.
+
+Comes down to that.
+
+It also comes down to education as well, right?
+
+One big problem with Web3 is that it's not abstracted enough.
+
+It's too complex, right?
+
+If you can abstract and make things much easier for people to adapt and use.
+
+I think that will just cause a lot of people to start using these, experimenting with these, and once they do, OK, using Web3 system means I'm gonna own my data, I'm gonna get rewarded.
+
+I'm gonna be part of the larger good, then. I think more people will participate as well.
+
+However, I think whether an organization actually integrates Web3 or even AI, the CEO or the board needs to weigh the pros and cons.
+
+Any other comments to add?
+
+Right, because not every single industry requires it.
+
+AI Web3,
+
+I think that's something that people need to look at.
+
+So for example, why we have a separate JV for the gaming arm, called The Game between Virtual and Softland, is because if you were to work with Roblox, they actually don't allow.
+
+Tokenize itein their ecosystem, or even work with projects that have tokens, right?
+
+So we need to keep it separated, whether we're a regular company or Web3 company, but actually, AI works in both.
+
+So that's, you know, my two cents. I forgot.
+
+What's the most umbrella question?
+
+Already?
+
+And Yohan?
+
+So, yeah, no, that's really helpful.
+
+I wanted to ask about...
+
+Because you're working through decentralized AI execution and there's so much promise there.
+
+And when we talk about proof of concept, like this is where we could be. But in terof full-scale deployment, we're still working through some of those challenges.
+
+So I'm curious.
+
+So I'm curious, specifically, what are some of the limitations and what are some of the promises of decentralized AI execution?
+
+I mean, I also wanted to chip in to the previous.
+
+Please, we can keep that one hot.
+
+So I think that, you know, when we think, when we talk about Web3 AI, you know, we tend to think that, hey, this is gonna change the world in couple of years. But I think it's not about replacing, you know, what's already there or change.
+
+the minds of these big corporate CEOs.
+
+But we just want to provide an alternate option.
+
+To users that hey, if you care about privacy, if you care about data, if you care about incentives, if you are against biased answers from AI, this is an alternate option that you can have.
+
+You don't have to always go for this. You can use this just like cars.
+
+There are gasoline powered cars.
+
+There are battery powered cars, so depending on your preference, you know, you can use.
+
+But at least we want to have options.
+
+But you know, at the end of the day, I think AI and Web3, blockchain to be more specific, I think they're very compatible.
+
+Because if you look at the essence, the focus is on, you know, control and efficiency.
+
+But if you look at blockchain, it's about decentralization and spreading the responsibility.
+
+But it can be slow.
+
+But I think when they're converged together, I think it works to the benefit of, you know, both sectors.
+
+Because AI, while maintaining its control, is still again,
+
+you know, shares responsibility and, you know, networks and checks and, you know, keeps it accountable.
+
+At the same time, we can help blockchain technology to stay relevant and also help it not to be fixed to a set of rules.
+
+But we also help this blockchain technology with the convergence of AI to learn from the real.
+
+world, what's happening in the real world?
+
+And, you know, adapt and make decisions.
+
+You know, that are more human.
+
+Yep, so interesting.
+
+I know you just kind of threw that out there at the end.
+
+But decisions that are more human.
+
+So Geston and Ram, I'd love to hear you weigh in kind of on what he mentioned,
+
+How can we use Web3 to hold those using AI accountable?
+
+Using Web3 to make sure that anyone who uses AI does it in a way where we can make sure the models are explainable, right?
+
+I spoke about this. I think we've had a couple of discussions on that as well.
+
+All these AI that we're using, let's say, used for any kind of sector, everything will have a particular outcome, right?
+
+If it's going to be used in healthcare, it's going to be used by a doctor who's going to prescribe a...
+
+You know, medicines to you. And then if it's going to be used by someone who's going to be, let's say, a psychologist, it's probably going to be used to guide you on your life.
+
+It's going to be used by a counselor about your education.
+
+It's going to change the way you're going to learn about something.
+
+So all of this has very good impact and larger impact in our lives.
+
+And it's not going to be just human anymore.
+
+That will be interacting.
+
+It's going to be human plus AI.
+
+And this we want to make sure. Apart from enabling people to get rewarded for the data that they provide, we want to make sure this AI is explainable as well.
+
+Right?
+
+And what do we do with that?
+
+Right?
+
+Every time an AI makes a decision, it's actually based on the data that it's been trained on.
+
+And what it has as a context of that data, right?
+
+Let's say you both, we both of us will go ahead and read a document, right?
+
+And it's the same document that we both are reading, but the context of me understanding something is different from what you understand as well, right?
+
+You would interpret it a bit differently from what I would, because our upbringing is different.
+
+What you've learned in life is different.
+
+My culture is different.
+
+Your culture is different and stuff.
+
+Very similarly, AI's context changes every time based on the AI that's been used.
+
+So we want to make sure this AI is experimental.
+
+The decisions that AI makes, we can go back and track back to the core of data where it came from.
+
+And what cost is AI making that decision?
+
+Giving you that output.
+
+So I think that's very important once AI gets into a lot of sectors. Having AI more explainable, more clear, more auditable will also make sure that right datasets are added.
+
+If the AI makes a good decision, there is more data that's added.
+
+If it's a bad decision, then.
+
+That's poisonous data.
+
+We enable the data to be removed as well.
+
+So I think that's how open nature, that's another part of OpenLedger apart from rewarding data contributors.
+
+No, I guess I think accountability.
+
+Accountability actually lies in the public logic, and also like, what's the publicly auditable behavior?
+
+So for example, with Web3 we do have the blockchain, right?
+
+Every action is being recorded on the blockchain, so we can trace back who is actually accountable, right?
+
+And another thing is that smart contract actually acts like a gate, so AI can be very creative.
+
+In what they want to do, but if they cannot execute it, then there will be no consequences.
+
+So there are smart contracts in place to ensure that.
+
+So the AI can't just do whatever they want, right?
+
+So I think, yeah, to me, it's on the blockchain being a ledger.
+
+Another one is smart contract. Being able to be creative, but their execution is structured.
+
+Via smart contracts help.
+
+Let's dig into that a little bit more because the power of the OpenLedger, as well as smart contracts.
+
+I understand that it's immutable and that it is something that everyone can see.
+
+Help me understand, or give me an example of what that looks like to help regulate AI, or to be able to see, to put parameters on it.
+
+Whereas Ram was mentioning how do we kind of peer into what it's doing and how it's bringing its data?
+
+Forward.
+
+So we've seen this with an implementation, right?
+
+There's a bunch of doctors who are building an AI model around sleep data, right?
+
+Collecting sleep-related information from various parts of the world across races, and building a healthcare model on top of Open Azure.
+
+So when you use that model as a user, you can upload your sleep information.
+
+It's going to tell you what symptoyou might have, like potential diseases you might have, and how to basically collect all of the sleep data. They've also collected body vitals related to your sleep pattern on that particular day and they're forming a
+
+pattern around this, forming sort of like an understanding of how your sleep affects your health as well.
+
+And the answers given by this model will enable you to figure out what potential symptoyou have.
+
+And then probably consult a doctor later on.
+
+This kind of avoids you going to a general practitioner, and you know, you're going to get like weeks of time to get your appointment.
+
+So you can just probably talk to...
+
+And get an understanding of what's wrong with you.
+
+So, but this model, as I told you before, can change a lot of things in life, right?
+
+It could cause a good impact or a bad impact, so making sure that we can trace back to what really caused this answer is important.
+
+So what really happens if you are a consumer?
+
+Ask the question and then the answer comes in and then is shown.
+
+On a dashboard, from which part of a question was this answer derived from, and from which knowledge base is the answer given to you?
+
+as well?
+
+For a consumer, they can at least see where this data came from and how it understood their question and gave an answer.
+
+He's not going to understand every aspect of it, but he has an auditable record.
+
+This is how the answer was given. If something goes wrong, he can probably take it to a doctor and say 'I asked this question.'
+
+I got this answer, and this is how my AI actually answered it.
+
+Maybe you could use that to figure out something.
+
+So having that auditability or sort of like a dashboard, like an interface to look at is very important for a larger organization which is going to, let's say, use it for healthcare, it's going to use it for logistics, it's going to use it for making decisions within an organization.
+
+Much more evident, because an organization who needs to make decisions based on AI needs to know how they were made and where they came from.
+
+What knowledge base was used?
+
+And again in their case also it is about traceability, being auditable to where they came from.
+
+No, this knowledge base was used.
+
+That is AI and that is why we have made this decision.
+
+And they can record it.
+
+I love it.
+
+One of the signatures of Web3 is, as you mentioned, Geston, these digital economies.
+
+So I'd love to hear a little bit more about how do we unlock these digital economies?
+
+I mean, for gaming specifically, right?
+
+It seelike there's a pretty easy way to look at it now.
+
+Where it's the weapons, it's the upgrades, it's the Fortnite skins. Whatever it is, it's there. There's a digital economy that exists today in Roblox, in Fortnite.
+
+How can we leverage these digital economies?
+
+Moving forward within a company itself.
+
+Raise your hand if you want to answer them.
+
+There are AI interviews, classes, and games.
+
+It's likely what I've mentioned before with AI companies, whether we can unlock digital economies, but at the same time think of an autonomous marketplace, right?
+
+whereby if AI is actually operating for the company, they are able to buy and sell at highs and make profit out of it.
+
+As well, through dynamic pricing and everything that will unlock the digital economy.
+
+But at the same time, it can also be, you know, auditable, right?
+
+So there's no manipulating the market, there should be like...
+
+Auditable behavior and what this particular AI does is based on. For example, if there's only item A selling at like $1,000,000, right?
+
+But it also, like, maybe degrades it over time.
+
+Maybe every 10 minutes it drops 50% off, that kind of thing.
+
+So then it will create a more dynamic pricing for this kind of item.
+
+So I can only speak of it from a gaming perspective that this is going to be quite exciting because one thing is that players are able to maximize, you know, people who are willing to spend what they are willing to spend - their willing buyer, right? So some...
+
+People will buy it at half a mill.
+
+Some might not.
+
+Some will buy at 250K. Whoever is more willing to pay will grab the item.
+
+And later on, they may sell it back into the market.
+
+Maybe someone's offline and didn't manage to get the item.
+
+They have to flip it as well, so it only goes up from the developer one time to the audience and so on.
+
+Yeah, fascinating.
+
+I love that.
+
+In terof.
+
+Umm. This question is for you, Johann.
+
+And I'm curious how you are using smart contracts specifically at Gaia and what are the impacts of being able to use smart contracts in business?
+
+Yeah, so I mean to explain a bit more about Gaia jumping into the smart contract part. Because being able to kind of verify, you know what's happening within the system, you know, with the outputs coming from AI and nodes, is very important.
+
+So I mean, there are kind of two ways of doing so.
+
+One is peer validation.
+
+Because in the network there are nodes that constantly check.
+
+Outputs to make sure that they're aligned with what's been declared so that no one can cheat.
+
+And yeah, so that no one can cheat pretty much. And once someone tries to run a different method, you know, it's going to be automatically flagged by its peers.
+
+And in.
+
+In order to really make this powerful, we put incentive system and this is where the smart contract comes in.
+
+So.
+
+For nodes to get, they don't automatically get paid for their contribution, but they must.
+
+But they have to maintain high standards and execute it in the right way.
+
+So that they will be able to earn, and the way they earn is through domain-specific smart contracts, and this system helps.
+
+As domain operators and nodes, once they do things right, they can earn their rewards.
+
+And yeah, and also pretty much.
+
+And trying to think, yeah.
+
+Yeah, I'll stop there.
+
+Oh, it's good, that's interesting.
+
+Yeah, so I want to move into a bit of a lightning round here.
+
+So you get...
+
+A sentence or two on this and you can weigh in how you want to. Actually, the first question here is a one word answer.
+
+What is one word to describe the current state of AI and Web3?
+
+Forming.
+
+Experimental.
+
+They were both right, I would say.
+
+Then evolving, but nascent, or, yeah, we got 2 words, one word, 3 words, evolving, but they're all in the same context.
+
+I think. Yeah. And I hope that audience, you will take away that these technologies are like you said, nascent.
+
+Forming, experimental, and that's part of why it's so exciting - to get in now while things are being formed because...
+
+You hear?
+
+Especially around AI.
+
+That now is the time.
+
+Choose the builder.
+
+It's the, it's the gold rush, definitely right.
+
+So, for those of you who are mere enthusiasts, I would encourage you to join the gold rush and jump right in.
+
+Next question I have here for you is what is the biggest technical barrier?
+
+Adoption.
+
+For me, it would be the latency between AI inference and on-chain confirmation.
+
+I'm going to ask you to flesh that out for us.
+
+Tell us more. Geston, I think when we look at like, how, let's say, let's say you take an AI agent, right?
+
+If, let's say what it wants is to execute a trade, right?
+
+But it also needs to look at the price of that token, right?
+
+And then it takes my ticks, like 2 seconds.
+
+But the price might have changed, right?
+
+So it's, uh, accuracy is not that accurate because of the latency. But at the same time, it needs to do, let's say, hyper liquid, to do a trade, right?
+
+And to confirm takes like less than one second.
+
+But there's still a price - the price keeps going up and down, right?
+
+That's how fast Web3 is.
+
+So that's what I meant by the latency that includes in gaming as well, because of the latency of like, it takes 2 to 3 seconds to respond to a player.
+
+Things might have changed in that few seconds.
+
+That's why we are not, we are not looking.
+
+into FPS or mobile games because of how fast-paced those games are.
+
+So I hope that gives a very good understanding.
+
+Yeah, that is helpful, especially for gamers.
+
+Yohan, what do you see as the biggest technical barrier?
+
+I mean, from my perspective, I think that, you know, being ready tech is also important. But I think there are some other barriers in terof making it approachable and accessible.
+
+And also kind of...
+
+Regulatory clarity, especially when it comes to Web3 plus AI.
+
+Because when it comes to mass adoption, you know, big companies especially and if they want to get into this space.
+
+Now they want to make sure, for them to fully commit, they want to make sure that everything fits into privacy laws and liability framework and how AI governance works and things like that.
+
+So I think we are still very much in the early stages in those ter because these are all still in the experimental stage.
+
+And you know, being built at the moment.
+
+And at the same time, yeah, you know, as mentioned, tech is important, but also we want to make sure that, you know.
+
+You know they will.
+
+You know, it will be accessible to people so that there could be easy accessibility and like, you know, dashboard monitoring, AI agents and also.
+
+Yeah, like what else could there be?
+
+Yeah, yeah. Things like that, yeah.
+
+So, yep, it's so fascinating to me and we've had a great discussion.
+
+I'm looking at the last few minutes that we have here.
+
+My last question, and I want each of you to answer this briefly if you could.
+
+Where do you see us in the next three to five years?
+
+And what is a step that?
+
+Companies, businesses can take in order to get us there.
+
+Probably physical AI will be a big thing.
+
+I would see that happening.
+
+Physical forof AI as agents, where it could be as simple as a robot that's going to clean your home, or it's going to be a driverless car that takes you to our office, or if it's going to be, you know, a vehicle that's going to fly around, right?
+
+So a lot of things with AI will impact our lives and it's going to be huge.
+
+And making sure this AI is responsible and it's built as a public good is something that we need to work on.
+
+This comes down to people who are building this AI.
+
+It also comes down to people who are using this AI as well.
+
+So if you're cognizant of that and build it as a public good, I think we'll have a better future.
+
+I love that you mentioned that dual accountability there. Geston, I think in the next three to five years, autonomous businesses will mature, whereby the AI agents - there'll be multitude of AI agents working together towards a common goal.
+
+So for example what?
+
+SIP.
+
+We're building a virtual protocol with Luna.
+
+Is that a music studio cluster that has like that this music, music videos, content creation and everything under one cluster? To actually help Luna grow as IP,
+
+So that would replace the, you know, the music studios in the future.
+
+And a good thing is that.
+
+It's all on chain.
+
+There'll be token launch and people actually invest into these tokens.
+
+Every revenue used will be used to buy back the tokens.
+
+That increases the valuation of the token,
+
+So that would be a feature that I'm looking forward to.
+
+It is both exhilarating and frightening, especially for any music artists.
+
+Are clinging to the old ways, right?
+
+I think you're highlighting that there is massive change coming and it's something to look forward to.
+
+Thank you, Yohan.
+
+I think what's really important for the next 25 years is kind of to have a consensus on, you know, how we want to take AI.
+
+And to, you know, tell what extent.
+
+Otherwise, I think it's going to be just a mix of everything and just this, that company kind of going their own ways and I think, you know, that can confuse the way how we want to use AI and how things can be implemented.
+
+Real world for the real world.
+
+Use cases because for things to eventually kind of truly mature, it always has to go through the kind of ethical stage. You know, how we want to do this and how far we want to do this.
+
+So, you know, of course there are big companies that are more profit oriented, but I think they're still... You know, I think there are still efforts, and especially coming from the government side, trying to decide, you know, how can we do this?
+
+So that it's not?
+
+Going to have an impact of not replacing all the jobs.
+
+In the world.
+
+Yeah, right.
+
+Yeah, yeah. Again, something we didn't touch on is privacy.
+
+Regulation, security.
+
+But it has been a great conversation.
+
+We thank you for joining us on the panel and thank you for being here.
+
+We hope that you have a great rest of your conference.
+
+Thank you.
+
+Thank you to all four panelists.

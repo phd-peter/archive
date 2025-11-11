@@ -1,0 +1,678 @@
+# 생성형 AI 시대의 디자인: 확장성과 인간 중심 경험의 조화
+- 발표자 : 베로니카 페이통 첸 (어도비 생성형AI 수석디자이너)
+
+Hi, super glad to be here.
+
+Hope everybody enjoyed your lunch.
+
+My name is Veronica.
+
+I'm a Senior Experience Designer at Adobe and super pleased to be here today.
+
+So today, I want to spend a little bit of time to talk about designing for generative AI.
+
+So we are entering this era where the tools that we build start to shift human creativity.
+
+And today I want to talk about this foundational shift and how we can craft scalable human-centered experiences.
+
+And how design decisions can ripple far beyond the screen.
+
+So let's start by telling you a story about Ada Lovelace.
+
+So in 1841, she sat down and she wrote something that no one had seen before. She wrote down an algorithm not for a computer because computers didn't exist back then, but for a hypothetical machine that only lived in blueprints.
+
+So she imagined this machine.
+
+Maybe one day it can do more than just calculating numbers.
+
+Maybe one day it can compose music or create art.
+
+I don't think she was just ahead of her time, because the same spirit is alive today. But the scale and the stakes have completely changed.
+
+So similar to her moment of foresight, we are now in position to reimagine the very foundation of how we can interact.
+
+With this new intelligence system.
+
+So I myself, I have seen the glips of this shift on my early experiment.
+
+So a few years ago, I created this tool using a crude text-to-image model.
+
+Trying to visualize poetry, so, for example, like this one over here, like on the left is a line of poem. And on the right hand side is the output from the generation.
+
+But as.
+
+You can see the result is like abstract, beautiful, but very often it's broken.
+
+Just fast forward a few years later, and this is the result that you will get from the same prompt.
+
+So from the quality to solistic treatment, to the amount of detail in any aspect, it's just simply astonishing.
+
+So these experiments are now actually becoming a core part of how creative professionals work, how enterprises scale their content, and how brands build their experiences.
+
+The leap from a toy to a tool to infrastructure just happened way faster than anyone has expected before.
+
+Because we're experiencing this quantum leap, Generative AI isn't just a feature layer on top of existing workflow.
+
+It's a brand new type of medium.
+
+They are probabilistic, immersive, and also participatory.
+
+What used to be billed as isolated tools that follow clear instructions is now evolving into an interconnected system.
+
+That probably behaves in unpredictable ways.
+
+So in the past few years I've been spending time designing for this shift.
+
+I help design genii tools like Adobe Firefly for creators and everyday users.
+
+But working at this intersection of emerging technology, experience, design, and large scale systeallows me to collaborate really closely with industry leaders and translate that intelligence into experiences that feel meaningful.
+
+responsible, but also scalable.
+
+But more than anything, I've spent the past few years really asking this question.
+
+Like, what does it mean to design for a system that evolves while we're still trying to learn how to use them?
+
+So today's talks are really about how to design that space. And we'll walk you through how to work with AI, this new type of design material, and look within its inner logics.
+
+and also how to create experiences that still places humans at the center while we are responding.
+
+The culture.
+
+And finally, I will just close with a few ways that can elevate your practice, your team, and also your businesses, and that you can leap through in this uncertainty.
+
+but also adapts to it.
+
+So before we design AI, we definitely need to understand what it really is.
+
+Like, why is it different from anything that we have designed before?
+
+So let's start with something that all of us are familiar with.
+
+Dumplings, or mandu.
+
+we call it.
+
+Here I grew up eating these very specific dumplings that my mom made.
+
+Hand chopped, seasoned, just right. And sometimes I would just want to recreate them and I would just call her and she would just say, oh, just a handful of cabbages, some soy sauce. You know when it smells right.
+
+You know, like typical Asian mom, they never tell you the specific instructions.
+
+So over the years, I graduated from, you know, the scribble notes to cookbooks to Googling recipes.
+
+But now, today, you can do the same thing more than anything.
+
+You can just ask ChatGPT, right?
+
+This isn't just a better recipe.
+
+Look up.
+
+It's organic, dynamic and flexible based on your needs.
+
+So this evolution, right from the static instructions to the interactive system, is the shift that we in design are facing.
+
+So although it's built on code, it actually behaves like something biological, something that evolves.
+
+So I like to reframe AI not as a tool, but as a design material.
+
+So, just like wood has grain, clay has memory, air has its own unique textures, because it has training data, feedback loops, and unpredictable edges.
+
+And this is why when we were talking about designing for AI, it isn't just about crafting a smooth interface anymore.
+
+It's really about asking how these things learn.
+
+responds and evolves, and that's what makes it so fascinating.
+
+And let's dig one layer deeper, right?
+
+If AI behaves like a living material,
+
+Like, the data is the food that feeds it.
+
+And like any living system, AI will become what it consumes.
+
+So now let's look beneath the surface and really look into the data that shapes it.
+
+So let's take a basic classification task over here, right?
+
+Like to train a neural network?
+
+The difference between the apple and the orange?
+
+We need to feed thousands of images into the dataset and have everything collected.
+
+labeled and sorted into the system.
+
+But once you realize how the data is assembled, like you realize anything can become data, it can become...
+
+It could be a click, it could be a pause.
+
+It could be a scribble.
+
+Or where your eyes are looking, where and how much your head is tilted.
+
+Or even selecting a captcha can help feed the models' understanding of the world.
+
+So these are not just UX artifacts.
+
+I like to consider them as high resolution behavioral proxies.
+
+So what does that mean?
+
+Behaviours are translated into data that helps the model to really understand the world at scale.
+
+They shape how AI systeinfer intent, personalize outputs and also automate decisions.
+
+So for those who are building products at scale, this is where the line between strategy and design starts to blur, right?
+
+For AI-first syste it's no longer just about what the user does, but how they're doing it.
+
+So the user behavior starts to become the signal. And the way you structure UI is really critical because that determines what kind of data is being captured.
+
+So this is where design will start.
+
+Act as a critical layer for data pipeline.
+
+And lastly, data capture.
+
+Of course it does not equal to data value.
+
+This is where the leadership must rely on data quality as a competitive advantage.
+
+But here's the flip side, right?
+
+Data is never neutral, and AI systedon't always know what they're learning.
+
+And we actually don't always know what we're teaching.
+
+So probably many of you have seen this before, right?
+
+A model once mistook a blueberry muffin.
+
+For a chihuahua, it's super funny.
+
+Until the twist comes, because earlier we said data is full.
+
+But what happens if the fridge is full of junk?
+
+That's actually what this project looks into.
+
+It's called Models All the Way Down.
+
+So it looks into image datasets that are used to train large-scale AI syste
+
+So millions of them and you start to notice a very strange pattern.
+
+So children's are getting categorized as brats or woman's are being described as nannies or shop girls like photos of people?
+
+They're being shrink scraped from the internet, quietly sorted into categories that echoes the old hierarchy.
+
+Whether that's race, gender, power or class.
+
+And of course, AI being biased is nothing new.
+
+We all know that.
+
+But it doesn't stop at images.
+
+The buyers also baked into language data as well.
+
+So, in many large-scale datasets, non-English data are usually underrepresented, poorly translated, or inconsistently labeled,
+
+So that means a global voice is usually being filtered through English or lost in the margins.
+
+But even for models that were trained on English text, they also very often reflect a very Westernized tone, usually US-centric.
+
+I don't think no one person wrote these label or scored a data set maliciously, but together they form a worldview.
+
+Like one that erodes into a model layer by layer, without much questioning.
+
+And the model isn't just reflecting the world, it's actually reflecting someone's version of the world.
+
+But sometimes what's most dangerous is now what's in the data?
+
+It's actually what's been left out.
+
+So this project that hits me the most is called The Library of ng Datasets by artist and researcher Mimi Onuoha.
+
+So it's actually a physical installation. You enter a room, you see a cabinet, and the cabinet is full of folders.
+
+Each has a label with a dataset.
+
+But they should exist.
+
+They actually don't exist.
+
+So things like people excluded from public housing because of criminal record, for communities that got displaced by environmental disaster but were never reported.
+
+These folders, like I said, they are labeled but they are empty intentionally because data has never been collected or has never been deemed worthy to collect.
+
+Be valuable enough to collect.
+
+So this is such a quiet but powerful reminder of the things that we don't track.
+
+We don't protect things we don't see, and we don't design for them when we train our syste
+
+With incomplete or one set of histories, we'll risk reinforcing a future that's just as incomplete.
+
+So when we're talking about design for AI, it's really not about building beautiful, beautiful interfaces.
+
+It's really about asking what is behind the curtain and what kind of story the system is trying to tell.
+
+So let me give you an example when we were designing the early stage of Adobe Firefly. We work very closely with our researchers to audit and shape the dataset,
+
+And especially around professions.
+
+So our goal is that when someone enters a doctor or lawyer into prompt bar, the results don't just reflect the majority or the status quo.
+
+It actually shows a possibility.
+
+So what I want to show you is a moment that almost moved me to tears.
+
+So I prompted an astronaut into the prompt bar.
+
+And this is the result that we'll get.
+
+I got an Asian woman in a spacesuit and I think this might resonate with many of you over here.
+
+This representation is something that I have never seen before growing up, either in textbooks, media or just stock photos.
+
+Like it's so small but it made me feel so seen and it's just a single AI output but made me feel the quiet power of this work behind the scenes.
+
+Indeed. And, of course, it took a lot of work and a lot of collaboration to make this result.
+
+Possible because we realized we're not just designing tools, we're actually shaping the narratives that shape people.
+
+So that was a perfect example of how design becomes a strategic function. Because design doesn't just present AI, it actually shapes how data gets captured and represented.
+
+So once you have design to be an integral part of your AI system creation, you will start to see these three major transformations.
+
+So you will get to see how interface design could be translated into data pipeline quality.
+
+How user behavior can inform model learning, and, of course, the decisions that you make with the design system will determine the algorithm.
+
+make algorithmic outcomes.
+
+And as a leader, you should already know that AI skills evolve fast.
+
+But what is scale?
+
+Depends on what it learns, and the learning usually starts at the interface. So for better product outcomes, design needs to be a core part of your AI strategy.
+
+Just a layer on top because if you're not shaping it properly, you could be scaling mistakes.
+
+So now we look beneath the surface, right?
+
+The data, the training, the invisible logic.
+
+But it doesn't just exist in the background.
+
+AI comes to life when somebody interacts with it.
+
+So this is where we should start talking about users and how designers can shape the experience to make AI feel a little bit more understandable, navigable, and, ideally, just a little bit magical.
+
+So here I will walk you through three key aspects for designing for users in the AI.
+
+Control, personalization, contextualization, and trust.
+
+So these are not just UX best practices.
+
+Those are also signals of where user AI interaction is heading next.
+
+So let's start with control.
+
+Because what is AI doing?
+
+The heavy lifting. User still needs a way to steer the ship.
+
+So a good example is that in early Firefly days, prompting was all we had, right?
+
+It just requires a lot of trial and error and very often just frustrating that you have to prop so many times.
+
+So we started zooming into a specific part or specific process of the prompting generation, and we noticed that style actually works differently from other parts of the prompt.
+
+So usually they don't want to rewrite the style part of the prompt because they just want to easily influence the visual results.
+
+So by working with our researchers, a product team, we get to create this feature called the Sow Effects.
+
+So, these are predefined outputs, or inputs that allow the user to shape the results without having to become prompt engineers.
+
+So basically, we're able to take the prompt and transform it into thumbnails or tiles, and through this way we're able to lower the learning curve.
+
+enable experimentation, and really give the user more ownership in the generation process.
+
+And this is what I mean, right?
+
+We hope by displaying the style options in the corresponding categories and accompanying each option with a thumbnail, we make the experience accessible to all users of all skill levels.
+
+So for example if you see anime, you click on the tile.
+
+That's just applied to your generation.
+
+It really encourages a user to start experimenting and take ownership of their experience.
+
+And later in, project concepts were firefly boards.
+
+We evolved that idea even further.
+
+So where users can literally directly grab any style from any images because we use LLM behind the scene to interpret it.
+
+So we started to notice when users feel like they're in control, they actually create more, they stay longer and they trust even more.
+
+But control isn't just toggles and sliders, right? Like it's really about designing a system that allows people to be faster, so precise or exploratory.
+
+And this is where multimodality and dynamic interaction comes into play.
+
+So multimodality is about having the ability to interpret different inputs like text, video, or audio.
+
+Some of you might have already seen it yesterday,
+
+paired up with dynamic interaction that responds in real time.
+
+So, imagine being able to generate a brush based on the artwork that you just created, or creating a texture for your 3D shape.
+
+So it really changes who gets to play and invites different kinds of thinkers into the room.
+
+And very recently, we brought the video and audio capability to Firefly.
+
+So we control similar to what we saw earlier called style effects.
+
+Users can quickly customize the video outputs and even start with their own images.
+
+And similarly, in Firefly Scene to Image, users can easily create and adjust 3D shapes using different interaction modes.
+
+Whether that's gesture control, text command or switching between different camera angles.
+
+This is where interaction doesn't just stop at being features, it's actually more about helping the user feel like they're being understood.
+
+So when we talk about multimodality, it's really about having the ability to lower the barrier for creativity, but also letting people express thelves in their own ways.
+
+So here we're seeing why giving user controls and agency matters, whether that's moving people away from a prompt-first interaction or bringing multimodality inputs.
+
+When people feel like they're in control.
+
+They actually were able to build more trust and scale.
+
+Adoption also sets the foundation for something long term.
+
+Now let's shift from control to something more evident but equally important.
+
+And that's personalization and context, contextual intelligence.
+
+So when we're talking about AI, we usually focus on its capabilities, but from a user perspective, that maybe matters less.
+
+What matters to them is when and how those things show up.
+
+But we AI.
+
+We can actually start creating experiences that can be personalized or surface contextually and be deeply embedded into the workflow.
+
+So here's an example.
+
+Take contextual taskbar in Generative AI.
+
+Like it?
+
+Fill it just shows up when you need it.
+
+Gives you relevant information.
+
+Actions and future during a specific step of the user journey.
+
+This isn't just UX improvement.
+
+It can be a business accelerator because it really shortened the time of learning and also increased the frequency of successful outcomes.
+
+Another example is that we can take this further by embedding the personalization into the creative process.
+
+So when you have some reference images, you can just drop that in. Firefly, right?
+
+And the system can refer to its style or composition properties and just adapt to it.
+
+So here's an example of a creator where he used his sketch as a composition reference and his puffer jacket as a style reference.
+
+And he's able to create a collection of letters that's visually consistent but also unique to him.
+
+Of course, another example is text vector in Illustrator.
+
+In Illustrator, you can just sample your own art style and have it automatically apply to the generation process.
+
+These are small moments of personalization that create emotions, stickiness, and they're also the foundation for something much bigger.
+
+I think yesterday's presentation also touched on it and we call it the Agenda AI.
+
+So let's put this in perspective, right?
+
+Like step back, we started with static tools.
+
+Those one-size-fits-all interfaces.
+
+And then we move to contextual UX, or personalized UX, where tools start to respond intelligently.
+
+And here's where we're at.
+
+An agentic AI,
+
+They're really systethat actively shape the workflow, copilot process and really elevate what the user can do on their own.
+
+So these systeare not just reactive, they're actually collaborative, like they're not waiting for you to prompt them.
+
+They're suggesting the next step for you, kind of like a partner.
+
+So a good example is that recently we have as a vision piece, we imagine where the creative workspace doesn't have the AI just sitting along the toolbar.
+
+That actually moves with you, like an intelligent assistant, when to step back and when to ask questions.
+
+And this might be more familiar to many of you in Photoshop, for example,
+
+We imagine the AI that can analyze your image and provide contextual recommendations.
+
+Whether that's brightening up the image, removing the distraction, or changing the color of the sky.
+
+So this type of Asian intelligence create experiences that are not just personalized but also profoundly efficient.
+
+This is where personalization, contextualization, contextualization becomes super powerful.
+
+Now when it gets what you want and actually supports the way you work.
+
+So, to recap, complex, aware tools, and personalization really reduce friction and make the tool feel familiar.
+
+And now we are entering the era of Agentic AI.
+
+We can further design the intelligence more deeply into the workflow.
+
+And this way you're not just improving the product, you can actually.
+
+Tracy usage deepen brand affinity but also earn your users loyalty.
+
+And let's talk about one of the most strategic challenges in deploying AI: trust.
+
+So why is design critical over here?
+
+Because when the experience is designed properly, AI will get smarter when users speak up.
+
+Whether that's through explicit feedback or implicit signals.
+
+So here's an example in Firefly, users are not just passive users, they can actively shape the tool itself.
+
+So with the built-in feedback mechanis each interaction actually becomes an opportunity to improve the model and also enhance the experiences.
+
+And eventually it will help build trust.
+
+But also, of course, trust isn't just built through interaction.
+
+Trust can also be built through transparency and this is why when we're designing Firefly, we implemented Content Authenticity Initiative and we call it the CAI.
+
+So, this is an open source standard that embeds metadata into digital content so users can see how the image is made.
+
+Whether AI is involved, what edits occur along the way.
+
+So it's kind of like a nutrition label for digital media.
+
+So in today's era, right?
+
+Everything looks so real.
+
+And users need to be able to know what's real and what's misinformation.
+
+So you can actually come to the Content Authenticity Initiative website today and just upload any images, and when you start to see 'generated by AI', this is the model that's being used here.
+
+The process really builds trust not just in the user, but also in the platform that provides it.
+
+So the job of design over here isn't just explaining the output, it's actually about translating it into something that non-experts can make sense of.
+
+And create trust and transparency along the way.
+
+So, to summarize, trust really is one of the most valuable and fragile currencies in AI.
+
+Like with transparent communications, users will be able to comfortably interact with the AI system and the feedback we will be able to translate participation.
+
+Into product improvements and of course, design plays a critical role in building trust and transparency.
+
+So when we're talking about designing for AI, it's not about what the experience looks like or what it says, it's about thinking about how it may impact our user in the future.
+
+So in this section we looked at the surface, right?
+
+How we can design for AI.
+
+But the conclusion is really simple.
+
+Like no matter how advanced the system gets, design always starts with users.
+
+It ends with how they feel.
+
+So to truly lead in the space, we actually should start looking beyond the interface or the outputs - we need to start asking what kind of culture are we building through these kinds of syste
+
+So this is all probably familiar to you. Like before Walt Disney, he was really envisioning this future where he was able to tell a full-length story using animation. Back when, you know, cartoon was seen like a distraction, but with no light.
+
+he's able to launch something more.
+
+Than just a film, he actually was able to create a cultural shift. So it showed that animation can hold emotions.
+
+It also changed what generations believe.
+
+What a hero looks like.
+
+What childhood should feel like and also what family entertainment should be.
+
+And even today, with stories like Encanto or Turning Red, they really shape and provide a unique perspective.
+
+But also brings a different culture into the mainstream.
+
+And this is what designing for culture looks like.
+
+So Generative AI is in a very similar sense.
+
+So design plays a central role in shaping what becomes normal, what gets remembered, and also what endures.
+
+So we should start to look, ask a question about what happens when these tools start to democratize creation, but also risk eroding craftsmanship and commodifying creativity.
+
+So, when creative assets can be made in seconds, their value also can become diluted.
+
+So this might be something that you are recently noticing.
+
+Is this new grass fruit cutting thing on social media?
+
+I don't know why it's not playing.
+
+It should be playing, but, you know, initially it feels very mesmerizing.
+
+You just have the knife cutting through the glass fruit. But like very soon, like the video lets you see over here, they are just being copied over and over again.
+
+Like what started as creativity quickly becomes repetition.
+
+And of course, you got a glimpse of this. Because when oversaturation of the content becomes a thing like this, this issue called model collapse becomes inevitable.
+
+So, where future models will be unknowingly trained on AI content and through rounds of iteration, it will just be quickly spiraling.
+
+Nonsense.
+
+So what's at stake is how we protect identity, preserve authorship, but also cultivate human creativity. In the age where machines generate everything, if we don't design for these changes, we're actually optimizing ourselves into mediocrity.
+
+So that's a real opportunity to design systethat don't just react to culture, but help shape it with care, diversity, and intention.
+
+So, lastly, I will give you action iteto take with you and help you innovate in this uncertain landscape.
+
+So first, definitely build an interdisciplinary team.
+
+Because no one builds an AI system alone.
+
+The best team?
+
+Definitely designers who ask the right questions.
+
+Researchers who dig into behaviors and engineers who understand the model nuances.
+
+And the second recommendation is that the old UX probably won't cut it.
+
+And this is where we have to redefine.
+
+What does success look like through new design metrics?
+
+So we can ask questions like, do people feel confident?
+
+Or does the trust evolve over time?
+
+So these signals are early indicators of long term value and also product stickiness.
+
+And lastly, models don't come with intent, they inherit from data.
+
+So, inclusive, high-integrity data is just the start.
+
+And at the same time also increase data literacy within the team and with users.
+
+Because when they're fluent with AI, they can steer with clarity and creativity.
+
+So take this with you.
+
+And what's coming next?
+
+Think of this as your team's creative toolkit.
+
+So let's just zoom back out.
+
+This is the foundational shift that we have been looking at.
+
+User generates data through interaction, data trains the model and inforthe design decision, and the design shapes our culture.
+
+In return shapes how humans continue to behave and create.
+
+This is the generative intelligence design cycle, and we are not designing static products anymore.
+
+Instead, it will be a continuously evolving system.
+
+This is both a responsibility, but also a creative invitation, because the uncertainty of the future isn't something for us to fear.
+
+It is actually the canvas for all of us to create, just like what we saw with Ada Lovelace in the beginning.
+
+Today we have the opportunity to create.
+
+A system that shape what the next generation of intelligence looks like and feel like.
+
+So I will leave you with this question.
+
+What kind of intelligence are we architecting for the future?
+
+And how is design shaping it?
+
+Thank you.
+
+Thank you, Chen for the insights.
+
+And beautiful slides.
+
+Artistic, even, that you shared with us.
+
+It was a speech that revealed just how extensively AI is expanding into the realm of design.
+
+It also prompted reflection on the path design should take in the age of AI, especially considering how design inherently captures and interacts with.
+
+Cultural and political.
+
+It was a time to reflect on what path design in the age of AI should take, given its familial and political context.
+
+It was a slide with a lot of flair for Adobe procedural design.
+
+Thanks again, Veronica, for a great talk.
