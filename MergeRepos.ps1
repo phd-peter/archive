@@ -2,8 +2,7 @@
 $Org      = "phd-peter"
 $MonoRepo = "archive"
 $Repos    = @(
-  "n8n-google-calendar",
-  "vibe-coding-web"
+  "n8n-google-calendar"
 )
 
 function Get-DefaultBranch($remoteName) {
